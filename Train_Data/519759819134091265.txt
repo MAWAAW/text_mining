@@ -1,0 +1,1 @@
+#matinalebd Matinale de B&D avec IBM sur Big Data Projet PSA sur voiture connectee il faut un ecosysteme au dela de Hadoop

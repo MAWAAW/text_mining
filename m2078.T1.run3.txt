@@ -1,0 +1,29 @@
+
+NEG:
+	< 0.5	-> =
+	>= 0.5	-> -
+(2582/5473 instances correct)
+
+
+Time taken to build model: 0.93 seconds
+Time taken to test model on training data: 0.08 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        2582               47.1771 %
+Incorrectly Classified Instances      2891               52.8229 %
+Kappa statistic                          0.0509
+Mean absolute error                      0.3522
+Root mean squared error                  0.5934
+Relative absolute error                 82.2687 %
+Root relative squared error            128.2735 %
+Total Number of Instances             5473     
+
+
+=== Confusion Matrix ===
+
+    a    b    c   <-- classified as
+    0   82 1590 |    a = +
+    0  156 1152 |    b = -
+    0   67 2426 |    c = =
+

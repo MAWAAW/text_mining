@@ -1,0 +1,44 @@
+#!/usr/bin/python2.7
+#-*- coding: utf-8 -*-
+import os
+import os.path
+
+os.system("export CLASSPATH=/usr/share/java/weka.jar")
+
+'''
+os.system("java weka.classifiers.trees.J48 -t iris.arff -d modelJ48 > iris_appEvalJ48")
+os.system("java weka.classifiers.trees.J48 -T iris.arff -l modelJ48 > iris_testEvalJ48")
+
+os.system("java weka.classifiers.bayes.NaiveBayes -t iris.arff -d modelJ48 > iris_appEvalBayes")
+os.system("java weka.classifiers.bayes.NaiveBayes -T iris.arff -l modelJ48 > iris_testEvalBayes")
+
+os.system("java weka.classifiers.rules.OneR -t iris.arff -d modelJ48 > iris_appEval1R")
+os.system("java weka.classifiers.rules.OneR -T iris.arff -l modelJ48 > iris_testEval1R")
+'''
+
+arff = open("T1.arff", "w")
+head = '''@relation corpus_tweets_t1
+@attribute text string
+@attribute classe {+,-,=}
+@data
+'''
+arff.write(head);
+
+ref = open("T1.txt", "r")
+lignes = ref.readlines()
+
+for ligne in lignes:
+	num_tweet, classe = ligne.split("\t")
+	if os.path.isfile(num_tweet+".txt") :
+		text_tweet = open(num_tweet+".txt","r")
+		#text_tweet = text_tweet.read().rstrip("\n")
+		arff.write(text_tweet.read().rstrip("\n")+" , "+classe)
+		
+ref.close()
+arff.close()
+
+
+
+
+
+

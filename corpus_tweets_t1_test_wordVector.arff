@@ -1,0 +1,3472 @@
+@relation 'corpus_tweets_t1-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute opinion {+,-,=}
+@attribute </s> numeric
+@attribute <s> numeric
+@attribute HASHTAG numeric
+@attribute NEG numeric
+@attribute NEUTRE numeric
+@attribute POS numeric
+@attribute PSEUDO numeric
+@attribute URL numeric
+@attribute a numeric
+@attribute abandonns numeric
+@attribute abeilles numeric
+@attribute acclre numeric
+@attribute accord numeric
+@attribute action numeric
+@attribute actu numeric
+@attribute actualit numeric
+@attribute actuellement numeric
+@attribute actus numeric
+@attribute adopt numeric
+@attribute affirme numeric
+@attribute afrique numeric
+@attribute agence numeric
+@attribute agricole numeric
+@attribute agriculture numeric
+@attribute allemagne numeric
+@attribute alsace numeric
+@attribute alternative numeric
+@attribute alternatives numeric
+@attribute amis numeric
+@attribute amricain numeric
+@attribute an numeric
+@attribute analyse numeric
+@attribute android numeric
+@attribute animaux numeric
+@attribute anne numeric
+@attribute annes numeric
+@attribute annonc numeric
+@attribute annonce numeric
+@attribute ans numeric
+@attribute anticiper numeric
+@attribute appareils numeric
+@attribute appels numeric
+@attribute applique numeric
+@attribute apprendre numeric
+@attribute arbres numeric
+@attribute areva numeric
+@attribute arme numeric
+@attribute arrive numeric
+@attribute article numeric
+@attribute assassine numeric
+@attribute assouplissement numeric
+@attribute au numeric
+@attribute aujourdhui numeric
+@attribute aussi numeric
+@attribute autoconstructeurs numeric
+@attribute autorise numeric
+@attribute autoroutires numeric
+@attribute avantages numeric
+@attribute avec numeric
+@attribute avenir numeric
+@attribute bagieu numeric
+@attribute banques numeric
+@attribute base numeric
+@attribute basrhin numeric
+@attribute batho numeric
+@attribute batteries numeric
+@attribute bd numeric
+@attribute belgique numeric
+@attribute belle numeric
+@attribute belles numeric
+@attribute bien numeric
+@attribute bienvenue numeric
+@attribute bio numeric
+@attribute biocarburant numeric
+@attribute biodiversit numeric
+@attribute biologique numeric
+@attribute biomasse numeric
+@attribute bizarre numeric
+@attribute blanc numeric
+@attribute blog numeric
+@attribute bnin numeric
+@attribute bon numeric
+@attribute bonjour numeric
+@attribute bonne numeric
+@attribute bordeaux numeric
+@attribute botier numeric
+@attribute bouquetins numeric
+@attribute bracelet numeric
+@attribute bretagne numeric
+@attribute brsil numeric
+@attribute bruyantes numeric
+@attribute burkina numeric
+@attribute business numeric
+@attribute by numeric
+@attribute c numeric
+@attribute cabines numeric
+@attribute cacouna numeric
+@attribute cadre numeric
+@attribute cahier numeric
+@attribute caillat numeric
+@attribute calottes numeric
+@attribute cameroun numeric
+@attribute campagne numeric
+@attribute canada numeric
+@attribute candidate numeric
+@attribute candidatures numeric
+@attribute capable numeric
+@attribute capter numeric
+@attribute carbone numeric
+@attribute carte numeric
+@attribute cas numeric
+@attribute cause numeric
+@attribute causer numeric
+@attribute causes numeric
+@attribute cc numeric
+@attribute ccile numeric
+@attribute ce numeric
+@attribute cellule numeric
+@attribute cellules numeric
+@attribute centrale numeric
+@attribute centrales numeric
+@attribute centre numeric
+@attribute centristes numeric
+@attribute cest numeric
+@attribute chaleur numeric
+@attribute champ numeric
+@attribute champs numeric
+@attribute change numeric
+@attribute changement numeric
+@attribute changements numeric
+@attribute changer numeric
+@attribute chantier numeric
+@attribute charg numeric
+@attribute charges numeric
+@attribute chaud numeric
+@attribute chien numeric
+@attribute chiffres numeric
+@attribute chine numeric
+@attribute chmage numeric
+@attribute chre numeric
+@attribute chronographe numeric
+@attribute citoyen numeric
+@attribute citoyens numeric
+@attribute clairage numeric
+@attribute climat numeric
+@attribute climatique numeric
+@attribute climatiques numeric
+@attribute cls numeric
+@attribute co numeric
+@attribute coeur numeric
+@attribute collge numeric
+@attribute colo numeric
+@attribute cologie numeric
+@attribute cologique numeric
+@attribute cologiques numeric
+@attribute cologiste numeric
+@attribute cologistes numeric
+@attribute colos numeric
+@attribute colre numeric
+@attribute combat numeric
+@attribute commence numeric
+@attribute commission numeric
+@attribute commun numeric
+@attribute commune numeric
+@attribute communistes numeric
+@attribute comprend numeric
+@attribute comprendre numeric
+@attribute concept numeric
+@attribute conflits numeric
+@attribute confrence numeric
+@attribute connatre numeric
+@attribute connects numeric
+@attribute conomie numeric
+@attribute conomies numeric
+@attribute conomique numeric
+@attribute consacr numeric
+@attribute consommation numeric
+@attribute consommer numeric
+@attribute consquences numeric
+@attribute construction numeric
+@attribute construire numeric
+@attribute consultation numeric
+@attribute continue numeric
+@attribute contraire numeric
+@attribute corruption numeric
+@attribute cosse numeric
+@attribute cosystme numeric
+@attribute cosystmes numeric
+@attribute cot numeric
+@attribute cotaxe numeric
+@attribute cour numeric
+@attribute courage numeric
+@attribute cours numeric
+@attribute cration numeric
+@attribute cre numeric
+@attribute crer numeric
+@attribute crise numeric
+@attribute croient numeric
+@attribute crois numeric
+@attribute croit numeric
+@attribute crowdfunding numeric
+@attribute ct numeric
+@attribute ctait numeric
+@attribute culminant numeric
+@attribute culture numeric
+@attribute culturel numeric
+@attribute cur numeric
+@attribute d numeric
+@attribute dHASHTAG numeric
+@attribute daction numeric
+@attribute dadaptation numeric
+@attribute dagir numeric
+@attribute daliments numeric
+@attribute dans numeric
+@attribute daprofitament numeric
+@attribute data numeric
+@attribute dautres numeric
+@attribute davenir numeric
+@attribute dbat numeric
+@attribute dbats numeric
+@attribute dchet numeric
+@attribute dchets numeric
+@attribute dcid numeric
+@attribute dcision numeric
+@attribute dcologie numeric
+@attribute dcouverte numeric
+@attribute dcouvrir numeric
+@attribute dcs numeric
+@attribute ddi numeric
+@attribute de numeric
+@attribute delphine numeric
+@attribute demploi numeric
+@attribute demplois numeric
+@attribute derniers numeric
+@attribute des numeric
+@attribute design numeric
+@attribute despces numeric
+@attribute destruction numeric
+@attribute deurope numeric
+@attribute deuros numeric
+@attribute deuxime numeric
+@attribute developpement numeric
+@attribute devenir numeric
+@attribute devient numeric
+@attribute devrait numeric
+@attribute dexploration numeric
+@attribute dextinction numeric
+@attribute dfense numeric
+@attribute dici numeric
+@attribute dimanche numeric
+@attribute dimmersion numeric
+@attribute dinar numeric
+@attribute dinondations numeric
+@attribute dintrts numeric
+@attribute direction numeric
+@attribute discours numeric
+@attribute disparatre numeric
+@attribute disparition numeric
+@attribute dispositif numeric
+@attribute diversit numeric
+@attribute dlectricit numeric
+@attribute dnergie numeric
+@attribute dnergies numeric
+@attribute doit numeric
+@attribute doliennes numeric
+@attribute domin numeric
+@attribute donne numeric
+@attribute donner numeric
+@attribute dossier numeric
+@attribute dpend numeric
+@attribute dput numeric
+@attribute dputs numeric
+@attribute drglement numeric
+@attribute droit numeric
+@attribute droite numeric
+@attribute droits numeric
+@attribute ds numeric
+@attribute dt numeric
+@attribute dtecteur numeric
+@attribute dtre numeric
+@attribute dtruit numeric
+@attribute du numeric
+@attribute duflot numeric
+@attribute dun numeric
+@attribute dune numeric
+@attribute durable numeric
+@attribute durables numeric
+@attribute dveloppe numeric
+@attribute dveloppement numeric
+@attribute dvelopper numeric
+@attribute e numeric
+@attribute eaux numeric
+@attribute eco numeric
+@attribute ecologie numeric
+@attribute ecologiques numeric
+@attribute ecologiste numeric
+@attribute ecologistes numeric
+@attribute ecosystme numeric
+@attribute ecotaxe numeric
+@attribute edf numeric
+@attribute eelv numeric
+@attribute effet numeric
+@attribute effets numeric
+@attribute eme numeric
+@attribute empereur numeric
+@attribute emploi numeric
+@attribute emplois numeric
+@attribute en numeric
+@attribute energie numeric
+@attribute energies numeric
+@attribute enfants numeric
+@attribute engag numeric
+@attribute engagement numeric
+@attribute enjeux numeric
+@attribute enr numeric
+@attribute enterre numeric
+@attribute entrepreneurs numeric
+@attribute entreprise numeric
+@attribute entreprises numeric
+@attribute environnement numeric
+@attribute environnementale numeric
+@attribute environnementalistes numeric
+@attribute eolien numeric
+@attribute eoliennes numeric
+@attribute er numeric
+@attribute eric numeric
+@attribute escroquerie numeric
+@attribute espce numeric
+@attribute espces numeric
+@attribute et numeric
+@attribute etats numeric
+@attribute etatsunis numeric
+@attribute etc numeric
+@attribute etude numeric
+@attribute europe numeric
+@attribute europen numeric
+@attribute europenne numeric
+@attribute europens numeric
+@attribute exclusif numeric
+@attribute extrmes numeric
+@attribute face numeric
+@attribute facebook numeric
+@attribute faire numeric
+@attribute faute numeric
+@attribute faux numeric
+@attribute faveur numeric
+@attribute femmes numeric
+@attribute fera numeric
+@attribute fermes numeric
+@attribute festival numeric
+@attribute figaro numeric
+@attribute fil numeric
+@attribute filire numeric
+@attribute fin numeric
+@attribute finalement numeric
+@attribute finalise numeric
+@attribute finance numeric
+@attribute financement numeric
+@attribute financer numeric
+@attribute fini numeric
+@attribute flottantes numeric
+@attribute fonctionnant numeric
+@attribute fonctionne numeric
+@attribute fonds numeric
+@attribute font numeric
+@attribute fonte numeric
+@attribute force numeric
+@attribute formation numeric
+@attribute fort numeric
+@attribute forts numeric
+@attribute forum numeric
+@attribute fossiles numeric
+@attribute fou numeric
+@attribute fournitures numeric
+@attribute fragment numeric
+@attribute franais numeric
+@attribute franaise numeric
+@attribute france numeric
+@attribute franois numeric
+@attribute froid numeric
+@attribute fromage numeric
+@attribute fromages numeric
+@attribute fruit numeric
+@attribute fte numeric
+@attribute futur numeric
+@attribute future numeric
+@attribute gant numeric
+@attribute gaspillage numeric
+@attribute gauche numeric
+@attribute gaz numeric
+@attribute genre numeric
+@attribute gens numeric
+@attribute gestion numeric
+@attribute global numeric
+@attribute gnr numeric
+@attribute gnral numeric
+@attribute gnrale numeric
+@attribute gnration numeric
+@attribute google numeric
+@attribute gothermie numeric
+@attribute gouvernance numeric
+@attribute gouvernement numeric
+@attribute gr numeric
+@attribute grand numeric
+@attribute grande numeric
+@attribute grands numeric
+@attribute gratut numeric
+@attribute grce numeric
+@attribute green numeric
+@attribute greenunivers numeric
+@attribute greenwashing numeric
+@attribute groenland numeric
+@attribute gros numeric
+@attribute groupes numeric
+@attribute gueule numeric
+@attribute gvt numeric
+@attribute h numeric
+@attribute habitat numeric
+@attribute hausse numeric
+@attribute haute numeric
+@attribute hautesavoie numeric
+@attribute hf numeric
+@attribute histoire numeric
+@attribute hollande numeric
+@attribute hulot numeric
+@attribute humain numeric
+@attribute humaine numeric
+@attribute hydrolectrique numeric
+@attribute hydrolectriques numeric
+@attribute ibm numeric
+@attribute ici numeric
+@attribute ide numeric
+@attribute ides numeric
+@attribute iles numeric
+@attribute ille numeric
+@attribute image numeric
+@attribute impacts numeric
+@attribute important numeric
+@attribute inauguration numeric
+@attribute inaugure numeric
+@attribute incertitudes numeric
+@attribute indicateurs numeric
+@attribute industrielle numeric
+@attribute industriels numeric
+@attribute info numeric
+@attribute infographie numeric
+@attribute ingnieur numeric
+@attribute innovent numeric
+@attribute inquitant numeric
+@attribute installations numeric
+@attribute installes numeric
+@attribute insulaires numeric
+@attribute interactive numeric
+@attribute international numeric
+@attribute internationale numeric
+@attribute intervention numeric
+@attribute intranets numeric
+@attribute intressant numeric
+@attribute inutiles numeric
+@attribute investir numeric
+@attribute invit numeric
+@attribute invits numeric
+@attribute it numeric
+@attribute j numeric
+@attribute jai numeric
+@attribute jaime numeric
+@attribute je numeric
+@attribute jean numeric
+@attribute jen numeric
+@attribute jeudi numeric
+@attribute jeunes numeric
+@attribute journes numeric
+@attribute jours numeric
+@attribute juillet numeric
+@attribute kimoon numeric
+@attribute l numeric
+@attribute lHASHTAG numeric
+@attribute lPSEUDO numeric
+@attribute la numeric
+@attribute labattage numeric
+@attribute laborent numeric
+@attribute labsence numeric
+@attribute laccessibilit numeric
+@attribute lacidification numeric
+@attribute lactualit numeric
+@attribute ladaptation numeric
+@attribute lagriculture numeric
+@attribute lair numeric
+@attribute lallemagne numeric
+@attribute lancien numeric
+@attribute lappel numeric
+@attribute largent numeric
+@attribute larme numeric
+@attribute larticle numeric
+@attribute lassemble numeric
+@attribute lassociation numeric
+@attribute lavenir numeric
+@attribute lcologie numeric
+@attribute lcologiste numeric
+@attribute lconomie numeric
+@attribute lcosystme numeric
+@attribute lcotaxe numeric
+@attribute le numeric
+@attribute leau numeric
+@attribute leclanch numeric
+@attribute lecologie numeric
+@attribute lecosystme numeric
+@attribute lecotaxe numeric
+@attribute lections numeric
+@attribute lectrique numeric
+@attribute lectriques numeric
+@attribute led numeric
+@attribute leffet numeric
+@attribute lelyse numeric
+@attribute lencadrement numeric
+@attribute lenergie numeric
+@attribute lentreprise numeric
+@attribute lenvironnement numeric
+@attribute lepfl numeric
+@attribute les numeric
+@attribute lespace numeric
+@attribute lessentiel numeric
+@attribute letat numeric
+@attribute lettre numeric
+@attribute leveurs numeric
+@attribute lexpansion numeric
+@attribute lhomme numeric
+@attribute lhonneur numeric
+@attribute lhumanit numeric
+@attribute lhydrolectricit numeric
+@attribute li numeric
+@attribute libration numeric
+@attribute libre numeric
+@attribute lide numeric
+@attribute lien numeric
+@attribute limpact numeric
+@attribute lindiffrence numeric
+@attribute lindonsie numeric
+@attribute lindustrie numeric
+@attribute linnovation numeric
+@attribute lire numeric
+@attribute lis numeric
+@attribute llectricit numeric
+@attribute lnergie numeric
+@attribute lobjectif numeric
+@attribute locale numeric
+@attribute locan numeric
+@attribute locaux numeric
+@attribute loi numeric
+@attribute loire numeric
+@attribute lolien numeric
+@attribute lolienne numeric
+@attribute lonu numeric
+@attribute louest numeric
+@attribute loup numeric
+@attribute loups numeric
+@attribute loyers numeric
+@attribute lt numeric
+@attribute ltat numeric
+@attribute lu numeric
+@attribute lue numeric
+@attribute lumir numeric
+@attribute lundi numeric
+@attribute lunion numeric
+@attribute lurgence numeric
+@attribute lus numeric
+@attribute lusine numeric
+@attribute lve numeric
+@attribute lyon numeric
+@attribute m numeric
+@attribute magazine numeric
+@attribute main numeric
+@attribute maintenant numeric
+@attribute maintien numeric
+@attribute mais numeric
+@attribute maisons numeric
+@attribute mamre numeric
+@attribute manifestation numeric
+@attribute manque numeric
+@attribute manquer numeric
+@attribute mariechristine numeric
+@attribute marin numeric
+@attribute marina numeric
+@attribute marine numeric
+@attribute marines numeric
+@attribute marketing numeric
+@attribute maroc numeric
+@attribute marseille numeric
+@attribute martinique numeric
+@attribute massif numeric
+@attribute matin numeric
+@attribute matriaux numeric
+@attribute mauvais numeric
+@attribute mauvaise numeric
+@attribute mditerrane numeric
+@attribute mdr numeric
+@attribute mds numeric
+@attribute me numeric
+@attribute mediaterre numeric
+@attribute meilleures numeric
+@attribute menac numeric
+@attribute menace numeric
+@attribute menaces numeric
+@attribute menacs numeric
+@attribute mer numeric
+@attribute mercredi numeric
+@attribute merde numeric
+@attribute mersea numeric
+@attribute mesure numeric
+@attribute mesures numeric
+@attribute met numeric
+@attribute mettent numeric
+@attribute mettre numeric
+@attribute mexicains numeric
+@attribute mexique numeric
+@attribute milieu numeric
+@attribute militants numeric
+@attribute min numeric
+@attribute minimaisons numeric
+@attribute ministre numeric
+@attribute ministres numeric
+@attribute minutes numeric
+@attribute mis numeric
+@attribute mise numeric
+@attribute mission numeric
+@attribute missions numeric
+@attribute mix numeric
+@attribute mme numeric
+@attribute mn numeric
+@attribute mobile numeric
+@attribute mobilisation numeric
+@attribute mode numeric
+@attribute modle numeric
+@attribute moins numeric
+@attribute mois numeric
+@attribute monde numeric
+@attribute mondial numeric
+@attribute mondiale numeric
+@attribute monte numeric
+@attribute montral numeric
+@attribute montre numeric
+@attribute more numeric
+@attribute mort numeric
+@attribute morts numeric
+@attribute mouvement numeric
+@attribute mtiers numeric
+@attribute mw numeric
+@attribute n numeric
+@attribute na numeric
+@attribute national numeric
+@attribute nationale numeric
+@attribute nationaux numeric
+@attribute nature numeric
+@attribute naturel numeric
+@attribute naturelle numeric
+@attribute naturels numeric
+@attribute ne numeric
+@attribute neige numeric
+@attribute nergie numeric
+@attribute nergies numeric
+@attribute nergtique numeric
+@attribute nest numeric
+@attribute news numeric
+@attribute nicolas numeric
+@attribute niveau numeric
+@attribute nkm numeric
+@attribute noir numeric
+@attribute noire numeric
+@attribute nokia numeric
+@attribute nol numeric
+@attribute nom numeric
+@attribute nombre numeric
+@attribute non numeric
+@attribute nord numeric
+@attribute normes numeric
+@attribute nous numeric
+@attribute nouveau numeric
+@attribute nouveaux numeric
+@attribute nouvel numeric
+@attribute nouvelle numeric
+@attribute nouvelles numeric
+@attribute nuclaire numeric
+@attribute nuit numeric
+@attribute numrique numeric
+@attribute ny numeric
+@attribute o numeric
+@attribute objectif numeric
+@attribute objectifs numeric
+@attribute objets numeric
+@attribute ocans numeric
+@attribute oct numeric
+@attribute octobre numeric
+@attribute offshore numeric
+@attribute ogm numeric
+@attribute oiseaux numeric
+@attribute olien numeric
+@attribute olienne numeric
+@attribute oliennes numeric
+@attribute oliens numeric
+@attribute on numeric
+@attribute organisations numeric
+@attribute ottawa numeric
+@attribute ouai numeric
+@attribute oubli numeric
+@attribute oui numeric
+@attribute ours numeric
+@attribute outils numeric
+@attribute ouverture numeric
+@attribute p numeric
+@attribute page numeric
+@attribute paix numeric
+@attribute panneaux numeric
+@attribute parcs numeric
+@attribute paris numeric
+@attribute parle numeric
+@attribute parlementaires numeric
+@attribute parlent numeric
+@attribute part numeric
+@attribute partage numeric
+@attribute partenariat numeric
+@attribute parti numeric
+@attribute participatif numeric
+@attribute participer numeric
+@attribute particuliers numeric
+@attribute partie numeric
+@attribute partir numeric
+@attribute pas numeric
+@attribute passe numeric
+@attribute passer numeric
+@attribute patrimoine numeric
+@attribute pauvres numeric
+@attribute payer numeric
+@attribute pays numeric
+@attribute paysage numeric
+@attribute pense numeric
+@attribute performance numeric
+@attribute permet numeric
+@attribute permis numeric
+@attribute perte numeric
+@attribute pesticides numeric
+@attribute petite numeric
+@attribute petits numeric
+@attribute peur numeric
+@attribute phone numeric
+@attribute photo numeric
+@attribute photos numeric
+@attribute photovoltaque numeric
+@attribute photovoltaques numeric
+@attribute pices numeric
+@attribute pierre numeric
+@attribute pinocchio numeric
+@attribute pire numeric
+@attribute plac numeric
+@attribute place numeric
+@attribute plan numeric
+@attribute plantaire numeric
+@attribute plante numeric
+@attribute plantes numeric
+@attribute plastiques numeric
+@attribute plateforme numeric
+@attribute plus numeric
+@attribute pnalise numeric
+@attribute pneus numeric
+@attribute pnlope numeric
+@attribute pnurie numeric
+@attribute poids numeric
+@attribute pointe numeric
+@attribute points numeric
+@attribute polaires numeric
+@attribute politique numeric
+@attribute politiques numeric
+@attribute pollution numeric
+@attribute polmique numeric
+@attribute population numeric
+@attribute port numeric
+@attribute portrait numeric
+@attribute position numeric
+@attribute positive numeric
+@attribute possible numeric
+@attribute post numeric
+@attribute poste numeric
+@attribute poupe numeric
+@attribute pour numeric
+@attribute pourra numeric
+@attribute pourraient numeric
+@attribute pourrait numeric
+@attribute pr numeric
+@attribute pratiques numeric
+@attribute premier numeric
+@attribute premire numeric
+@attribute premium numeric
+@attribute prend numeric
+@attribute prendre numeric
+@attribute presse numeric
+@attribute pression numeric
+@attribute preuve numeric
+@attribute prfet numeric
+@attribute prise numeric
+@attribute prix numeric
+@attribute problme numeric
+@attribute problmes numeric
+@attribute proccupent numeric
+@attribute production numeric
+@attribute produire numeric
+@attribute produit numeric
+@attribute produits numeric
+@attribute prof numeric
+@attribute professionnels numeric
+@attribute programme numeric
+@attribute projet numeric
+@attribute projets numeric
+@attribute prolong numeric
+@attribute propos numeric
+@attribute propose numeric
+@attribute propre numeric
+@attribute propres numeric
+@attribute protection numeric
+@attribute protge numeric
+@attribute protger numeric
+@attribute protges numeric
+@attribute prparent numeric
+@attribute prsente numeric
+@attribute prsentes numeric
+@attribute prsident numeric
+@attribute prsidente numeric
+@attribute prte numeric
+@attribute ps numeric
+@attribute pseudo numeric
+@attribute ptn numeric
+@attribute ptrole numeric
+@attribute public numeric
+@attribute publication numeric
+@attribute publie numeric
+@attribute puissance numeric
+@attribute puits numeric
+@attribute punitive numeric
+@attribute qd numeric
+@attribute qu numeric
+@attribute qubcois numeric
+@attribute qubec numeric
+@attribute quelle numeric
+@attribute quen numeric
+@attribute question numeric
+@attribute questions numeric
+@attribute quil numeric
+@attribute quils numeric
+@attribute quon numeric
+@attribute quun numeric
+@attribute raccordements numeric
+@attribute ractions numeric
+@attribute raison numeric
+@attribute rapport numeric
+@attribute rassure numeric
+@attribute rchauffement numeric
+@attribute rduction numeric
+@attribute rduire numeric
+@attribute re numeric
+@attribute recevoir numeric
+@attribute rechauffement numeric
+@attribute recherches numeric
+@attribute recours numeric
+@attribute recul numeric
+@attribute recuperats numeric
+@attribute recyclage numeric
+@attribute regarde numeric
+@attribute rejette numeric
+@attribute relatif numeric
+@attribute remise numeric
+@attribute remplacer numeric
+@attribute remporte numeric
+@attribute rencontre numeric
+@attribute rencontres numeric
+@attribute rendezvous numeric
+@attribute renforce numeric
+@attribute renforcent numeric
+@attribute renouvelable numeric
+@attribute renouvelables numeric
+@attribute rentre numeric
+@attribute reoit numeric
+@attribute reprise numeric
+@attribute requte numeric
+@attribute respect numeric
+@attribute respecter numeric
+@attribute responsabilit numeric
+@attribute responsable numeric
+@attribute reste numeric
+@attribute restera numeric
+@attribute retour numeric
+@attribute reu numeric
+@attribute revue numeric
+@attribute rforme numeric
+@attribute rgion numeric
+@attribute rgionale numeric
+@attribute rgionales numeric
+@attribute rglementaires numeric
+@attribute riche numeric
+@attribute richesse numeric
+@attribute rnovation numeric
+@attribute rochelle numeric
+@attribute rouge numeric
+@attribute route numeric
+@attribute routiers numeric
+@attribute royal numeric
+@attribute rponse numeric
+@attribute rpublique numeric
+@attribute rseau numeric
+@attribute rsilience numeric
+@attribute rsoudre numeric
+@attribute rsultats numeric
+@attribute rt numeric
+@attribute rtPSEUDO numeric
+@attribute runion numeric
+@attribute russie numeric
+@attribute rvolte numeric
+@attribute rvolution numeric
+@attribute s numeric
+@attribute sacclre numeric
+@attribute sacs numeric
+@attribute sain numeric
+@attribute salaris numeric
+@attribute sale numeric
+@attribute salon numeric
+@attribute salue numeric
+@attribute samedi numeric
+@attribute sansmerci numeric
+@attribute sant numeric
+@attribute satisfaits numeric
+@attribute scandale numeric
+@attribute scandalise numeric
+@attribute schiste numeric
+@attribute schwarzenegger numeric
+@attribute sciences numeric
+@attribute scientifique numeric
+@attribute scientifiques numeric
+@attribute scurit numeric
+@attribute secteur numeric
+@attribute see numeric
+@attribute seiko numeric
+@attribute semestre numeric
+@attribute sen numeric
+@attribute sens numeric
+@attribute sensibiliser numeric
+@attribute septembre numeric
+@attribute serre numeric
+@attribute service numeric
+@attribute services numeric
+@attribute sest numeric
+@attribute seul numeric
+@attribute seule numeric
+@attribute seulement numeric
+@attribute sgolne numeric
+@attribute si numeric
+@attribute sicle numeric
+@attribute signal numeric
+@attribute signe numeric
+@attribute sil numeric
+@attribute silva numeric
+@attribute simple numeric
+@attribute sine_die numeric
+@attribute sinstalle numeric
+@attribute sinvitent numeric
+@attribute snat numeric
+@attribute snatoriales numeric
+@attribute snatrice numeric
+@attribute social numeric
+@attribute sociale numeric
+@attribute sociales numeric
+@attribute socialiste numeric
+@attribute socialistes numeric
+@attribute socit numeric
+@attribute socits numeric
+@attribute soir numeric
+@attribute solaire numeric
+@attribute solaires numeric
+@attribute soleil numeric
+@attribute solidari numeric
+@attribute solution numeric
+@attribute solutions numeric
+@attribute sommet numeric
+@attribute sophie numeric
+@attribute sorti numeric
+@attribute sortie numeric
+@attribute sortir numeric
+@attribute soutenir numeric
+@attribute soutien numeric
+@attribute soutient numeric
+@attribute spciale numeric
+@attribute sscp numeric
+@attribute stage numeric
+@attribute startup numeric
+@attribute startups numeric
+@attribute stockage numeric
+@attribute stocke numeric
+@attribute stocker numeric
+@attribute stratgie numeric
+@attribute stratgies numeric
+@attribute succs numeric
+@attribute sud numeric
+@attribute sude numeric
+@attribute sudouest numeric
+@attribute suite numeric
+@attribute suivi numeric
+@attribute sujet numeric
+@attribute super numeric
+@attribute suppressions numeric
+@attribute surbe numeric
+@attribute surface numeric
+@attribute survie numeric
+@attribute suspectes numeric
+@attribute suspension numeric
+@attribute systmes numeric
+@attribute taller numeric
+@attribute tats numeric
+@attribute tatsunis numeric
+@attribute tech numeric
+@attribute technique numeric
+@attribute techniques numeric
+@attribute technologie numeric
+@attribute technologies numeric
+@attribute technologique numeric
+@attribute tellement numeric
+@attribute temprature numeric
+@attribute temps numeric
+@attribute temptes numeric
+@attribute terrain numeric
+@attribute terre numeric
+@attribute territoire numeric
+@attribute territoires numeric
+@attribute tes numeric
+@attribute test numeric
+@attribute the numeric
+@attribute thermique numeric
+@attribute tient numeric
+@attribute tlphoniques numeric
+@attribute top numeric
+@attribute tour numeric
+@attribute tourisme numeric
+@attribute tourne numeric
+@attribute toxiques numeric
+@attribute traitement numeric
+@attribute transcanada numeric
+@attribute transition numeric
+@attribute transport numeric
+@attribute transporteurs numeric
+@attribute transports numeric
+@attribute tre numeric
+@attribute trouve numeric
+@attribute trouver numeric
+@attribute tude numeric
+@attribute tudie numeric
+@attribute tue numeric
+@attribute tunisie numeric
+@attribute un numeric
+@attribute une numeric
+@attribute unique numeric
+@attribute univers numeric
+@attribute usa numeric
+@attribute usage numeric
+@attribute usages numeric
+@attribute usine numeric
+@attribute v numeric
+@attribute valeur numeric
+@attribute valeurs numeric
+@attribute valls numeric
+@attribute valuation numeric
+@attribute vendre numeric
+@attribute vendredi numeric
+@attribute vent numeric
+@attribute vente numeric
+@attribute version numeric
+@attribute verte numeric
+@attribute vertes numeric
+@attribute verts numeric
+@attribute veulent numeric
+@attribute vhicules numeric
+@attribute via numeric
+@attribute victime numeric
+@attribute victoire numeric
+@attribute video numeric
+@attribute vido numeric
+@attribute vie numeric
+@attribute vieilles numeric
+@attribute vient numeric
+@attribute village numeric
+@attribute ville numeric
+@attribute villes numeric
+@attribute vision numeric
+@attribute vive numeric
+@attribute voie numeric
+@attribute voir numeric
+@attribute vois numeric
+@attribute voit numeric
+@attribute voitures numeric
+@attribute voix numeric
+@attribute vont numeric
+@attribute vot numeric
+@attribute vote numeric
+@attribute vous numeric
+@attribute vrai numeric
+@attribute vraiment numeric
+@attribute vritable numeric
+@attribute vs numeric
+@attribute vu numeric
+@attribute vue numeric
+@attribute w numeric
+@attribute we numeric
+@attribute wear numeric
+@attribute web numeric
+@attribute werchter numeric
+@attribute windows numeric
+@attribute ya numeric
+@attribute zones numeric
+
+@data
+
+{0 =,1 1,2 1,8 1,109 1,155 1}
+{0 -,1 1,2 1,7 1,107 1,129 1,142 1,146 1,269 1,958 1}
+{0 =,1 1,2 1,3 1,242 1,286 1,518 1,620 1}
+{0 -,1 1,2 1,3 1,8 1,325 1,378 1,665 1,842 1,939 1}
+{0 =,1 1,2 1,8 1,635 1,664 1,776 1}
+{1 1,2 1,7 1,8 1,115 1,540 1}
+{0 -,1 1,2 1,155 1}
+{0 =,1 1,2 1,8 1,187 1,953 1,1085 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,121 1,429 1}
+{1 1,2 1,3 1,4 1,8 1,129 1,146 1,313 1,346 1,874 1}
+{0 =,1 1,2 1,7 1,8 1,265 1,618 1,941 1,1038 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,700 1,728 1}
+{0 -,1 1,2 1,124 1,682 1,698 1}
+{0 -,1 1,2 1,7 1,8 1,698 1,852 1,1063 1}
+{1 1,2 1,5 1,8 1,121 1,364 1,974 1,1068 1}
+{0 =,1 1,2 1,8 1,129 1,146 1}
+{0 =,1 1,2 1,7 1,8 1,1070 1}
+{0 =,1 1,2 1,8 1}
+{0 -,1 1,2 1,4 1,7 1,695 1,698 1,1076 1}
+{0 =,1 1,2 1,8 1,285 1,286 1,289 1}
+{0 =,1 1,2 1,8 1,155 1,318 1,942 1,1108 1}
+{1 1,2 1,4 1,8 1,130 1,286 1,289 1,518 1,620 1}
+{1 1,2 1,3 1,7 1,698 1,851 1,1068 1}
+{0 -,1 1,2 1,4 1,7 1,155 1,754 1,844 1}
+{0 =,1 1,2 1,5 1,8 1,155 1,543 1}
+{1 1,2 1,8 1,39 1,712 1,974 1}
+{0 -,1 1,2 1,7 1,129 1,146 1}
+{1 1,2 1,8 1,14 1,155 1,378 1,1093 1}
+{1 1,2 1,3 1,5 1,8 1,46 1,324 1,605 1,955 1}
+{0 -,1 1,2 1,5 1,8 1,75 1,207 1,650 1,817 1}
+{1 1,2 1,698 1}
+{1 1,2 1,7 1,124 1,129 1,146 1,205 1,733 1,772 1,977 1}
+{0 =,1 1,2 1,7 1,8 1,278 1,286 1,289 1}
+{1 1,2 1,7 1,8 1,656 1,713 1,811 1,1028 1}
+{1 1,2 1,4 1,7 1,8 1,159 1,269 1,458 1,698 1,1063 1}
+{0 =,1 1,2 1,3 1,8 1,129 1,146 1,291 1,852 1}
+{1 1,2 1,3 1,6 1,124 1,413 1,1090 1}
+{0 =,1 1,2 1,5 1,8 1,75 1,308 1,559 1,1083 1}
+{0 =,1 1,2 1,698 1,1111 1}
+{1 1,2 1,3 1,7 1,8 1,520 1}
+{0 =,1 1,2 1,8 1}
+{1 1,2 1,3 1,290 1,460 1,660 1,698 1,877 1}
+{0 -,1 1,2 1,112 1,129 1,146 1,154 1,539 1,757 1}
+{0 -,1 1,2 1,3 1,4 1,7 1,8 1,23 1,910 1}
+{0 =,1 1,2 1,5 1,8 1,156 1,289 1,511 1,721 1,1086 1}
+{0 =,1 1,2 1,8 1,376 1,378 1,550 1,1028 1}
+{1 1,2 1,7 1,8 1,46 1,546 1,605 1,698 1,955 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,23 1,75 1,694 1}
+{0 =,1 1,2 1,8 1,33 1,399 1,501 1,536 1,741 1,946 1}
+{1 1,2 1,6 1,129 1,146 1}
+{0 -,1 1,2 1,7 1,695 1,698 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,23 1,75 1,458 1,694 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,286 1,289 1,1017 1}
+{0 -,1 1,2 1,7 1,34 1,39 1,124 1,501 1,787 1}
+{0 =,1 1,2 1,8 1,75 1,89 1,286 1,571 1}
+{0 -,1 1,2 1,8 1,146 1,854 1}
+{0 =,1 1,2 1,8 1}
+{1 1,2 1,3 1,6 1,8 1,310 1,877 1}
+{1 1,2 1,3 1,7 1,8 1}
+{1 1,2 1,5 1,8 1,404 1,439 1,544 1}
+{0 =,1 1,2 1,8 1,336 1}
+{1 1,2 1,7 1,8 1,286 1,289 1,1085 1}
+{0 =,1 1,2 1,5 1,8 1,698 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,586 1}
+{1 1,2 1,3 1,5 1,6 1,8 1}
+{0 -,1 1,2 1,3 1,4 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,1080 1}
+{0 -,1 1,2 1,3 1,6 1,7 1,8 1,555 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,129 1,146 1,486 1,504 1,728 1}
+{1 1,2 1,5 1,8 1,131 1,662 1,712 1,974 1}
+{1 1,2 1,3 1,7 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,120 1,510 1}
+{0 =,1 1,2 1,6 1,83 1,120 1,392 1,405 1,474 1,510 1,595 1,668 1}
+{0 -,1 1,2 1,3 1,8 1,698 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,1080 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,3 1,8 1,698 1}
+{1 1,2 1,8 1,544 1,973 1}
+{1 1,2 1,8 1,149 1,698 1,738 1}
+{0 =,1 1,2 1,7 1,974 1,975 1}
+{1 1,2 1,5 1,8 1,310 1,396 1,553 1,587 1,877 1}
+{0 -,1 1,2 1,4 1,6 1,8 1,16 1,41 1,172 1,632 1,756 1}
+{0 =,1 1,2 1,5 1,8 1,16 1,319 1,323 1,605 1,672 1,681 1,698 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,660 1,680 1,710 1,809 1,877 1}
+{1 1,2 1,5 1,6 1,187 1,423 1,465 1,623 1}
+{1 1,2 1,5 1,8 1,156 1,603 1,652 1,702 1,713 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,157 1,617 1,904 1}
+{1 1,2 1,8 1,129 1,146 1,476 1,486 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,129 1,146 1,486 1,541 1}
+{0 -,1 1,2 1,3 1,8 1,75 1,602 1,772 1}
+{0 -,1 1,2 1,3 1,6 1,8 1}
+{1 1,2 1,8 1,129 1,146 1,341 1,875 1,907 1,1086 1}
+{0 =,1 1,2 1,3 1,6 1,7 1,8 1,154 1}
+{1 1,2 1,3 1,129 1,146 1,290 1,477 1,542 1}
+{1 1,2 1,3 1,8 1,69 1,790 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,510 1,1095 1}
+{1 1,2 1,3 1,8 1,69 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,408 1}
+{0 -,1 1,2 1,3 1,7 1,111 1,154 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,487 1,503 1,630 1,926 1}
+{1 1,2 1,3 1,5 1,8 1,102 1,120 1,181 1,300 1,428 1,879 1}
+{0 -,1 1,2 1,78 1,129 1,146 1,378 1}
+{0 =,1 1,2 1,3 1,5 1}
+{0 -,1 1,2 1,3 1,7 1,129 1,146 1,620 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,716 1,898 1,1032 1}
+{0 =,1 1,2 1,8 1,39 1,286 1,289 1,368 1,787 1}
+{0 =,1 1,2 1,5 1,8 1,170 1,455 1,544 1,598 1,599 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,170 1,455 1,544 1,598 1,599 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,392 1,793 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,803 1}
+{1 1,2 1,3 1,8 1,302 1,313 1,390 1,626 1,856 1,944 1}
+{1 1,2 1,4 1,8 1,286 1,289 1,646 1,782 1,831 1}
+{0 =,1 1,2 1,8 1,182 1,616 1}
+{1 1,2 1,3 1,8 1,75 1,733 1,811 1}
+{0 =,1 1,2 1,3 1,8 1,155 1,181 1,576 1,635 1}
+{1 1,2 1,8 1,292 1,497 1,546 1,977 1}
+{1 1,2 1,3 1,7 1,8 1,30 1}
+{0 -,1 1,2 1,5 1,6 1,506 1,620 1,822 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,154 1,680 1}
+{0 =,1 1,2 1,3 1,8 1,105 1,162 1,781 1}
+{1 1,2 1,3 1,8 1,259 1,477 1,489 1,891 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,672 1,681 1,698 1}
+{1 1,2 1,3 1,7 1,153 1,625 1}
+{1 1,2 1,8 1,145 1,474 1}
+{0 =,1 1,2 1,7 1,8 1,75 1,286 1,289 1,423 1,741 1,1071 1}
+{0 -,1 1,2 1,5 1,8 1,31 1,327 1,490 1,712 1,974 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,34 1}
+{0 -,1 1,2 1,4 1,39 1,103 1,153 1,549 1,661 1,1042 1}
+{1 1,2 1,8 1,265 1,693 1,789 1,939 1}
+{1 1,2 1,5 1,8 1,124 1,199 1,653 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,376 1,620 1,633 1,661 1,677 1,822 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,8 1,294 1,534 1,864 1,983 1}
+{0 =,1 1,2 1,7 1,129 1,146 1}
+{0 =,1 1,2 1,8 1,45 1,95 1,155 1,494 1,576 1}
+{1 1,2 1,8 1,129 1,146 1,487 1,705 1,854 1}
+{0 =,1 1,2 1,5 1,8 1,45 1}
+{1 1,2 1,3 1,5 1,7 1,625 1,822 1}
+{1 1,2 1,8 1,286 1,289 1,404 1}
+{0 =,1 1,2 1,7 1,8 1}
+{0 =,1 1,2 1,7 1,8 1,45 1,155 1,576 1}
+{0 =,1 1,2 1,5 1,8 1,500 1,727 1,864 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,376 1,474 1,633 1,661 1,677 1}
+{0 =,1 1,2 1,8 1,31 1,262 1,309 1,473 1,489 1,649 1,803 1,973 1}
+{0 -,1 1,2 1,8 1,9 1,286 1,289 1,498 1,544 1,620 1,903 1,951 1}
+{1 1,2 1,8 1,247 1,329 1,520 1,1031 1,1089 1}
+{1 1,2 1,7 1,108 1,324 1,516 1,703 1,1004 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,265 1,369 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,541 1}
+{0 =,1 1,2 1,3 1,8 1,324 1,497 1,544 1}
+{1 1,2 1,3 1,5 1,8 1,682 1}
+{0 =,1 1,2 1,3 1}
+{1 1,2 1,8 1,75 1,733 1,811 1}
+{1 1,2 1,8 1,467 1,498 1,836 1,903 1,951 1}
+{1 1,2 1,3 1,5 1,84 1,187 1,195 1,680 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,75 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,153 1,218 1,474 1,1087 1}
+{0 -,1 1,2 1,3 1,7 1,237 1,479 1,672 1,1011 1}
+{0 -,1 1,2 1,5 1,8 1,698 1}
+{1 1,2 1,8 1,75 1,720 1}
+{0 =,1 1,2 1,3 1,8 1,154 1,497 1,510 1,1071 1}
+{0 =,1 1,2 1,3 1,8 1,129 1,146 1,633 1,677 1,822 1,903 1,951 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,309 1}
+{0 =,1 1,2 1,5 1,8 1,286 1,289 1}
+{0 -,1 1,2 1,5 1,698 1,940 1}
+{1 1,2 1,3 1,6 1,8 1,1018 1}
+{1 1,2 1,3 1,8 1,498 1}
+{0 =,1 1,2 1,3 1,8 1,833 1}
+{0 -,1 1,2 1,5 1,6 1,506 1,556 1,620 1,729 1}
+{1 1,2 1,5 1,8 1,154 1,171 1,285 1,803 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,750 1}
+{1 1,2 1,5 1,8 1,73 1,155 1,404 1,806 1}
+{0 =,1 1,2 1,3 1,8 1,659 1,973 1,1011 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,149 1,477 1,945 1}
+{0 -,1 1,2 1,8 1,153 1,469 1,498 1,653 1}
+{1 1,2 1,8 1,124 1,659 1,973 1,1004 1}
+{1 1,2 1,8 1,622 1}
+{1 1,2 1,5 1,8 1,39 1,154 1,238 1,390 1,518 1,818 1}
+{0 -,1 1,2 1,3 1,6 1,7 1,8 1,311 1,520 1,743 1}
+{0 -,1 1,2 1,6 1,7 1,225 1,728 1,1100 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,677 1,747 1}
+{1 1,2 1,3 1,8 1,148 1,520 1,660 1,877 1,997 1}
+{1 1,2 1,7 1,153 1,320 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,506 1,620 1,677 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,23 1,75 1,694 1}
+{0 =,1 1,2 1,3 1,8 1,498 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,106 1,286 1,289 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,39 1,154 1}
+{1 1,2 1,8 1,467 1,498 1,770 1,836 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,7 1,8 1}
+{0 =,1 1,2 1,8 1,75 1,573 1,671 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,690 1}
+{1 1,2 1,3 1,8 1,84 1,328 1,1001 1,1055 1}
+{0 =,1 1,2 1,3 1,7 1,286 1,289 1,799 1,824 1,1095 1}
+{1 1,2 1,3 1,7 1,8 1,290 1,660 1,877 1,955 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,125 1,400 1,973 1,1032 1,1071 1}
+{1 1,2 1,7 1,8 1,145 1}
+{0 -,1 1,2 1,7 1,8 1,501 1,684 1,685 1}
+{1 1,2 1,3 1,157 1,923 1,969 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,888 1}
+{0 =,1 1,2 1,3 1,8 1,599 1,771 1,946 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,3 1,5 1}
+{0 =,1 1,2 1,3 1,8 1,120 1,510 1,1001 1}
+{0 -,1 1,2 1,5 1,156 1,301 1,445 1,964 1,1073 1}
+{0 =,1 1,2 1,5 1,8 1,606 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,155 1,240 1,811 1}
+{1 1,2 1,3 1,4 1,5 1,95 1,146 1,408 1,854 1,1026 1}
+{1 1,2 1,7 1,8 1,154 1,378 1,661 1,1042 1}
+{0 -,1 1,2 1,4 1,8 1,75 1,145 1,402 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,209 1,570 1,787 1}
+{1 1,2 1,5 1,8 1,286 1,289 1,771 1,926 1,946 1}
+{1 1,2 1,3 1,4 1,6 1,7 1,8 1,157 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,636 1,740 1}
+{0 =,1 1,2 1,3 1,8 1,511 1}
+{1 1,2 1,7 1,27 1,544 1}
+{0 =,1 1,2 1,3 1,8 1,87 1,888 1}
+{1 1,2 1,8 1,155 1,605 1,892 1}
+{1 1,2 1,8 1,154 1,418 1,973 1}
+{1 1,2 1,8 1,21 1,122 1,216 1,544 1,570 1,973 1,998 1}
+{1 1,2 1,3 1,6 1,8 1,120 1,398 1,510 1,690 1}
+{0 =,1 1,2 1,6 1,7 1,75 1,158 1,549 1}
+{0 =,1 1,2 1,7 1,154 1,208 1}
+{0 -,1 1,2 1,3 1,5 1,258 1,329 1,527 1,1089 1}
+{0 =,1 1,2 1,3 1,8 1,476 1,704 1,768 1,1081 1}
+{1 1,2 1,8 1,21 1,460 1,659 1,660 1,877 1}
+{0 =,1 1,2 1,3 1,8 1,73 1}
+{0 -,1 1,2 1,3 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,852 1,910 1}
+{0 =,1 1,2 1,7 1,286 1,289 1,333 1,1090 1}
+{0 =,1 1,2 1,5 1,7 1,154 1,634 1}
+{0 =,1 1,2 1,3 1,7 1,154 1,680 1}
+{0 -,1 1,2 1,6 1,8 1,146 1,854 1}
+{0 -,1 1,2 1,6 1,8 1,109 1,146 1,854 1}
+{0 -,1 1,2 1,3 1,124 1,146 1,477 1,854 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,706 1,769 1}
+{0 =,1 1,2 1,7 1,8 1,154 1,661 1,755 1,1042 1}
+{1 1,2 1,7 1,8 1,191 1,337 1,660 1,852 1,877 1}
+{0 =,1 1,2 1,6 1,7 1,124 1,146 1,427 1,654 1,854 1}
+{0 -,1 1,2 1,3 1,4 1,5 1,6 1,154 1,219 1,413 1}
+{0 -,1 1,2 1,3 1,8 1,341 1,504 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,661 1,755 1}
+{0 -,1 1,2 1,3 1,5 1,6 1,8 1,498 1,555 1,620 1,903 1,951 1}
+{0 -,1 1,2 1,5 1,8 1,145 1,561 1}
+{0 =,1 1,2 1,6 1,8 1,872 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,8 1}
+{1 1,2 1,5 1,8 1,660 1,677 1,877 1}
+{0 -,1 1,2 1,6 1,8 1,109 1,561 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,129 1,146 1,531 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,154 1}
+{1 1,2 1,3 1,5 1,7 1,187 1,705 1,810 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,540 1,832 1,1043 1}
+{0 =,1 1,2 1,5 1,8 1}
+{1 1,2 1,3 1,157 1,1087 1}
+{0 =,1 1,2 1,3 1,7 1,8 1}
+{0 -,1 1,2 1,4 1,8 1,694 1}
+{0 =,1 1,2 1,3 1,5 1,154 1,1042 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1,1063 1}
+{1 1,2 1,3 1,8 1,290 1,660 1,955 1}
+{1 1,2 1,3 1,8 1,289 1,720 1}
+{0 -,1 1,2 1,5 1,8 1,286 1,289 1}
+{0 -,1 1,2 1,3 1,5 1,6 1,7 1,8 1,186 1,419 1,910 1}
+{0 -,1 1,2 1,3 1,8 1,239 1,581 1,674 1,964 1}
+{0 -,1 1,2 1,7 1,8 1,378 1,404 1}
+{0 -,1 1,2 1,8 1,162 1,222 1,861 1,1040 1}
+{1 1,2 1,3 1,8 1,14 1,346 1,570 1,884 1,966 1}
+{1 1,2 1,3 1,5 1,8 1,243 1,332 1,387 1,786 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,33 1,187 1,399 1,1107 1}
+{1 1,2 1,3 1,8 1,520 1}
+{0 -,1 1,2 1,6 1,8 1,18 1,608 1,663 1,706 1,769 1,913 1}
+{0 -,1 1,2 1,112 1,257 1,757 1,854 1}
+{1 1,2 1,3 1,5 1,8 1,208 1,357 1,501 1,986 1}
+{1 1,2 1,8 1,157 1,771 1,1104 1}
+{1 1,2 1,8 1,698 1}
+{0 =,1 1,2 1,3 1,8 1,289 1,426 1,474 1,599 1,852 1}
+{0 =,1 1,2 1,8 1,227 1}
+{0 =,1 1,2 1,4 1,8 1,698 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,297 1}
+{1 1,2 1,3 1,8 1,154 1,831 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,454 1,659 1,811 1,973 1}
+{1 1,2 1,3 1,7 1,8 1,75 1,408 1,549 1,810 1}
+{0 =,1 1,2 1,4 1,5 1,8 1,94 1,154 1,378 1,636 1,1036 1,1099 1}
+{1 1,2 1,8 1,153 1,276 1,335 1,341 1,524 1,527 1,882 1}
+{0 -,1 1,2 1,4 1,5 1,7 1,154 1,177 1,733 1}
+{1 1,2 1,8 1,747 1,748 1,811 1,1032 1}
+{0 -,1 1,2 1,8 1,129 1,146 1,344 1}
+{1 1,2 1,3 1,7 1,8 1,440 1,680 1,728 1}
+{0 =,1 1,2 1,5 1,289 1,660 1,852 1,877 1}
+{1 1,2 1,3 1,7 1,8 1,75 1,479 1,1076 1,1080 1}
+{0 -,1 1,2 1,5 1,8 1,157 1,389 1}
+{1 1,2 1,3 1,7 1,8 1,124 1,779 1}
+{0 =,1 1,2 1,5 1,7 1,8 1}
+{0 =,1 1,2 1,8 1,790 1,1081 1}
+{1 1,2 1,6 1,8 1,129 1,146 1,911 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,7 1,8 1,521 1,1001 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,687 1,973 1}
+{1 1,2 1,7 1,8 1,544 1,973 1}
+{0 -,1 1,2 1,4 1,124 1,146 1,854 1}
+{1 1,2 1,3 1,8 1,84 1,636 1,680 1}
+{1 1,2 1,8 1,286 1,289 1,610 1,620 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,219 1,347 1,714 1,901 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,133 1,286 1,289 1,377 1,422 1,625 1}
+{0 =,1 1,2 1}
+{0 =,1 1,2 1,5 1,8 1,660 1,877 1}
+{0 =,1 1,2 1,7 1,8 1,187 1,640 1,991 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,7 1,8 1,75 1}
+{1 1,2 1,5 1,8 1,219 1,659 1,697 1}
+{0 =,1 1,2 1,3 1,7 1,8 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,157 1,402 1,982 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,125 1,772 1,1067 1}
+{1 1,2 1,5 1,8 1,153 1,413 1,906 1}
+{1 1,2 1,8 1,467 1,498 1,836 1,903 1,951 1}
+{1 1,2 1,8 1,974 1}
+{1 1,2 1,8 1,183 1,544 1,973 1}
+{1 1,2 1,3 1,6 1,7 1,8 1,910 1}
+{0 =,1 1,2 1,8 1,498 1,620 1,903 1,924 1,951 1}
+{0 =,1 1,2 1,6 1,8 1,222 1,1040 1}
+{0 -,1 1,2 1,4 1,8 1,329 1,698 1,820 1}
+{1 1,2 1,3 1,5 1,8 1,903 1,951 1}
+{1 1,2 1,7 1,234 1,285 1,302 1,328 1,602 1}
+{0 =,1 1,2 1,8 1,473 1,506 1,620 1,729 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,3 1,8 1,729 1}
+{1 1,2 1,3 1,8 1,161 1,520 1}
+{1 1,2 1,6 1,7 1,8 1,12 1,146 1,854 1,910 1,1109 1}
+{0 =,1 1,2 1,7 1,8 1,286 1,289 1,646 1,1061 1}
+{1 1,2 1,5 1,6 1,7 1,8 1,684 1}
+{1 1,2 1,3 1,7 1,8 1,660 1,1072 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,89 1,599 1}
+{0 =,1 1,2 1,3 1,8 1,544 1,936 1,1071 1}
+{0 =,1 1,2 1,3 1,8 1,73 1,243 1,476 1,786 1}
+{0 -,1 1,2 1,3 1,6 1,7 1,8 1,222 1,1039 1}
+{1 1,2 1,7 1,8 1,467 1,477 1,836 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,8 1,133 1,289 1,315 1,422 1,447 1,659 1,697 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,672 1}
+{0 =,1 1,2 1,8 1,376 1,501 1,582 1,636 1,1103 1}
+{1 1,2 1,3 1,7 1,8 1,317 1,516 1,574 1,660 1,877 1,927 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,109 1,155 1,700 1}
+{0 =,1 1,2 1,8 1,243 1,520 1,641 1,660 1,877 1,1095 1}
+{0 =,1 1,2 1,3 1,5 1,477 1,660 1,877 1}
+{0 =,1 1,2 1,3 1,8 1,265 1}
+{0 =,1 1,2 1,8 1,155 1,967 1}
+{1 1,2 1,3 1,540 1,648 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,285 1,888 1}
+{0 =,1 1,2 1,3 1,7 1,187 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,285 1,888 1,910 1}
+{0 -,1 1,2 1,5 1,6 1,7 1,290 1,698 1,838 1}
+{0 =,1 1,2 1,5 1,8 1,320 1,660 1,877 1}
+{1 1,2 1,3 1,8 1,660 1,877 1}
+{1 1,2 1,8 1,660 1,877 1}
+{1 1,2 1,7 1,39 1,659 1,682 1,792 1,876 1,948 1,1088 1}
+{1 1,2 1,6 1,155 1,677 1,777 1,864 1}
+{1 1,2 1,3 1,5 1,8 1,354 1,623 1,677 1,787 1}
+{0 =,1 1,2 1,5 1,8 1,212 1,392 1,636 1,1026 1}
+{0 =,1 1,2 1,5 1,265 1}
+{0 -,1 1,2 1,8 1,344 1,594 1,677 1,680 1}
+{1 1,2 1,3 1,8 1,295 1}
+{0 =,1 1,2 1,7 1,8 1,157 1,817 1,1057 1}
+{0 =,1 1,2 1,5 1,8 1,291 1,660 1,877 1}
+{1 1,2 1,3 1,8 1,84 1,501 1,737 1,900 1,926 1}
+{0 -,1 1,2 1,5 1,8 1,330 1,846 1}
+{0 -,1 1,2 1,5 1,8 1,620 1,698 1}
+{0 -,1 1,2 1,4 1,7 1,9 1,685 1}
+{0 =,1 1,2 1,7 1,8 1,501 1,740 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,8 1,157 1,402 1}
+{1 1,2 1,5 1,6 1,8 1,155 1,575 1,619 1,741 1}
+{0 -,1 1,2 1,3 1,71 1}
+{1 1,2 1,5 1,7 1,122 1,157 1,220 1,498 1,810 1}
+{0 =,1 1,2 1,8 1,385 1,544 1,551 1,876 1}
+{1 1,2 1,7 1,8 1,187 1,389 1,679 1}
+{0 =,1 1,2 1,8 1,660 1,808 1,877 1,903 1,951 1}
+{0 =,1 1,2 1,131 1,193 1,501 1,1081 1,1095 1}
+{0 =,1 1,2 1,7 1,267 1,698 1,739 1,847 1}
+{0 -,1 1,2 1,3 1,7 1,157 1,471 1,754 1}
+{0 =,1 1,2 1,8 1,155 1,284 1,681 1,810 1,950 1}
+{0 -,1 1,2 1,4 1,8 1,121 1,359 1,429 1,561 1}
+{1 1,2 1,6 1,8 1,155 1,788 1}
+{0 =,1 1,2 1,8 1,155 1,967 1}
+{1 1,2 1,8 1,157 1,444 1,574 1,661 1,853 1,903 1,951 1,1042 1}
+{0 =,1 1,2 1,5 1,8 1,262 1,334 1,489 1,876 1}
+{1 1,2 1,4 1,7 1,157 1}
+{0 -,1 1,2 1,8 1,157 1,520 1,680 1,1064 1}
+{0 =,1 1,2 1,5 1,8 1,155 1,278 1,872 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,157 1,910 1,995 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,660 1,852 1,877 1}
+{1 1,2 1,3 1,21 1,289 1,1015 1}
+{0 =,1 1,2 1,686 1,698 1}
+{1 1,2 1,3 1,8 1,352 1,441 1,526 1,636 1,660 1,762 1,877 1}
+{0 -,1 1,2 1,4 1,7 1,698 1,761 1}
+{0 =,1 1,2 1,7 1,477 1,660 1,877 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,974 1}
+{0 =,1 1,2 1,6 1,8 1,80 1,501 1,684 1,1108 1}
+{0 =,1 1,2 1,3 1,8 1,261 1,789 1,803 1,939 1,1071 1}
+{1 1,2 1,3 1,8 1,400 1,538 1}
+{0 =,1 1,2 1,8 1,45 1,112 1,265 1,284 1}
+{0 =,1 1,2 1,3 1,8 1,155 1,309 1,973 1}
+{1 1,2 1,7 1,8 1,400 1,538 1,910 1}
+{0 -,1 1,2 1,4 1,413 1,643 1,698 1,734 1,814 1}
+{0 -,1 1,2 1,3 1,8 1,1081 1}
+{1 1,2 1,3 1,7 1,8 1,574 1,853 1,903 1,951 1}
+{0 =,1 1,2 1,5 1,8 1,698 1,1031 1}
+{0 -,1 1,2 1,8 1,68 1,404 1,544 1,1071 1}
+{1 1,2 1,8 1,64 1,320 1,339 1,400 1,420 1,479 1,738 1,812 1,860 1,1022 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,176 1,501 1}
+{0 =,1 1,2 1,3 1,698 1}
+{1 1,2 1,8 1,290 1,660 1,877 1}
+{0 =,1 1,2 1,8 1,501 1,991 1}
+{0 =,1 1,2 1,4 1,8 1,698 1}
+{0 =,1 1,2 1,3 1,8 1,187 1,600 1,680 1,788 1,832 1,1059 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,291 1,698 1}
+{1 1,2 1,7 1,8 1,317 1,516 1,574 1,660 1,877 1,903 1,927 1}
+{0 -,1 1,2 1,3 1,4 1,6 1,8 1,36 1,660 1,770 1,877 1}
+{0 =,1 1,2 1,3 1,8 1,239 1}
+{1 1,2 1,3 1,158 1,698 1,712 1,974 1}
+{1 1,2 1,3 1,501 1}
+{1 1,2 1,7 1,264 1,660 1,682 1,705 1,877 1,886 1,983 1}
+{0 -,1 1,2 1,8 1,286 1,320 1,698 1}
+{0 =,1 1,2 1,7 1,309 1,876 1}
+{0 -,1 1,2 1,5 1,9 1,124 1,261 1,698 1,734 1,1023 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,187 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,8 1,155 1,229 1,319 1,806 1,831 1}
+{0 =,1 1,2 1,8 1,112 1,265 1,284 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,154 1,647 1,789 1,1026 1}
+{1 1,2 1,5 1,8 1,492 1,660 1,838 1,877 1}
+{0 -,1 1,2 1,7 1,124 1,544 1,1071 1}
+{0 -,1 1,2 1,155 1,544 1,789 1,800 1,801 1,1085 1}
+{0 -,1 1,2 1,8 1,315 1,441 1,526 1,636 1,762 1,895 1}
+{0 -,1 1,2 1,7 1,685 1,698 1,838 1}
+{1 1,2 1,3 1,8 1,636 1}
+{1 1,2 1,3 1,6 1,7 1,8 1,538 1}
+{1 1,2 1,698 1,975 1}
+{1 1,2 1,5 1,8 1,274 1,660 1,877 1}
+{0 =,1 1,2 1,8 1,289 1,400 1,661 1,887 1}
+{0 -,1 1,2 1,3 1,4 1,7 1,8 1}
+{0 -,1 1,2 1,7 1,365 1,698 1}
+{0 -,1 1,2 1,5 1,7 1,265 1}
+{0 =,1 1,2 1,3 1,5 1,145 1,174 1,262 1,659 1,660 1,877 1}
+{0 =,1 1,2 1,4 1,698 1,1066 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,1023 1}
+{0 =,1 1,2 1,8 1,208 1,354 1,570 1,647 1,698 1,726 1}
+{1 1,2 1,8 1,400 1,898 1,906 1}
+{0 =,1 1,2 1,8 1,34 1}
+{0 =,1 1,2 1,8 1,309 1,520 1,876 1}
+{1 1,2 1,3 1,4 1,8 1,208 1,999 1}
+{1 1,2 1,7 1,8 1,157 1,444 1,574 1,661 1,853 1,903 1,951 1,1042 1}
+{0 =,1 1,2 1,8 1,501 1,991 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,544 1,1071 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,477 1,910 1,1071 1,1076 1}
+{1 1,2 1,3 1,6 1,8 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,660 1,734 1,877 1,910 1}
+{1 1,2 1,3 1,6 1,405 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,68 1,868 1,945 1}
+{1 1,2 1,3 1,8 1,222 1,341 1,523 1,947 1,1039 1}
+{0 =,1 1,2 1,3 1,7 1,501 1}
+{0 -,1 1,2 1,5 1,7 1,124 1,544 1,635 1,1071 1,1099 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,544 1,1071 1}
+{0 =,1 1,2 1,6 1,8 1,155 1,235 1,801 1}
+{1 1,2 1,8 1,138 1,428 1,682 1}
+{1 1,2 1,3 1,8 1,500 1,984 1}
+{0 =,1 1,2 1,8 1,155 1,656 1}
+{1 1,2 1,3 1,8 1,310 1,877 1}
+{0 -,1 1,2 1,3 1,4 1,6 1,7 1,8 1,770 1,877 1,910 1}
+{0 =,1 1,2 1,7 1,335 1,378 1,659 1,660 1,682 1,877 1,930 1,936 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 -,1 1,2 1,6 1,157 1,904 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,167 1,298 1,417 1,1079 1}
+{0 =,1 1,2 1,3 1,7 1,39 1,479 1,507 1}
+{1 1,2 1,3 1,698 1,743 1,1073 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,335 1}
+{0 =,1 1,2 1,3 1,8 1,310 1,422 1,877 1}
+{0 -,1 1,2 1,3 1,8 1,479 1,606 1}
+{0 =,1 1,2 1,3 1,8 1,155 1,353 1,437 1}
+{0 =,1 1,2 1,5 1,8 1,214 1,520 1,660 1,877 1,1026 1}
+{1 1,2 1,3 1,8 1,180 1,285 1,378 1,660 1,877 1,1060 1}
+{0 =,1 1,2 1,7 1,698 1,970 1}
+{0 =,1 1,2 1,8 1,300 1,310 1,611 1,681 1,699 1,713 1,945 1}
+{1 1,2 1,3 1,5 1,7 1,245 1,398 1,477 1,680 1,743 1}
+{0 -,1 1,2 1,3 1,8 1,157 1,230 1,404 1,566 1,728 1}
+{1 1,2 1,6 1,8 1,300 1,308 1,660 1,678 1,699 1,713 1,877 1}
+{1 1,2 1,5 1,8 1,46 1,323 1,394 1,451 1,605 1,698 1,997 1,1015 1}
+{0 =,1 1,2 1,155 1,967 1,1064 1}
+{0 =,1 1,2 1,3 1,4 1,7 1,8 1,289 1,478 1,877 1}
+{0 -,1 1,2 1,5 1,8 1,155 1,846 1,1074 1}
+{1 1,2 1,8 1,187 1}
+{0 -,1 1,2 1,3 1,4 1,155 1,175 1,771 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,504 1,835 1}
+{0 =,1 1,2 1,3 1,510 1,810 1}
+{1 1,2 1,3 1,7 1,810 1,910 1}
+{1 1,2 1,4 1,6 1,8 1,39 1,245 1,249 1,660 1,877 1}
+{0 -,1 1,2 1,7 1,155 1,179 1,733 1,827 1}
+{0 =,1 1,2 1,7 1,8 1,150 1,552 1,660 1,877 1,915 1}
+{1 1,2 1,3 1,5 1,8 1,284 1}
+{0 -,1 1,2 1,5 1,8 1,68 1,477 1,1071 1}
+{1 1,2 1,3 1,8 1,660 1,877 1}
+{1 1,2 1,6 1,7 1,8 1,310 1,692 1,877 1}
+{1 1,2 1,3 1,5 1,8 1,187 1,341 1,438 1,800 1}
+{0 =,1 1,2 1,7 1,698 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,198 1,822 1}
+{1 1,2 1,3 1,7 1,8 1,520 1,660 1,705 1,877 1}
+{1 1,2 1,5 1,6 1,8 1,263 1,460 1,660 1,808 1,877 1}
+{0 =,1 1,2 1,4 1,7 1,698 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,436 1,501 1}
+{0 =,1 1,2 1,7 1,155 1,1023 1}
+{0 -,1 1,2 1,4 1,6 1,7 1,8 1,39 1,245 1,249 1,660 1,877 1}
+{0 =,1 1,2 1,5 1,243 1,249 1,330 1,544 1,733 1,770 1,789 1,1071 1}
+{0 -,1 1,2 1,8 1,660 1,816 1,877 1}
+{1 1,2 1,7 1,8 1,145 1,157 1}
+{0 -,1 1,2 1,8 1,157 1,159 1,165 1,827 1}
+{0 -,1 1,2 1,155 1,814 1,847 1,1088 1}
+{0 =,1 1,2 1,7 1,501 1}
+{0 -,1 1,2 1,3 1,112 1,124 1,145 1,146 1,859 1}
+{0 =,1 1,2 1,5 1,6 1,8 1,845 1}
+{0 =,1 1,2 1,7 1,146 1,158 1,750 1,854 1,885 1}
+{0 -,1 1,2 1,5 1,8 1,155 1,314 1}
+{0 =,1 1,2 1,3 1,8 1,155 1}
+{0 =,1 1,2 1,3 1,7 1,157 1,676 1,837 1,969 1}
+{0 =,1 1,2 1,8 1,155 1,278 1,445 1,872 1,1080 1}
+{0 =,1 1,2 1,8 1,698 1,1095 1}
+{0 =,1 1,2 1,290 1,402 1,624 1,660 1,661 1,754 1,770 1,877 1,1042 1}
+{1 1,2 1,7 1,157 1,389 1,947 1}
+{0 =,1 1,2 1,3 1,8 1,698 1,1090 1}
+{0 -,1 1,2 1,8 1,10 1,390 1,802 1,830 1,835 1}
+{1 1,2 1,7 1,157 1,165 1,379 1,424 1,560 1,969 1}
+{1 1,2 1,7 1,9 1,35 1,146 1,718 1,854 1,998 1,1035 1}
+{0 =,1 1,2 1,5 1,7 1,501 1}
+{0 =,1 1,2 1,7 1,8 1,157 1,160 1,389 1}
+{0 =,1 1,2 1,7 1,8 1,174 1,262 1,660 1,877 1}
+{0 -,1 1,2 1,7 1,8 1,124 1,146 1,752 1,854 1,910 1,926 1,940 1,1083 1}
+{0 =,1 1,2 1,7 1,8 1,157 1,160 1,389 1,910 1}
+{0 -,1 1,2 1,5 1,8 1,10 1,348 1,478 1,835 1}
+{0 =,1 1,2 1,7 1,157 1,498 1}
+{0 =,1 1,2 1,3 1,7 1,13 1,157 1,165 1,1086 1}
+{1 1,2 1,4 1,8 1,146 1,661 1,854 1,856 1,903 1,951 1}
+{1 1,2 1,8 1,52 1,226 1,334 1,698 1}
+{0 -,1 1,2 1,34 1,157 1,772 1}
+{0 -,1 1,2 1,7 1,120 1,264 1,404 1,698 1,732 1,739 1,847 1,997 1,1032 1}
+{0 -,1 1,2 1,3 1,7 1,698 1,705 1,1001 1,1092 1}
+{0 -,1 1,2 1,8 1,157 1,165 1,462 1,899 1}
+{0 -,1 1,2 1,6 1,7 1,8 1,165 1,297 1,899 1}
+{0 -,1 1,2 1,8 1,157 1,165 1,462 1,899 1}
+{0 =,1 1,2 1,8 1,157 1,198 1,509 1,822 1,963 1}
+{0 -,1 1,2 1,8 1,165 1,297 1,899 1,925 1}
+{1 1,2 1,3 1,13 1,208 1,272 1,284 1,297 1,479 1,827 1,1036 1,1078 1,1103 1}
+{0 -,1 1,2 1,3 1,116 1,155 1,283 1,844 1,967 1}
+{0 =,1 1,2 1,7 1,222 1,1039 1}
+{0 -,1 1,2 1,3 1,157 1,636 1,771 1}
+{0 -,1 1,2 1,4 1,8 1,10 1,157 1,390 1,496 1,802 1,830 1,835 1}
+{0 =,1 1,2 1,7 1,116 1,155 1,283 1,660 1,681 1,682 1,705 1,983 1}
+{0 =,1 1,2 1,3 1,283 1,297 1,520 1,1025 1}
+{0 -,1 1,2 1,3 1,157 1,408 1,424 1}
+{1 1,2 1,6 1,7 1,124 1,157 1,312 1,610 1,634 1,761 1,867 1}
+{0 -,1 1,2 1,5 1,7 1,156 1,404 1,636 1}
+{0 -,1 1,2 1,6 1,124 1,146 1,278 1,404 1,635 1,715 1,854 1}
+{0 =,1 1,2 1,3 1,8 1,31 1,113 1,146 1,228 1,786 1,854 1}
+{0 =,1 1,2 1,7 1,156 1,662 1,694 1,852 1}
+{0 =,1 1,2 1,6 1,8 1,143 1,157 1,390 1,835 1,840 1}
+{0 -,1 1,2 1,7 1,8 1,698 1,910 1}
+{0 =,1 1,2 1,5 1,8 1,155 1,721 1,770 1,872 1}
+{0 =,1 1,2 1,5 1,8 1,146 1,188 1,745 1,854 1}
+{0 -,1 1,2 1,8 1,186 1,235 1,301 1,424 1,750 1,889 1}
+{0 -,1 1,2 1,3 1,5 1,112 1,155 1,498 1,799 1}
+{0 -,1 1,2 1,8 1,9 1,165 1,297 1,899 1,925 1}
+{0 =,1 1,2 1,3 1,8 1,146 1,207 1,625 1,854 1,1090 1}
+{0 =,1 1,2 1,3 1,6 1,157 1,338 1,376 1,564 1,827 1}
+{0 =,1 1,2 1,3 1,8 1,49 1,155 1}
+{1 1,2 1,4 1,8 1,698 1}
+{0 -,1 1,2 1,5 1,7 1,124 1,497 1,544 1,876 1}
+{0 -,1 1,2 1,4 1,7 1,28 1,124 1,660 1,1021 1}
+{0 =,1 1,2 1,7 1,114 1,264 1,280 1,544 1,650 1,721 1,876 1}
+{0 -,1 1,2 1,8 1,165 1,297 1,899 1,925 1}
+{0 =,1 1,2 1,3 1,8 1,110 1,264 1,544 1,572 1,831 1}
+{1 1,2 1,146 1,854 1,941 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,157 1,165 1,899 1}
+{0 =,1 1,2 1,3 1,8 1,38 1,222 1,444 1,1040 1}
+{0 =,1 1,2 1,5 1,8 1,121 1,302 1,761 1,811 1,973 1,974 1,1036 1}
+{1 1,2 1,8 1,172 1,187 1,288 1,689 1}
+{0 =,1 1,2 1,7 1,105 1,156 1}
+{0 =,1 1,2 1,8 1,155 1}
+{1 1,2 1,8 1,138 1,408 1,460 1,544 1,826 1,913 1,1071 1}
+{0 =,1 1,2 1,7 1,8 1,146 1,852 1,854 1}
+{1 1,2 1,5 1,7 1,8 1,268 1,352 1,517 1,941 1}
+{0 =,1 1,2 1,8 1,110 1,146 1,789 1,854 1,1086 1}
+{0 -,1 1,2 1,6 1,146 1,503 1,662 1,854 1}
+{0 =,1 1,2 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,422 1,447 1,518 1,660 1,936 1}
+{0 -,1 1,2 1,6 1,8 1,257 1,329 1,397 1,537 1,603 1,695 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,408 1,477 1,728 1,857 1,900 1,1071 1}
+{0 =,1 1,2 1,8 1,31 1,113 1,146 1,228 1,786 1,854 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,184 1,854 1}
+{0 =,1 1,2 1,7 1,8 1,712 1,974 1}
+{1 1,2 1,8 1,660 1,877 1}
+{0 -,1 1,2 1,6 1,120 1,124 1,168 1,415 1,479 1,520 1,634 1,682 1,698 1,1103 1}
+{0 -,1 1,2 1,6 1,84 1,120 1,202 1,267 1,285 1,682 1,698 1,847 1}
+{0 -,1 1,2 1,3 1,5 1,7 1}
+{0 =,1 1,2 1,7 1,265 1,693 1,1017 1}
+{1 1,2 1,8 1,138 1,408 1,544 1,913 1,1071 1}
+{0 -,1 1,2 1,8 1,503 1,636 1,879 1}
+{1 1,2 1,3 1,8 1,310 1,877 1}
+{0 =,1 1,2 1,189 1,265 1}
+{0 =,1 1,2 1,3 1,8 1,296 1,828 1}
+{0 =,1 1,2 1,5 1,7 1,156 1,171 1,465 1,971 1}
+{0 =,1 1,2 1,5 1,8 1,121 1,302 1,974 1}
+{0 -,1 1,2 1,8 1,222 1,903 1,951 1,1039 1}
+{1 1,2 1,5 1,6 1,8 1,145 1,520 1,660 1,877 1,949 1,977 1}
+{0 =,1 1,2 1,8 1,102 1,309 1,973 1}
+{0 =,1 1,2 1,5 1,8 1,544 1,973 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,257 1,329 1,397 1,537 1,695 1}
+{0 =,1 1,2 1,3 1,8 1,523 1,884 1,1071 1}
+{0 =,1 1,2 1,3 1,5 1,121 1,181 1,543 1}
+{0 =,1 1,2 1,3 1,6 1,7 1,155 1,841 1}
+{0 =,1 1,2 1,5 1,6 1,8 1,15 1,49 1}
+{0 =,1 1,2 1,5 1,8 1,544 1,1071 1}
+{0 =,1 1,2 1,6 1,8 1,660 1,680 1,877 1}
+{0 =,1 1,2 1,3 1,8 1,970 1,973 1}
+{1 1,2 1,3 1,8 1,923 1}
+{1 1,2 1,4 1,8 1,146 1,589 1,661 1,854 1,856 1,857 1}
+{0 -,1 1,2 1,8 1,636 1,660 1,770 1,877 1}
+{1 1,2 1,3 1,7 1,8 1,544 1,683 1,973 1}
+{0 -,1 1,2 1,3 1,8 1,448 1,505 1,519 1,544 1,973 1,994 1}
+{0 =,1 1,2 1,4 1,8 1,324 1,493 1,618 1,1023 1}
+{1 1,2 1,7 1,72 1,286 1,289 1,504 1,660 1,877 1,1040 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,310 1,455 1,598 1,877 1}
+{1 1,2 1,6 1,7 1,13 1,310 1,682 1,877 1,982 1}
+{1 1,2 1,8 1,47 1,696 1,878 1}
+{0 =,1 1,2 1,3 1,8 1,31 1,378 1,803 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,155 1,374 1,378 1}
+{0 =,1 1,2 1,3 1,4 1,8 1,324 1,493 1,779 1,1112 1}
+{0 =,1 1,2 1,8 1,125 1,400 1,906 1}
+{1 1,2 1,7 1,8 1,146 1,401 1,680 1,854 1,943 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,155 1,374 1,378 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,309 1,973 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,803 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,38 1,310 1,349 1,585 1,877 1}
+{1 1,2 1,5 1,8 1,143 1,157 1}
+{1 1,2 1,5 1,8 1,323 1,394 1,451 1,605 1,698 1,997 1,1015 1}
+{1 1,2 1,3 1,7 1,8 1,477 1,877 1}
+{1 1,2 1,6 1,7 1,72 1,518 1,544 1,660 1,719 1,877 1}
+{0 =,1 1,2 1,7 1,222 1,1040 1}
+{0 =,1 1,2 1,8 1,187 1,266 1,375 1,398 1,744 1,1110 1}
+{0 =,1 1,2 1,7 1,8 1,252 1,407 1,863 1,910 1,976 1,1012 1}
+{0 -,1 1,2 1,8 1,165 1,297 1,532 1,899 1,925 1}
+{0 =,1 1,2 1,8 1,957 1}
+{0 =,1 1,2 1,3 1,8 1,102 1,309 1,973 1}
+{0 =,1 1,2 1,3 1,6 1,7 1,8 1,103 1,354 1,515 1,557 1}
+{0 =,1 1,2 1,3 1,8 1,105 1,156 1,963 1,980 1}
+{0 -,1 1,2 1,3 1,8 1}
+{0 -,1 1,2 1,3 1,8 1,155 1,179 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,31 1,378 1,698 1,803 1}
+{0 =,1 1,2 1,7 1,501 1}
+{0 =,1 1,2 1,7 1,735 1,854 1,1083 1}
+{1 1,2 1,3 1,5 1,8 1,161 1,747 1,878 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,329 1,820 1,969 1}
+{1 1,2 1,3 1,8 1,541 1,636 1,879 1}
+{1 1,2 1,3 1,5 1,8 1,84 1,680 1,747 1,787 1}
+{1 1,2 1,8 1,9 1,124 1,155 1,374 1,878 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,156 1,473 1,662 1}
+{1 1,2 1,8 1,544 1,973 1}
+{0 =,1 1,2 1,3 1,8 1,515 1,557 1,569 1,1036 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,125 1,906 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,64 1,339 1,420 1,738 1,812 1,860 1,1022 1}
+{1 1,2 1,3 1,4 1,7 1,8 1}
+{1 1,2 1,5 1,8 1,140 1,529 1,544 1,973 1}
+{1 1,2 1,3 1,8 1,189 1,309 1,973 1,974 1}
+{0 =,1 1,2 1,5 1,8 1,262 1,505 1,519 1,663 1,677 1,973 1,992 1}
+{0 =,1 1,2 1,8 1,297 1}
+{0 =,1 1,2 1,8 1,28 1,417 1,660 1}
+{1 1,2 1,8 1,155 1,656 1}
+{1 1,2 1,5 1,8 1,154 1,654 1}
+{1 1,2 1,8 1,129 1,146 1,170 1,371 1,453 1,637 1}
+{1 1,2 1,5 1,17 1,660 1,877 1,926 1,936 1}
+{1 1,2 1,287 1,364 1,660 1,877 1,879 1}
+{0 =,1 1,2 1,3 1,8 1,73 1}
+{0 -,1 1,2 1,5 1,8 1,60 1,146 1,437 1,727 1,786 1,854 1}
+{1 1,2 1,7 1,8 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,684 1}
+{1 1,2 1,5 1,8 1,46 1,394 1,451 1,698 1,997 1,1015 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,378 1}
+{0 =,1 1,2 1,8 1,75 1,98 1,455 1,564 1}
+{0 =,1 1,2 1,3 1,8 1,31 1,113 1,228 1,786 1,854 1}
+{1 1,2 1,3 1,8 1,71 1,124 1,698 1}
+{0 -,1 1,2 1,7 1,8 1,31 1,284 1,449 1,560 1,934 1,979 1,999 1}
+{0 -,1 1,2 1,8 1,10 1,157 1,390 1,802 1,830 1,835 1}
+{1 1,2 1,378 1,389 1,497 1,662 1,962 1,1003 1}
+{0 =,1 1,2 1,3 1,8 1,175 1,561 1,627 1,661 1}
+{1 1,2 1,8 1,157 1,346 1,604 1}
+{0 =,1 1,2 1,8 1,46 1,282 1,605 1,674 1,698 1}
+{1 1,2 1,8 1,262 1,803 1,973 1,975 1,1052 1}
+{1 1,2 1,6 1,146 1,344 1,854 1}
+{1 1,2 1,8 1,448 1,505 1,519 1,544 1,973 1,994 1}
+{1 1,2 1,3 1,5 1,8 1,394 1,451 1,698 1,997 1,1015 1}
+{0 =,1 1,2 1,3 1,8 1,146 1,204 1,241 1,729 1,777 1,854 1}
+{0 =,1 1,2 1,7 1,8 1,146 1,465 1,854 1,947 1,1080 1}
+{1 1,2 1,8 1,317 1,365 1,431 1,501 1,796 1,839 1,997 1}
+{0 =,1 1,2 1,4 1,6 1,8 1,39 1,245 1,249 1,660 1,877 1}
+{0 =,1 1,2 1,7 1,208 1,501 1,757 1,851 1}
+{1 1,2 1,3 1,5 1,8 1,323 1,394 1,451 1,605 1,698 1,997 1,1015 1}
+{0 -,1 1,2 1,7 1,156 1,556 1,620 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,155 1}
+{0 =,1 1,2 1,7 1,8 1,16 1,712 1,974 1}
+{0 =,1 1,2 1,35 1,125 1,146 1,465 1,635 1,854 1,1103 1}
+{0 =,1 1,2 1,4 1,6 1,7 1,8 1,39 1,245 1,249 1,660 1,877 1}
+{0 =,1 1,2 1,7 1,757 1,854 1}
+{1 1,2 1,107 1,112 1,124 1,157 1}
+{0 =,1 1,2 1,7 1,157 1,376 1,750 1}
+{0 -,1 1,2 1,5 1,8 1,157 1,191 1,784 1,866 1,881 1,1041 1}
+{0 -,1 1,2 1,8 1}
+{0 =,1 1,2 1,3 1,7 1}
+{0 -,1 1,2 1,5 1,8 1,157 1,191 1,640 1,784 1,866 1,881 1,1041 1}
+{0 -,1 1,2 1,8 1,124 1,157 1,934 1}
+{1 1,2 1,3 1,5 1,84 1,95 1,124 1,465 1,698 1,1021 1}
+{0 =,1 1,2 1,3 1,8 1,544 1,973 1}
+{0 -,1 1,2 1,7 1,8 1,157 1,191 1,866 1,881 1,1041 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,157 1,191 1,866 1,881 1,1041 1}
+{0 =,1 1,2 1,3 1,8 1,544 1,973 1}
+{1 1,2 1,3 1,4 1,8 1,102 1,460 1,544 1,782 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,779 1}
+{0 =,1 1,2 1,7 1,8 1,378 1,511 1,660 1,877 1,910 1}
+{1 1,2 1,3 1,124 1,156 1,885 1,941 1,1046 1}
+{0 -,1 1,2 1,7 1,157 1,682 1}
+{0 =,1 1,2 1,8 1,259 1,544 1,973 1,992 1,1030 1}
+{0 =,1 1,2 1,7 1,400 1,476 1,497 1}
+{0 -,1 1,2 1,7 1,662 1,698 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,678 1,1090 1,1095 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,171 1,877 1}
+{1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,541 1,592 1,864 1,871 1}
+{0 =,1 1,2 1,7 1,8 1,187 1,269 1,289 1}
+{0 -,1 1,2 1,3 1,4 1,8 1,35 1,146 1}
+{1 1,2 1,4 1,8 1,39 1,146 1,854 1}
+{1 1,2 1,5 1,8 1,121 1,511 1}
+{0 =,1 1,2 1,5 1,8 1,262 1,505 1,519 1,677 1,973 1,992 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,329 1,603 1}
+{0 -,1 1,2 1,157 1,341 1}
+{0 -,1 1,2 1,7 1,8 1,752 1}
+{0 =,1 1,2 1,8 1,120 1,300 1,428 1,625 1}
+{1 1,2 1,5 1,6 1,7 1,8 1,684 1}
+{1 1,2 1,4 1,8 1,146 1,854 1}
+{1 1,2 1,5 1,8 1,145 1,660 1,661 1,877 1,949 1,1089 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,257 1,329 1,397 1,537 1,603 1,695 1}
+{1 1,2 1,8 1,119 1,544 1,974 1,1071 1,1079 1}
+{1 1,2 1,8 1,660 1,877 1}
+{0 =,1 1,2 1,7 1,8 1,361 1,595 1,698 1}
+{0 -,1 1,2 1,3 1,329 1,378 1,603 1,842 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,390 1,709 1,794 1,878 1,890 1,943 1,1071 1}
+{1 1,2 1,7 1,156 1,882 1}
+{0 =,1 1,2 1,6 1,8 1,809 1}
+{1 1,2 1,3 1,8 1,262 1,803 1,973 1,975 1,1052 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,155 1,677 1,945 1,1093 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,183 1,336 1,1023 1}
+{1 1,2 1,3 1,8 1,230 1,320 1,817 1,874 1,920 1}
+{0 =,1 1,2 1,5 1,8 1,100 1,980 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,5 1,7 1,127 1,285 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,257 1,329 1,397 1,537 1,603 1,695 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,155 1,314 1,691 1}
+{1 1,2 1,5 1,8 1,42 1,155 1,330 1,733 1}
+{0 =,1 1,2 1,7 1,757 1,854 1,1095 1}
+{1 1,2 1,5 1,6 1,146 1,471 1,854 1}
+{0 =,1 1,2 1,3 1,8 1,105 1,156 1}
+{0 =,1 1,2 1,5 1,8 1,144 1,208 1,330 1,659 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,156 1,1026 1}
+{0 =,1 1,2 1,8 1,660 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,544 1,1071 1,1076 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,310 1,349 1,422 1,585 1,877 1}
+{1 1,2 1,7 1,8 1,943 1}
+{0 =,1 1,2 1,7 1,8 1,400 1,408 1,729 1,809 1}
+{0 =,1 1,2 1,8 1,660 1,877 1}
+{1 1,2 1,5 1,840 1,1011 1}
+{0 =,1 1,2 1,7 1,8 1,544 1,973 1}
+{0 -,1 1,2 1,6 1,7 1,8 1,257 1,329 1,476 1,603 1,695 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,157 1,285 1,717 1}
+{0 =,1 1,2 1,8 1,659 1,737 1,977 1,1071 1}
+{1 1,2 1,8 1,659 1,737 1,977 1,1071 1}
+{1 1,2 1,3 1,5 1,8 1,819 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,544 1,878 1,973 1}
+{1 1,2 1,8 1,659 1,737 1,977 1,1071 1}
+{0 =,1 1,2 1,5 1,6 1,7 1,8 1,115 1,146 1,339 1,475 1,854 1}
+{0 -,1 1,2 1,6 1,219 1,499 1,583 1,841 1,957 1,972 1}
+{1 1,2 1,3 1,5 1,8 1,35 1,152 1,389 1,1055 1}
+{0 -,1 1,2 1,3 1,7 1,572 1,1111 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,245 1,315 1,493 1,536 1,661 1,793 1}
+{1 1,2 1,3 1,8 1,262 1,841 1}
+{1 1,2 1,3 1,6 1,7 1,146 1,212 1,404 1,475 1,854 1,1023 1}
+{0 =,1 1,2 1,3 1,5 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,536 1}
+{0 -,1 1,2 1,7 1,8 1,157 1,191 1,866 1,881 1,1041 1}
+{1 1,2 1,3 1,8 1,400 1,624 1,886 1}
+{1 1,2 1,5 1,8 1,146 1,212 1,404 1,780 1,854 1,1023 1}
+{0 -,1 1,2 1,3 1,7 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,150 1,660 1,877 1,915 1}
+{0 -,1 1,2 1,3 1,8 1,9 1,269 1,325 1,378 1,541 1}
+{1 1,2 1,8 1}
+{0 =,1 1,2 1,5 1,7 1,660 1,803 1,877 1}
+{1 1,2 1,225 1,387 1,425 1,649 1,664 1,813 1}
+{0 =,1 1,2 1,5 1,8 1,153 1,598 1,947 1}
+{0 =,1 1,2 1,7 1,8 1,787 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,153 1,221 1}
+{0 -,1 1,2 1,5 1,8 1,286 1,289 1,498 1,544 1,620 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,809 1}
+{1 1,2 1,3 1,7 1,8 1,122 1,180 1,498 1,754 1,898 1}
+{0 -,1 1,2 1,3 1,8 1,187 1,256 1,1064 1}
+{1 1,2 1,3 1,8 1,378 1,419 1,877 1}
+{0 -,1 1,2 1,372 1,417 1,660 1,877 1}
+{0 -,1 1,2 1,5 1,8 1,404 1,498 1}
+{1 1,2 1,6 1,8 1,155 1,176 1,286 1,890 1,984 1}
+{0 -,1 1,2 1,3 1,7 1,157 1,735 1}
+{0 -,1 1,2 1,3 1,4 1,8 1,1057 1}
+{1 1,2 1,5 1,8 1,784 1,1041 1}
+{1 1,2 1,8 1,146 1,404 1,475 1,854 1,1023 1}
+{0 =,1 1,2 1,3 1,8 1,378 1,659 1,680 1,790 1,1071 1}
+{0 =,1 1,2 1,8 1,126 1,265 1,680 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,109 1,291 1,599 1,909 1,1069 1}
+{0 -,1 1,2 1,3 1,5 1,432 1,698 1,771 1,869 1,1068 1}
+{0 =,1 1,2 1,5 1,95 1,146 1,476 1,840 1,854 1,941 1,943 1}
+{0 =,1 1,2 1,3 1,7 1}
+{1 1,2 1,3 1,5 1,8 1,87 1,631 1}
+{1 1,2 1,6 1,498 1,676 1,807 1}
+{0 =,1 1,2 1,8 1,378 1,511 1,660 1,877 1}
+{0 =,1 1,2 1,8 1,155 1,576 1}
+{1 1,2 1,7 1,8 1,227 1,350 1,501 1,582 1}
+{0 -,1 1,2 1,3 1,8 1,612 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,477 1,728 1,806 1}
+{0 =,1 1,2 1,121 1,180 1,974 1}
+{0 =,1 1,2 1,3 1,7 1,217 1,605 1}
+{0 =,1 1,2 1,8 1,129 1,146 1}
+{0 =,1 1,2 1,8 1,348 1,718 1}
+{0 =,1 1,2 1,7 1,8 1,156 1,301 1,753 1,962 1}
+{0 =,1 1,2 1,3 1,345 1,498 1,653 1,801 1}
+{0 =,1 1,2 1,5 1,8 1,146 1,188 1,854 1}
+{0 -,1 1,2 1,3 1,8 1,97 1,191 1,322 1,414 1,599 1,866 1,881 1}
+{0 -,1 1,2 1,5 1,7 1,124 1,157 1,389 1,662 1}
+{0 =,1 1,2 1,3 1,8 1,498 1,632 1,968 1,985 1}
+{1 1,2 1,4 1,7 1,8 1,698 1,782 1}
+{1 1,2 1,7 1,698 1,1021 1,1103 1}
+{0 =,1 1,2 1,5 1,544 1,973 1}
+{1 1,2 1,6 1,7 1,8 1,146 1,212 1,404 1,475 1,854 1,1023 1}
+{1 1,2 1,4 1,280 1,488 1,501 1,1100 1}
+{1 1,2 1,5 1,8 1,404 1,660 1,757 1,877 1}
+{0 =,1 1,2 1,7 1,157 1,338 1,477 1,851 1}
+{1 1,2 1,187 1,1111 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,98 1,206 1,267 1,277 1,501 1,1003 1}
+{0 =,1 1,2 1,3 1,8 1,437 1,477 1}
+{1 1,2 1,347 1,636 1,659 1,973 1}
+{1 1,2 1,3 1,5 1,347 1,544 1,635 1,636 1,731 1,973 1}
+{0 -,1 1,2 1,5 1,6 1,498 1,620 1,1026 1}
+{0 =,1 1,2 1,7 1,153 1}
+{1 1,2 1,3 1,6 1,8 1,359 1,376 1,501 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,636 1}
+{1 1,2 1,5 1,6 1,8 1,286 1,506 1,589 1,620 1,985 1,1071 1}
+{0 -,1 1,2 1,4 1,5 1,153 1,392 1,618 1,717 1}
+{0 -,1 1,2 1,5 1,8 1,38 1,920 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,294 1,379 1,817 1}
+{1 1,2 1,6 1,8 1,146 1,212 1,404 1,475 1,854 1,1023 1}
+{1 1,2 1,3 1,7 1,8 1,9 1,153 1,221 1}
+{0 =,1 1,2 1,8 1,498 1,619 1,624 1}
+{1 1,2 1,3 1,8 1,120 1,476 1,510 1,973 1,1004 1}
+{0 -,1 1,2 1,7 1,8 1}
+{0 -,1 1,2 1,8 1}
+{0 -,1 1,2 1,3 1,5 1,8 1}
+{0 -,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,170 1,289 1,452 1,455 1,742 1,1013 1}
+{0 -,1 1,2 1,8 1,97 1,191 1,322 1,866 1,881 1,1041 1}
+{0 =,1 1,2 1,6 1,7 1,501 1,589 1}
+{0 =,1 1,2 1,8 1,402 1,498 1}
+{1 1,2 1,3 1,27 1,544 1,641 1,662 1,682 1,845 1}
+{0 -,1 1,2 1,3 1,8 1,824 1,831 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,202 1}
+{0 =,1 1,2 1,6 1,8 1,465 1,503 1,659 1,973 1,1090 1}
+{0 =,1 1,2 1,5 1,8 1,544 1,973 1,977 1}
+{0 =,1 1,2 1,3 1,8 1,728 1,876 1}
+{0 -,1 1,2 1,3 1,8 1}
+{1 1,2 1,3 1,7 1,207 1,427 1,498 1,736 1,1011 1}
+{0 =,1 1,2 1,5 1,146 1,733 1,854 1}
+{0 -,1 1,2 1,6 1,7 1,8 1,257 1,329 1,397 1,537 1,603 1,695 1}
+{0 =,1 1,2 1,8 1,472 1,506 1,692 1,734 1}
+{0 =,1 1,2 1,3 1,8 1,319 1,612 1,901 1}
+{0 -,1 1,2 1,3 1,4 1,5 1,8 1,501 1}
+{0 =,1 1,2 1,7 1,501 1,662 1,729 1,744 1,1023 1,1110 1}
+{1 1,2 1,3 1,6 1,8 1,1081 1}
+{0 -,1 1,2 1,479 1,498 1,1026 1}
+{0 -,1 1,2 1,3 1,8 1,262 1,541 1,876 1}
+{1 1,2 1,3 1,8 1,433 1,518 1}
+{0 =,1 1,2 1,3 1,8 1,410 1,568 1,570 1,791 1}
+{1 1,2 1,5 1,8 1,9 1,155 1,374 1,742 1,814 1,1026 1}
+{1 1,2 1,3 1,8 1,66 1,763 1,804 1}
+{0 =,1 1,2 1,124 1,146 1,854 1}
+{0 =,1 1,2 1,7 1,157 1,433 1,544 1,661 1,755 1,813 1,876 1,1071 1}
+{1 1,2 1,3 1,8 1,124 1,140 1,878 1}
+{1 1,2 1,4 1,8 1,146 1,854 1,1049 1}
+{1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,8 1,66 1,235 1,763 1,804 1,932 1}
+{0 =,1 1,2 1,3 1,8 1}
+{1 1,2 1,3 1,4 1,8 1}
+{0 =,1 1,2 1,5 1,8 1,156 1,892 1}
+{1 1,2 1,3 1,8 1,126 1,712 1,973 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,607 1}
+{0 =,1 1,2 1,8 1,731 1}
+{0 -,1 1,2 1,8 1,97 1,191 1,322 1,414 1,866 1,881 1}
+{0 =,1 1,2 1,5 1,8 1,347 1,628 1}
+{0 -,1 1,2 1,124 1,168 1,328 1,818 1,892 1,1047 1}
+{0 =,1 1,2 1,6 1,8 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,660 1,698 1,710 1,978 1,1108 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,155 1,771 1}
+{0 =,1 1,2 1,3 1,8 1,599 1}
+{1 1,2 1,8 1,195 1,544 1,680 1,973 1}
+{1 1,2 1,3 1,8 1,146 1,714 1,854 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,293 1,978 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,153 1,239 1,509 1,910 1,963 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,262 1,505 1,519 1,677 1}
+{0 -,1 1,2 1,8 1,87 1,480 1,590 1,773 1,924 1}
+{0 =,1 1,2 1,5 1,8 1,262 1,309 1,973 1,992 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,455 1,516 1}
+{0 -,1 1,2 1,6 1,8 1,365 1,882 1}
+{1 1,2 1,3 1,8 1,180 1,285 1,286 1,1085 1}
+{0 -,1 1,2 1,3 1,8 1,87 1,421 1,480 1,590 1,636 1,773 1}
+{0 =,1 1,2 1,5 1,8 1,906 1}
+{0 -,1 1,2 1,6 1,8 1,455 1,516 1}
+{0 -,1 1,2 1,3 1,8 1,421 1,480 1,590 1,733 1,773 1}
+{0 -,1 1,2 1,3 1,4 1,8 1,87 1,421 1,476 1,480 1,503 1,590 1,636 1,773 1}
+{0 -,1 1,2 1,8 1,87 1,421 1,480 1,590 1,636 1,773 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,421 1,480 1,590 1,773 1,910 1}
+{0 -,1 1,2 1,8 1,87 1,421 1,480 1,590 1,773 1}
+{1 1,2 1,7 1,34 1,124 1,320 1,498 1,653 1,770 1,817 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,606 1}
+{0 -,1 1,2 1,3 1,7 1,124 1,301 1,498 1,721 1}
+{0 =,1 1,2 1,8 1,153 1,278 1,335 1,472 1,1073 1,1079 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,5 1,8 1,157 1,617 1,819 1}
+{0 -,1 1,2 1,3 1,4 1,8 1,87 1,421 1,480 1,590 1,773 1}
+{1 1,2 1,3 1,5 1,156 1,714 1,963 1,972 1}
+{1 1,2 1,3 1,8 1,209 1,477 1,803 1,975 1,1052 1}
+{1 1,2 1,8 1,196 1}
+{0 =,1 1,2 1,3 1,7 1,8 1}
+{1 1,2 1,8 1,662 1}
+{0 =,1 1,2 1,8 1,714 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,115 1,421 1,480 1,733 1,773 1}
+{1 1,2 1,3 1,8 1,378 1,551 1,880 1}
+{1 1,2 1,3 1,8 1,498 1,980 1}
+{1 1,2 1,7 1,84 1,324 1,1068 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,284 1,910 1}
+{0 =,1 1,2 1,5 1,8 1,87 1,421 1,479 1,1023 1}
+{0 -,1 1,2 1,8 1,294 1,794 1,981 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,191 1,406 1,498 1,620 1,628 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,526 1,611 1,749 1,852 1,915 1}
+{0 -,1 1,2 1,3 1,8 1,146 1,230 1,558 1,854 1,888 1}
+{0 =,1 1,2 1,8 1,66 1,763 1,804 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,157 1,191 1,866 1,881 1,1041 1}
+{1 1,2 1,8 1,560 1}
+{0 =,1 1,2 1,8 1,124 1,498 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,129 1,146 1,286 1,289 1,331 1,452 1}
+{0 =,1 1,2 1,8 1,146 1,854 1}
+{0 =,1 1,2 1,5 1,6 1,8 1,149 1,302 1,390 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,144 1,279 1,352 1,512 1,544 1,645 1,683 1,973 1}
+{1 1,2 1,3 1,7 1,8 1,91 1,698 1,910 1}
+{0 =,1 1,2 1,7 1,146 1,854 1}
+{1 1,2 1,3 1,6 1,7 1,8 1,400 1,538 1,544 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,140 1,529 1,659 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,9 1,498 1,718 1,770 1}
+{0 =,1 1,2 1,7 1,8 1,286 1,289 1,918 1}
+{0 =,1 1,2 1,7 1,8 1,286 1,289 1}
+{1 1,2 1,3 1,5 1,6 1,7 1,8 1,146 1,212 1,404 1,854 1,1023 1}
+{0 -,1 1,2 1,3 1,5 1,129 1,146 1,611 1,665 1,765 1,774 1}
+{1 1,2 1,4 1,5 1,6 1,8 1,146 1,212 1,404 1,854 1,1023 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,417 1,477 1,809 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,518 1}
+{1 1,2 1,3 1,7 1,8 1,763 1,804 1}
+{0 =,1 1,2 1,8 1,206 1,472 1,654 1,730 1,943 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,91 1,408 1,698 1}
+{1 1,2 1,7 1,8 1,129 1,146 1,423 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,935 1}
+{0 =,1 1,2 1,3 1,8 1,476 1}
+{1 1,2 1,7 1,8 1,49 1,286 1,289 1,688 1}
+{0 =,1 1,2 1,8 1,95 1,286 1,518 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1,452 1,636 1,742 1,1013 1,1030 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,140 1,529 1,659 1,973 1}
+{0 -,1 1,2 1,7 1,8 1,125 1,129 1,146 1,228 1,542 1,910 1}
+{0 -,1 1,2 1,7 1,8 1,146 1,249 1,553 1,854 1,1101 1}
+{1 1,2 1,3 1,8 1,148 1,286 1,289 1,520 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,941 1}
+{1 1,2 1,6 1,8 1,146 1,212 1,404 1,854 1,1023 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,129 1,146 1,278 1}
+{0 =,1 1,2 1,3 1,7 1,124 1,324 1,1090 1}
+{1 1,2 1,3 1,8 1,286 1,289 1,318 1}
+{0 =,1 1,2 1,8 1,309 1,726 1,876 1,943 1}
+{0 =,1 1,2 1,3 1,8 1,122 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,8 1,336 1,378 1,410 1,661 1,791 1,1035 1}
+{0 =,1 1,2 1,146 1,302 1,854 1}
+{0 =,1 1,2 1,3 1,8 1,397 1,544 1,916 1}
+{0 =,1 1,2 1,3 1,8 1,284 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,331 1,406 1,452 1,742 1,1030 1}
+{0 =,1 1,2 1,5 1,8 1,86 1,88 1,141 1,362 1,544 1,641 1,938 1,973 1,988 1}
+{0 =,1 1,2 1,8 1,28 1,544 1,660 1,677 1}
+{1 1,2 1,3 1,5 1,8 1,390 1,672 1}
+{0 -,1 1,2 1,5 1,7 1,124 1,328 1,415 1}
+{0 =,1 1,2 1,191 1,225 1,465 1}
+{1 1,2 1,3 1,6 1,8 1,659 1,1031 1}
+{0 =,1 1,2 1,8 1,286 1,289 1}
+{1 1,2 1,5 1,8 1,378 1,476 1,620 1,661 1,903 1,951 1,1042 1}
+{0 -,1 1,2 1,7 1,8 1,378 1}
+{0 -,1 1,2 1,8 1,129 1,146 1,727 1}
+{1 1,2 1,3 1,5 1,8 1,69 1,244 1,427 1,1025 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,156 1,289 1,445 1,591 1,620 1,998 1}
+{0 =,1 1,2 1,7 1,8 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,8 1,335 1,770 1,884 1,1073 1}
+{0 =,1 1,2 1,3 1,4 1,8 1,11 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,549 1,661 1,810 1,1042 1}
+{0 =,1 1,2 1,8 1,86 1,88 1,141 1,362 1,544 1,641 1,938 1,973 1,988 1}
+{0 =,1 1,2 1,8 1,86 1,88 1,141 1,362 1,544 1,641 1,938 1,973 1,988 1}
+{0 =,1 1,2 1,5 1,8 1,86 1,88 1,141 1,362 1,544 1,641 1,938 1,973 1,988 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,144 1,279 1,352 1,512 1,544 1,645 1,683 1,973 1}
+{0 -,1 1,2 1,8 1,901 1,905 1}
+{1 1,2 1,4 1,7 1,8 1,129 1,146 1,349 1,520 1,882 1,1008 1,1033 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,1081 1}
+{1 1,2 1,3 1,8 1,129 1,138 1,289 1,733 1}
+{0 -,1 1,2 1,8 1,112 1,756 1,854 1,934 1}
+{0 =,1 1,2 1,3 1,6 1,8 1}
+{1 1,2 1,8 1,333 1,689 1}
+{0 =,1 1,2 1,7 1,8 1,87 1,421 1,480 1,590 1,773 1}
+{1 1,2 1,8 1,129 1,146 1,303 1,610 1,680 1}
+{0 =,1 1,2 1,5 1,8 1,153 1}
+{0 =,1 1,2 1,3 1,8 1,31 1,112 1,129 1,146 1,726 1,926 1}
+{0 =,1 1,2 1,3 1,8 1,385 1,712 1,974 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,75 1}
+{1 1,2 1,3 1,6 1,8 1,144 1,279 1,352 1,512 1,544 1,645 1,683 1,973 1}
+{0 =,1 1,2 1,7 1,155 1,465 1,1025 1}
+{1 1,2 1,3 1,5 1,8 1,288 1,965 1}
+{0 -,1 1,2 1,3 1,5 1,6 1,8 1,146 1,854 1,935 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,157 1,745 1}
+{1 1,2 1,7 1,8 1,498 1,943 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,35 1,113 1,146 1,228 1,786 1,854 1,910 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,8 1,146 1,690 1,854 1}
+{0 =,1 1,2 1,5 1,8 1,653 1,680 1,1049 1}
+{1 1,2 1,7 1,82 1,124 1,129 1,146 1,187 1,1111 1}
+{1 1,2 1,8 1,458 1,541 1}
+{0 -,1 1,2 1,3 1,7 1,225 1}
+{0 =,1 1,2 1,3 1,5 1,8 1}
+{0 =,1 1,2 1,3 1,6 1,153 1,620 1,781 1,888 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,371 1,640 1,692 1}
+{0 =,1 1,2 1,3 1,8 1,832 1}
+{0 -,1 1,2 1,5 1,8 1,69 1,498 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,209 1,838 1,1100 1}
+{0 -,1 1,2 1,3 1,8 1,258 1}
+{0 =,1 1,2 1,4 1,5 1,7 1,8 1,146 1,854 1}
+{0 -,1 1,2 1,5 1,8 1,827 1}
+{0 =,1 1,2 1,7 1,465 1,498 1}
+{0 =,1 1,2 1,3 1,208 1,286 1,289 1,352 1,1023 1,1085 1}
+{0 =,1 1,2 1,8 1,659 1,973 1}
+{0 =,1 1,2 1,8 1,222 1,320 1,757 1,810 1,855 1,1040 1}
+{0 -,1 1,2 1,4 1,6 1,124 1,157 1,402 1,575 1}
+{0 =,1 1,2 1,7 1,8 1,390 1,477 1,660 1,682 1,877 1,930 1}
+{0 =,1 1,2 1,8 1,21 1,286 1,289 1,331 1,452 1,742 1,1030 1}
+{1 1,2 1,5 1,7 1,153 1,1081 1,1088 1}
+{0 =,1 1,2 1,3 1,8 1,129 1,146 1,286 1,289 1,331 1,452 1}
+{0 =,1 1,2 1,3 1,7 1,417 1,477 1,620 1}
+{0 -,1 1,2 1,5 1,6 1,8 1,499 1}
+{0 =,1 1,2 1,5 1,6 1,8 1,68 1,544 1,1071 1}
+{1 1,2 1,3 1,8 1,997 1}
+{1 1,2 1,3 1,8 1,148 1,286 1,289 1,376 1,520 1}
+{0 -,1 1,2 1,7 1,124 1,140 1,286 1,289 1,333 1,543 1,1091 1}
+{0 -,1 1,2 1,5 1,6 1,8 1,499 1}
+{0 -,1 1,2 1,8 1,297 1,341 1,471 1,794 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,452 1,636 1,742 1,1013 1,1030 1}
+{0 =,1 1,2 1,4 1,7 1,146 1,801 1,854 1,900 1}
+{1 1,2 1,7 1,120 1,754 1,973 1}
+{0 =,1 1,2 1,7 1,146 1,854 1}
+{1 1,2 1,5 1,8 1,140 1,529 1,544 1,973 1}
+{0 -,1 1,2 1,7 1,8 1}
+{0 =,1 1,2 1,5 1,8 1,122 1,124 1,498 1}
+{1 1,2 1,5 1,8 1,284 1,898 1,947 1}
+{0 =,1 1,2 1,8 1}
+{0 -,1 1,2 1,3 1,7 1,124 1,155 1,437 1,847 1}
+{0 -,1 1,2 1,6 1,7 1,8 1,257 1,329 1,537 1,603 1,695 1}
+{1 1,2 1,3 1,8 1,222 1,786 1,856 1}
+{0 =,1 1,2 1,3 1,5 1,146 1,643 1,854 1}
+{0 =,1 1,2 1,3 1,8 1,282 1,498 1,570 1,620 1,628 1}
+{1 1,2 1,3 1,8 1,322 1,796 1,840 1}
+{0 -,1 1,2 1,3 1,4 1,378 1,733 1,752 1,824 1}
+{1 1,2 1,7 1,286 1,289 1,735 1,1100 1,1111 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,714 1,943 1}
+{0 -,1 1,2 1,3 1,6 1,7 1,257 1,329 1,397 1,537 1,603 1,695 1}
+{0 =,1 1,2 1,5 1,7 1,423 1,465 1,623 1,655 1,848 1,948 1,1100 1}
+{1 1,2 1,7 1,75 1,124 1,264 1,423 1,458 1,465 1,623 1,655 1,735 1,1004 1}
+{0 =,1 1,2 1,3 1,8 1,509 1,963 1}
+{0 =,1 1,2 1,3 1,8 1,264 1,390 1,628 1}
+{1 1,2 1,7 1,8 1,66 1,196 1,712 1,974 1,1082 1}
+{1 1,2 1,3 1,6 1,7 1,8 1,748 1,926 1}
+{0 =,1 1,2 1,6 1,8 1,650 1,684 1,1028 1}
+{0 =,1 1,2 1,3 1,7 1,178 1,804 1}
+{0 -,1 1,2 1,6 1,7 1,257 1,329 1,397 1,537 1,603 1,695 1}
+{1 1,2 1,7 1,8 1,90 1,698 1}
+{0 =,1 1,2 1,7 1,330 1,659 1,1071 1,1090 1}
+{1 1,2 1,3 1,7 1,8 1,115 1,146 1,212 1,404 1,854 1,1023 1}
+{0 =,1 1,2 1,8 1,438 1,544 1,612 1,620 1,659 1,678 1,693 1,697 1}
+{1 1,2 1,8 1,146 1,212 1,404 1,854 1,1023 1}
+{0 -,1 1,2 1,8 1,636 1,756 1,854 1}
+{1 1,2 1,8 1,18 1,206 1,472 1,528 1,654 1,659 1,730 1}
+{0 =,1 1,2 1,38 1,506 1,535 1,680 1}
+{0 =,1 1,2 1,8 1,624 1,754 1,1016 1}
+{0 -,1 1,2 1,8 1,129 1,146 1,752 1,821 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,506 1,620 1,903 1}
+{1 1,2 1,5 1,8 1,230 1,402 1,455 1,564 1,653 1}
+{0 =,1 1,2 1,5 1,8 1,9 1,146 1,854 1}
+{1 1,2 1,3 1,8 1,262 1,783 1,803 1,973 1,975 1,1052 1}
+{1 1,2 1,6 1,8 1,145 1,544 1,641 1,697 1,1049 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,286 1,289 1,422 1,885 1}
+{0 =,1 1,2 1,8 1,73 1,155 1,806 1}
+{1 1,2 1,6 1,7 1,8 1,69 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,241 1}
+{1 1,2 1,3 1,8 1,120 1,476 1,510 1,973 1,1004 1}
+{0 =,1 1,2 1,6 1,8 1,677 1,770 1,814 1}
+{1 1,2 1,5 1,328 1,680 1,818 1}
+{1 1,2 1,3 1,8 1,92 1,289 1}
+{0 =,1 1,2 1,4 1,7 1,8 1,120 1,661 1,682 1,975 1}
+{1 1,2 1,4 1,8 1,146 1,661 1,854 1,856 1}
+{0 =,1 1,2 1,4 1,8 1,289 1,643 1,811 1}
+{0 =,1 1,2 1,4 1,8 1,175 1,643 1,811 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,23 1,75 1}
+{1 1,2 1,7 1,391 1,498 1}
+{1 1,2 1,8 1,91 1,408 1,698 1}
+{0 =,1 1,2 1,5 1,8 1,498 1,506 1}
+{1 1,2 1,5 1,8 1,318 1,973 1,1054 1}
+{0 =,1 1,2 1,5 1,6 1,7 1,8 1,284 1,654 1}
+{0 =,1 1,2 1,157 1,275 1,999 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,154 1,286 1,289 1,968 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1,452 1,636 1,742 1,1013 1,1030 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1,518 1}
+{1 1,2 1,3 1,8 1,126 1,659 1,712 1,973 1}
+{0 =,1 1,2 1,8 1,28 1,660 1,943 1}
+{1 1,2 1,3 1,8 1,90 1,233 1,287 1,598 1,733 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,7 1,9 1,225 1,715 1}
+{1 1,2 1,3 1,225 1,649 1,715 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,376 1,522 1,715 1,770 1,945 1}
+{0 =,1 1,2 1,3 1,8 1,111 1,712 1,748 1}
+{0 =,1 1,2 1,3 1,647 1,748 1,1035 1}
+{1 1,2 1,3 1,8 1,408 1}
+{0 -,1 1,2 1,3 1,5 1,124 1,153 1,903 1,951 1}
+{1 1,2 1,8 1,187 1,285 1,897 1}
+{0 -,1 1,2 1,7 1,8 1,506 1,559 1}
+{0 -,1 1,2 1,5 1,8 1,219 1,467 1,903 1,951 1}
+{0 =,1 1,2 1,647 1,748 1,912 1,1001 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,219 1,467 1,903 1,951 1,1029 1}
+{0 =,1 1,2 1,8 1,408 1,544 1,609 1,638 1,790 1,973 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,124 1,284 1,285 1,376 1,706 1,726 1,857 1,934 1}
+{0 -,1 1,2 1,3 1,8 1,62 1,145 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,668 1,758 1}
+{1 1,2 1,8 1,32 1,378 1,660 1,831 1,877 1,985 1}
+{0 =,1 1,2 1,8 1,31 1,112 1,129 1,146 1,228 1,726 1,926 1}
+{1 1,2 1,8 1,120 1,180 1,405 1,636 1,663 1,973 1}
+{1 1,2 1,8 1,148 1,286 1,289 1}
+{0 -,1 1,2 1,3 1,7 1,124 1,1100 1}
+{1 1,2 1,3 1,8 1,120 1,180 1,352 1,405 1,636 1,973 1}
+{1 1,2 1,5 1,8 1,129 1,146 1,303 1,793 1}
+{0 =,1 1,2 1,7 1,8 1,510 1}
+{1 1,2 1,3 1,8 1,268 1,636 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,156 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,187 1,251 1,320 1}
+{0 =,1 1,2 1,8 1,146 1,303 1,503 1,854 1,1031 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,522 1,591 1}
+{0 -,1 1,2 1,8 1,124 1,731 1,824 1,903 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,878 1}
+{1 1,2 1,3 1,5 1,8 1,262 1,291 1,353 1,660 1,803 1,877 1,1032 1}
+{0 =,1 1,2 1,8 1,210 1,394 1,755 1}
+{0 =,1 1,2 1,3 1,7 1,155 1,591 1,1075 1}
+{0 =,1 1,2 1,7 1,9 1,124 1,498 1}
+{1 1,2 1,8 1,289 1,447 1,544 1,973 1}
+{1 1,2 1,3 1,6 1,8 1,1083 1}
+{0 -,1 1,2 1,7 1,8 1,124 1,731 1,824 1,1079 1}
+{0 -,1 1,2 1,7 1,8 1,124 1,731 1,824 1}
+{0 =,1 1,2 1,3 1,7 1,309 1,472 1,620 1,730 1,843 1}
+{1 1,2 1,3 1,4 1,7 1,8 1,120 1,440 1,630 1,712 1,748 1}
+{0 -,1 1,2 1,5 1,6 1,7 1,152 1,845 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,222 1,810 1,1081 1}
+{0 -,1 1,2 1,7 1,222 1,1040 1}
+{1 1,2 1,3 1,8 1,120 1,181 1,400 1,584 1,588 1}
+{0 =,1 1,2 1,7 1,302 1,390 1,659 1,786 1,944 1,949 1}
+{1 1,2 1,3 1,5 1,8 1,189 1,610 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,302 1,390 1,626 1,856 1,1095 1}
+{0 -,1 1,2 1,3 1,167 1,328 1,662 1,705 1,818 1}
+{0 -,1 1,2 1,6 1,8 1,60 1,121 1,511 1,932 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,170 1,284 1,291 1,684 1}
+{1 1,2 1,3 1,5 1,8 1,120 1,285 1,803 1,973 1,1094 1}
+{0 -,1 1,2 1,4 1,8 1,73 1,173 1,188 1,260 1}
+{1 1,2 1,6 1,8 1,377 1,493 1,698 1}
+{1 1,2 1,3 1,5 1,8 1,172 1,974 1}
+{1 1,2 1,5 1,6 1,8 1,302 1,390 1,626 1,856 1,1095 1}
+{0 =,1 1,2 1,7 1,8 1,172 1,236 1,544 1,945 1,973 1,1058 1}
+{1 1,2 1,4 1,7 1,8 1,659 1,698 1,815 1}
+{0 -,1 1,2 1,7 1,8 1}
+{0 =,1 1,2 1,6 1,8 1,193 1,598 1,659 1,698 1}
+{0 -,1 1,2 1,7 1,111 1,376 1,501 1,662 1}
+{0 =,1 1,2 1,3 1,8 1,544 1,659 1,697 1,844 1}
+{0 -,1 1,2 1,4 1,7 1,34 1,329 1}
+{1 1,2 1,4 1,5 1,7 1,8 1,120 1,440 1,973 1}
+{0 =,1 1,2 1,3 1,8 1,60 1,757 1}
+{1 1,2 1,3 1,8 1,371 1,458 1,660 1,789 1,844 1,877 1}
+{1 1,2 1,3 1,6 1,7 1,8 1,120 1,291 1,377 1,584 1,588 1,803 1}
+{0 -,1 1,2 1,4 1,6 1,155 1,413 1}
+{1 1,2 1,3 1,5 1,8 1,262 1,677 1,973 1,992 1}
+{0 =,1 1,2 1,3 1,7 1,124 1,837 1,990 1,1053 1}
+{0 -,1 1,2 1,4 1,5 1,6 1,7 1,353 1,370 1,698 1,783 1}
+{0 -,1 1,2 1,3 1,8 1,378 1,578 1,698 1}
+{0 -,1 1,2 1,6 1,7 1,8 1,121 1,511 1}
+{0 -,1 1,2 1,6 1,8 1,121 1,511 1}
+{0 =,1 1,2 1,3 1,8 1,74 1,352 1,755 1,824 1}
+{1 1,2 1,3 1,8 1,31 1,109 1,120 1,626 1,680 1,856 1,973 1,1032 1}
+{1 1,2 1,6 1,96 1,659 1,973 1,1034 1,1095 1}
+{1 1,2 1,7 1,8 1,521 1,734 1}
+{0 -,1 1,2 1,3 1,4 1,501 1,613 1,1095 1}
+{0 -,1 1,2 1,8 1,265 1,578 1,713 1,810 1}
+{0 =,1 1,2 1,5 1,8 1,149 1,659 1,977 1}
+{0 -,1 1,2 1,8 1,145 1,146 1,520 1,854 1}
+{0 =,1 1,2 1,3 1,8 1,809 1}
+{1 1,2 1,3 1,8 1}
+{0 -,1 1,2 1,3 1,115 1,344 1,393 1,712 1,741 1}
+{0 =,1 1,2 1,5 1,8 1,120 1,587 1,638 1,973 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,328 1,787 1,818 1,1111 1}
+{1 1,2 1,8 1,167 1,400 1,677 1,780 1}
+{1 1,2 1,385 1,417 1,544 1,546 1,897 1,1023 1,1071 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,90 1,156 1,583 1,957 1}
+{1 1,2 1,6 1,503 1,712 1,726 1,974 1}
+{0 -,1 1,2 1,8 1,121 1,184 1,429 1}
+{0 =,1 1,2 1,3 1,7 1,501 1,503 1,559 1,684 1}
+{1 1,2 1,3 1,7 1,501 1,503 1,559 1,684 1,910 1}
+{0 =,1 1,2 1,3 1,7 1,149 1,172 1,501 1}
+{1 1,2 1,3 1,6 1,187 1}
+{0 =,1 1,2 1,7 1,8 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,712 1,826 1,864 1,1081 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,310 1,794 1,877 1,890 1,924 1}
+{0 =,1 1,2 1,7 1,9 1,95 1,310 1,877 1}
+{1 1,2 1,3 1,6 1,8 1,302 1,856 1,944 1,1095 1}
+{1 1,2 1,6 1,8 1,302 1,390 1,520 1,626 1,856 1,944 1,1095 1}
+{1 1,2 1,5 1,7 1,659 1,660 1,877 1}
+{0 -,1 1,2 1,3 1,258 1,329 1,527 1,603 1,616 1}
+{1 1,2 1,8 1,815 1}
+{0 =,1 1,2 1,5 1,8 1,222 1,1040 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,376 1,501 1}
+{1 1,2 1,5 1,7 1,120 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,98 1,696 1,698 1,1054 1}
+{1 1,2 1,3 1,5 1,8 1,120 1,570 1,638 1,973 1}
+{1 1,2 1,3 1,7 1,70 1,328 1,718 1,818 1}
+{0 -,1 1,2 1,4 1,5 1,7 1,335 1,378 1,818 1}
+{0 =,1 1,2 1,53 1,263 1,307 1,661 1,877 1}
+{0 =,1 1,2 1,7 1,8 1,378 1,424 1,757 1,854 1,889 1,931 1}
+{0 -,1 1,2 1,4 1,5 1,7 1,237 1,427 1,844 1}
+{1 1,2 1,8 1,74 1}
+{1 1,2 1,3 1,8 1,60 1,188 1}
+{0 -,1 1,2 1,3 1,7 1,8 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,715 1,905 1}
+{0 =,1 1,2 1,3 1,8 1,129 1,146 1,715 1,905 1}
+{1 1,2 1,3 1,8 1,501 1,613 1}
+{0 =,1 1,2 1,7 1,124 1,499 1,864 1,1081 1}
+{1 1,2 1,3 1,7 1,33 1,187 1,277 1,573 1,787 1,981 1,1103 1}
+{1 1,2 1,5 1,8 1,180 1,309 1,973 1}
+{0 =,1 1,2 1,8 1,424 1,757 1,854 1,889 1,931 1}
+{1 1,2 1,7 1,8 1,328 1,818 1}
+{0 -,1 1,2 1,4 1,90 1,465 1,499 1,509 1,822 1,1091 1}
+{1 1,2 1,5 1,8 1,249 1,261 1,405 1,544 1,638 1,786 1,973 1}
+{0 =,1 1,2 1,7 1,8 1,129 1,146 1,147 1}
+{0 =,1 1,2 1,7 1,8 1,378 1,424 1,757 1,854 1,889 1,931 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,129 1,146 1,147 1}
+{1 1,2 1,7 1,8 1,430 1,587 1,712 1,974 1}
+{1 1,2 1,5 1,8 1,712 1,748 1}
+{1 1,2 1,8 1,120 1,124 1,400 1,584 1,588 1,627 1,661 1,721 1}
+{0 =,1 1,2 1,7 1,8 1,284 1,1006 1}
+{0 =,1 1,2 1,8 1,156 1,753 1,1090 1}
+{0 =,1 1,2 1,6 1,8 1,95 1,245 1,729 1}
+{0 =,1 1,2 1,3 1,8 1,263 1,300 1,789 1,877 1}
+{1 1,2 1,188 1,303 1,394 1,854 1}
+{1 1,2 1,3 1,8 1,118 1,124 1,481 1,659 1,790 1,815 1,934 1,973 1,993 1}
+{0 =,1 1,2 1,8 1,116 1,156 1,283 1,761 1,968 1,1064 1,1079 1}
+{1 1,2 1,3 1,5 1,6 1,187 1,978 1,1085 1}
+{1 1,2 1,3 1,6 1,8 1,544 1,546 1,1071 1}
+{1 1,2 1,7 1,264 1,328 1,636 1,718 1,770 1,818 1}
+{0 =,1 1,2 1,3 1,8 1,214 1,450 1,478 1,636 1}
+{0 =,1 1,2 1,8 1,49 1,222 1,648 1,794 1,843 1,890 1,1001 1,1040 1}
+{0 =,1 1,2 1,5 1,8 1}
+{1 1,2 1,7 1,8 1,188 1}
+{1 1,2 1,8 1,76 1,157 1,487 1}
+{0 =,1 1,2 1,5 1,544 1,591 1,799 1,876 1,889 1}
+{1 1,2 1,8 1,119 1,712 1,747 1,974 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,1086 1}
+{0 =,1 1,2 1,8 1,1086 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,211 1,810 1,832 1,909 1,996 1,1065 1,1085 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,211 1,810 1,832 1,909 1,996 1,1065 1,1085 1}
+{0 =,1 1,2 1,5 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,21 1,329 1,603 1,631 1,910 1,998 1}
+{1 1,2 1,8 1,129 1,146 1,486 1}
+{1 1,2 1,5 1,8 1,291 1,408 1,501 1,659 1}
+{1 1,2 1,7 1,698 1}
+{0 -,1 1,2 1,5 1,193 1,302 1,390 1,616 1,715 1}
+{0 -,1 1,2 1,7 1,124 1,698 1,1111 1}
+{1 1,2 1,3 1,8 1,155 1,611 1}
+{1 1,2 1,4 1,7 1,96 1,217 1,408 1,516 1,613 1,1071 1,1095 1}
+{0 =,1 1,2 1,7 1,156 1}
+{0 =,1 1,2 1,3 1,8 1,659 1,1071 1}
+{1 1,2 1,118 1,124 1,481 1,659 1,790 1,815 1,934 1,973 1,993 1}
+{0 -,1 1,2 1,5 1,8 1,329 1,603 1}
+{0 =,1 1,2 1,7 1,8 1,129 1,146 1,553 1,678 1,688 1,979 1}
+{1 1,2 1,8 1,120 1,428 1}
+{0 =,1 1,2 1,8 1,118 1,973 1,993 1}
+{0 =,1 1,2 1,3 1,8 1,124 1,157 1,389 1,479 1}
+{1 1,2 1,8 1,90 1,267 1,499 1,583 1,957 1,1023 1,1036 1}
+{0 -,1 1,2 1,3 1,8 1,208 1,262 1,687 1,876 1}
+{1 1,2 1,8 1,90 1,267 1,499 1,583 1,957 1,1023 1,1036 1}
+{1 1,2 1,7 1,32 1,157 1,389 1,721 1,967 1}
+{1 1,2 1,8 1,90 1,267 1,499 1,583 1,956 1,1023 1,1036 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,129 1,146 1,433 1,682 1,906 1,983 1}
+{0 -,1 1,2 1,3 1,325 1,355 1,499 1,583 1,957 1,1036 1}
+{1 1,2 1,6 1,8 1,350 1,544 1,587 1,973 1}
+{1 1,2 1,3 1,8 1,413 1,526 1,544 1,587 1,815 1}
+{1 1,2 1,3 1,5 1,7 1,302 1,390 1,1022 1}
+{1 1,2 1,5 1,6 1,8 1,167 1,712 1,748 1,832 1}
+{0 -,1 1,2 1,8 1,152 1,185 1,698 1,928 1}
+{0 =,1 1,2 1,5 1,6 1,7 1,8 1,408 1}
+{0 -,1 1,2 1,8 1,156 1,697 1}
+{1 1,2 1,3 1,8 1,118 1,659 1,815 1,973 1,993 1}
+{0 -,1 1,2 1,3 1,8 1,127 1,265 1,614 1,644 1,914 1,1009 1}
+{0 =,1 1,2 1,6 1,8 1,677 1}
+{1 1,2 1,8 1,63 1,263 1,520 1,661 1,877 1}
+{0 =,1 1,2 1,5 1,7 1,390 1,660 1,811 1,877 1,1048 1}
+{1 1,2 1,5 1,7 1,8 1,129 1,146 1}
+{1 1,2 1,8 1,155 1,201 1,760 1,790 1,811 1}
+{1 1,2 1,3 1,6 1,8 1,52 1,237 1,238 1,820 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,712 1,804 1,974 1,1071 1}
+{1 1,2 1,5 1,7 1,8 1,698 1}
+{1 1,2 1,3 1,8 1,222 1,393 1,885 1,1040 1}
+{0 =,1 1,2 1,7 1,8 1,90 1,325 1,870 1,1069 1}
+{0 -,1 1,2 1,8 1,75 1,238 1,258 1,329 1,656 1}
+{0 -,1 1,2 1,7 1,124 1,328 1,673 1,705 1,818 1}
+{1 1,2 1,3 1,8 1,118 1,659 1,815 1,973 1,993 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,501 1,822 1}
+{1 1,2 1,3 1,8 1,229 1,310 1,454 1,636 1,877 1}
+{0 -,1 1,2 1,8 1,90 1,105 1,156 1}
+{1 1,2 1,3 1,8 1,136 1}
+{0 -,1 1,2 1,4 1,492 1,501 1,1019 1}
+{1 1,2 1,3 1,7 1,157 1,389 1}
+{1 1,2 1,4 1,7 1,698 1,782 1,886 1}
+{1 1,2 1,3 1,8 1,56 1,222 1,567 1,804 1,911 1,1040 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,698 1}
+{0 =,1 1,2 1,8 1,698 1}
+{0 -,1 1,2 1,8 1,265 1,578 1,713 1}
+{0 =,1 1,2 1,7 1,8 1,712 1,974 1}
+{1 1,2 1,7 1,328 1,818 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,424 1,757 1,854 1,889 1}
+{1 1,2 1,5 1,8 1,74 1,241 1,398 1,440 1,692 1,790 1}
+{1 1,2 1,3 1,5 1,121 1,623 1,810 1,974 1,1112 1}
+{0 -,1 1,2 1,8 1,127 1,265 1,615 1,644 1,914 1,1009 1,1080 1}
+{1 1,2 1,8 1,155 1,678 1}
+{1 1,2 1,8 1,107 1,118 1,544 1,659 1,886 1,973 1,994 1}
+{1 1,2 1,8 1,157 1}
+{1 1,2 1,8 1,138 1,157 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,115 1,585 1,660 1,767 1,877 1}
+{1 1,2 1,8 1,104 1,477 1,544 1,688 1,815 1,892 1}
+{1 1,2 1,5 1,8 1,712 1,748 1}
+{1 1,2 1,3 1,7 1,8 1,262 1,589 1,810 1,973 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,171 1,707 1}
+{0 -,1 1,2 1,3 1,8 1,121 1,429 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,156 1,341 1,417 1,964 1,972 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,176 1,219 1,272 1}
+{1 1,2 1,7 1,124 1,187 1,348 1,813 1,847 1}
+{0 -,1 1,2 1,4 1,5 1,8 1,653 1,1008 1}
+{0 =,1 1,2 1,3 1,5 1,177 1,262 1,302 1,390 1,855 1,944 1}
+{1 1,2 1,3 1,7 1,8 1,187 1}
+{0 -,1 1,2 1,3 1,4 1,5 1,8 1,653 1,1008 1}
+{1 1,2 1,4 1,7 1,8 1,129 1}
+{0 -,1 1,2 1,39 1,53 1,199 1,757 1,854 1}
+{0 -,1 1,2 1,4 1,5 1,7 1,8 1,653 1,1008 1,1080 1}
+{0 =,1 1,2 1,156 1}
+{0 =,1 1,2 1,3 1,5 1,563 1}
+{1 1,2 1,3 1,4 1,7 1,8 1,130 1,147 1,486 1,840 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 -,1 1,2 1,8 1,698 1,928 1}
+{0 -,1 1,2 1,4 1,5 1,7 1,8 1,653 1,1008 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,187 1,624 1,754 1,926 1}
+{1 1,2 1,3 1,8 1,222 1,476 1,718 1,889 1,946 1,1040 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,8 1,296 1,389 1,564 1}
+{0 =,1 1,2 1,3 1,8 1,155 1}
+{1 1,2 1,3 1,7 1,8 1,166 1,1001 1}
+{0 =,1 1,2 1,3 1,129 1,146 1,503 1}
+{0 =,1 1,2 1,3 1,8 1,156 1,454 1}
+{1 1,2 1,3 1,6 1,8 1,120 1,285 1,300 1,955 1}
+{0 -,1 1,2 1,39 1,698 1,1090 1}
+{0 =,1 1,2 1,7 1,8 1,698 1,975 1,1104 1}
+{0 =,1 1,2 1,5 1,7 1,187 1,616 1,847 1,1103 1}
+{1 1,2 1,3 1,122 1,501 1,1086 1}
+{0 =,1 1,2 1,3 1,7 1,8 1}
+{1 1,2 1,8 1,157 1,220 1}
+{1 1,2 1,5 1,8 1,712 1,748 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,120 1,417 1,691 1,886 1,924 1}
+{0 -,1 1,2 1,7 1,157 1,165 1}
+{1 1,2 1,4 1,8 1,129 1,146 1,544 1,979 1,985 1,1071 1}
+{1 1,2 1,3 1,8 1,262 1,551 1,830 1,973 1}
+{1 1,2 1,8 1,156 1,913 1}
+{0 =,1 1,2 1,8 1,63 1,1053 1}
+{1 1,2 1,3 1,5 1,7 1,24 1,129 1,146 1,341 1,1043 1,1085 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,129 1,146 1,330 1,636 1}
+{1 1,2 1,8 1,107 1,118 1,516 1,659 1,973 1,994 1}
+{1 1,2 1,7 1,84 1,544 1,973 1}
+{1 1,2 1,8 1,544 1,660 1,736 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,801 1,908 1}
+{1 1,2 1,6 1,7 1,302 1,390 1,804 1,944 1}
+{0 =,1 1,2 1,3 1,39 1,335 1,479 1,639 1,660 1,834 1,877 1,886 1,1057 1}
+{0 =,1 1,2 1,7 1,8 1,115 1,712 1,974 1}
+{0 =,1 1,2 1,3 1,129 1,146 1,831 1,1003 1,1106 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,477 1,660 1,697 1,910 1,973 1}
+{1 1,2 1,3 1,7 1,8 1,125 1,290 1,660 1,718 1}
+{0 =,1 1,2 1,7 1,698 1}
+{1 1,2 1,8 1,261 1,955 1,1071 1,1085 1}
+{0 -,1 1,2 1,8 1,328 1,381 1,454 1,602 1,730 1}
+{1 1,2 1,5 1,7 1,8 1,129 1,146 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,328 1,376 1,602 1}
+{0 =,1 1,2 1,3 1,8 1,320 1,877 1,1026 1}
+{0 =,1 1,2 1,8 1,63 1,66 1,155 1}
+{1 1,2 1,3 1,7 1,8 1,376 1,544 1,973 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,889 1,931 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,328 1,602 1}
+{1 1,2 1,3 1,7 1,8 1,62 1,501 1,961 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,104 1,499 1,709 1}
+{1 1,2 1,6 1,8 1,40 1,129 1,146 1,211 1,661 1,803 1,995 1}
+{1 1,2 1,3 1,7 1,8 1,501 1,961 1}
+{1 1,2 1,4 1,8 1,129 1,146 1,169 1}
+{0 =,1 1,2 1,124 1,155 1,286 1,289 1,772 1}
+{1 1,2 1,7 1,8 1,62 1,201 1,501 1,520 1,910 1,961 1}
+{1 1,2 1,3 1,8 1,107 1,118 1}
+{1 1,2 1,5 1,7 1,84 1,661 1,1042 1}
+{0 =,1 1,2 1,5 1,8 1,155 1,1090 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,66 1,155 1,801 1,908 1}
+{0 -,1 1,2 1,8 1,328 1,381 1,602 1,675 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,770 1}
+{1 1,2 1,8 1,62 1,201 1,360 1,367 1,501 1,520 1,961 1}
+{1 1,2 1,3 1,7 1,8 1,118 1,481 1,659 1,815 1,934 1,993 1}
+{1 1,2 1,5 1,6 1,7 1,8 1,910 1}
+{1 1,2 1,7 1,8 1,155 1,201 1,760 1,811 1}
+{0 =,1 1,2 1,3 1,8 1,309 1,973 1}
+{1 1,2 1,5 1,8 1,66 1,155 1,801 1,908 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,327 1,405 1,544 1,697 1}
+{0 =,1 1,2 1,3 1,8 1,450 1,477 1,833 1}
+{1 1,2 1,3 1,8 1,62 1,501 1,961 1}
+{0 -,1 1,2 1,7 1,8 1,129 1,146 1,680 1,1049 1,1095 1}
+{0 =,1 1,2 1,8 1,315 1,544 1,810 1,992 1,1071 1}
+{0 =,1 1,2 1,8 1,660 1,877 1}
+{1 1,2 1,5 1,7 1,8 1,62 1,201 1,501 1,504 1,910 1,961 1}
+{1 1,2 1,8 1,120 1,138 1,180 1,285 1,405 1,428 1,691 1,1000 1}
+{1 1,2 1,3 1,8 1,416 1}
+{0 -,1 1,2 1,8 1,328 1,381 1,602 1}
+{0 =,1 1,2 1,8 1,177 1,261 1,377 1,551 1,747 1}
+{0 =,1 1,2 1,7 1,8 1,262 1,876 1}
+{0 =,1 1,2 1,3 1,8 1,124 1,390 1,570 1,682 1,698 1,930 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,35 1,261 1,377 1}
+{0 =,1 1,2 1,7 1,8 1,129 1,146 1,289 1,378 1,379 1,424 1,524 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,946 1}
+{0 =,1 1,2 1,6 1,46 1,265 1,291 1,378 1,647 1}
+{0 =,1 1,2 1,7 1,264 1,501 1,729 1,1091 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,104 1,145 1,170 1,425 1,499 1,664 1,1104 1}
+{0 =,1 1,2 1,8 1,28 1,310 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,328 1,602 1}
+{0 =,1 1,2 1,3 1,7 1,8 1}
+{1 1,2 1,7 1,188 1,1088 1}
+{0 =,1 1,2 1,6 1,8 1,551 1,660 1,747 1,789 1,877 1,880 1,939 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,155 1,397 1,478 1,872 1,1075 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,112 1,602 1,675 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,501 1,520 1,594 1,910 1,926 1,955 1}
+{1 1,2 1,8 1,61 1,124 1}
+{1 1,2 1,8 1,712 1,974 1}
+{0 -,1 1,2 1,7 1,8 1,328 1,381 1,602 1,730 1}
+{0 =,1 1,2 1,5 1,8 1,156 1,496 1,653 1}
+{0 =,1 1,2 1,7 1,115 1,187 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,660 1,877 1,1036 1,1076 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,328 1,381 1,602 1,675 1}
+{0 =,1 1,2 1,3 1,8 1,307 1,342 1,501 1,636 1,1080 1,1090 1}
+{0 =,1 1,2 1,8 1,309 1,430 1,587 1,678 1,712 1,974 1}
+{1 1,2 1,3 1,8 1,136 1}
+{1 1,2 1,3 1,8 1,62 1,501 1,961 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,94 1,156 1,962 1}
+{0 -,1 1,2 1,7 1,8 1,146 1,854 1,1103 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,378 1,660 1,877 1}
+{0 -,1 1,2 1,4 1,6 1,129 1,146 1,1104 1}
+{0 -,1 1,2 1,5 1,8 1,698 1}
+{0 =,1 1,2 1,8 1,155 1,314 1,454 1,932 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,156 1,445 1,962 1}
+{0 =,1 1,2 1,3 1,8 1,307 1,342 1,501 1,636 1,1080 1}
+{0 -,1 1,2 1,7 1,8 1,104 1,302 1,313 1,390 1,784 1,883 1,910 1,944 1}
+{0 =,1 1,2 1,8 1,479 1,501 1,701 1}
+{0 =,1 1,2 1,3 1,8 1,660 1,814 1,877 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,263 1,810 1,866 1,877 1}
+{0 -,1 1,2 1,7 1,8 1,698 1,928 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,501 1,594 1,926 1,955 1}
+{0 -,1 1,2 1,8 1,104 1,302 1,313 1,390 1,518 1,702 1,784 1,883 1,944 1}
+{1 1,2 1,5 1,8 1,227 1,806 1}
+{0 =,1 1,2 1,5 1,8 1,363 1,544 1,790 1,973 1}
+{1 1,2 1,3 1,7 1,354 1,402 1,503 1,544 1,876 1,955 1}
+{0 =,1 1,2 1,3 1,8 1,272 1,877 1,1003 1}
+{1 1,2 1,3 1,6 1,187 1,570 1,819 1}
+{0 -,1 1,2 1,5 1,8 1,328 1,503 1,602 1}
+{0 =,1 1,2 1,5 1,8 1,129 1,146 1,179 1}
+{1 1,2 1,7 1,8 1,66 1,660 1,877 1}
+{0 =,1 1,2 1,3 1,8 1,124 1,472 1,716 1,888 1}
+{1 1,2 1,7 1,8 1,62 1,201 1,501 1,961 1}
+{0 -,1 1,2 1,188 1,280 1,391 1,742 1}
+{1 1,2 1,3 1,7 1,8 1,62 1,501 1,961 1}
+{1 1,2 1,5 1,8 1,543 1,660 1,877 1}
+{0 =,1 1,2 1,7 1,544 1,697 1}
+{1 1,2 1,5 1,8 1,52 1,202 1,265 1,405 1}
+{1 1,2 1,3 1,5 1,8 1,310 1,356 1,523 1,677 1,985 1,1072 1}
+{0 -,1 1,2 1,7 1,8 1,328 1,381 1,602 1,730 1}
+{1 1,2 1,6 1,8 1,62 1,201 1,501 1,961 1}
+{0 -,1 1,2 1,7 1,328 1,921 1}
+{1 1,2 1,3 1,7 1,501 1,822 1,874 1,912 1}
+{1 1,2 1,3 1,7 1,8 1,501 1,961 1}
+{0 =,1 1,2 1,3 1,408 1,500 1,501 1}
+{0 =,1 1,2 1,5 1,6 1,400 1}
+{0 -,1 1,2 1,8 1,328 1,381 1,602 1,730 1}
+{0 =,1 1,2 1,8 1,501 1,640 1,680 1,991 1}
+{0 =,1 1,2 1,4 1,155 1,1095 1}
+{1 1,2 1,7 1,226 1,712 1,974 1,1100 1}
+{1 1,2 1,7 1,170 1,499 1,972 1}
+{0 -,1 1,2 1,129 1,146 1,941 1}
+{0 =,1 1,2 1,3 1,8 1,211 1,832 1,852 1,996 1,1065 1}
+{0 =,1 1,2 1,3 1,8 1,104 1,120 1,428 1}
+{0 -,1 1,2 1,7 1,9 1,698 1}
+{0 =,1 1,2 1,6 1,7 1,124 1,660 1,877 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,129 1,146 1}
+{1 1,2 1,6 1,8 1,155 1,946 1,1081 1}
+{0 -,1 1,2 1,7 1,39 1,230 1,277 1}
+{0 =,1 1,2 1,3 1,129 1,146 1,468 1,522 1,531 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,8 1,169 1,254 1}
+{0 =,1 1,2 1,3 1,222 1,479 1,510 1,659 1,876 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,129 1,146 1,910 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,104 1,302 1,390 1,545 1,580 1,855 1}
+{0 =,1 1,2 1,3 1,8 1,124 1,156 1,1085 1}
+{1 1,2 1,3 1,5 1,310 1,348 1,393 1,639 1,682 1,687 1,834 1,877 1}
+{0 =,1 1,2 1,7 1,157 1,283 1}
+{0 -,1 1,2 1,3 1,8 1,104 1,302 1,390 1,580 1,609 1,662 1,687 1,855 1,944 1}
+{0 =,1 1,2 1,8 1,222 1,946 1,1039 1}
+{1 1,2 1,3 1,6 1,7 1,124 1}
+{0 -,1 1,2 1,5 1,8 1,104 1,302 1,390 1,580 1,687 1,855 1}
+{1 1,2 1,8 1,660 1,661 1,1042 1}
+{0 =,1 1,2 1,5 1,8 1,146 1,854 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,328 1,381 1,602 1}
+{1 1,2 1,8 1,155 1,214 1,241 1,320 1}
+{0 =,1 1,2 1,8 1,63 1,309 1,806 1,973 1,1060 1}
+{1 1,2 1,5 1,6 1,8 1,181 1,295 1,576 1}
+{0 -,1 1,2 1,3 1,8 1,104 1,302 1,357 1,390 1,580 1,687 1,855 1}
+{0 =,1 1,2 1,7 1,8 1,67 1,146 1,622 1,854 1}
+{0 -,1 1,2 1,6 1,8 1,68 1,291 1,604 1,605 1,665 1,733 1}
+{0 =,1 1,2 1,8 1,544 1,733 1}
+{1 1,2 1,3 1,5 1,8 1,40 1,129 1,146 1,755 1,854 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,222 1,946 1,1040 1}
+{1 1,2 1,3 1,8 1,720 1,748 1,906 1,1011 1}
+{0 =,1 1,2 1,7 1,162 1,660 1,1023 1,1083 1}
+{0 =,1 1,2 1,6 1,8 1,242 1,325 1,660 1,696 1,747 1,877 1,880 1,939 1}
+{0 =,1 1,2 1,8 1,627 1,660 1,661 1,877 1}
+{0 -,1 1,2 1,3 1,8 1,187 1,404 1,690 1,757 1,1095 1}
+{0 -,1 1,2 1,5 1,8 1,104 1,302 1,390 1,626 1,677 1}
+{0 =,1 1,2 1,8 1,188 1}
+{0 -,1 1,2 1,3 1,5 1,8 1}
+{0 =,1 1,2 1,8 1,146 1,854 1}
+{1 1,2 1,7 1,8 1,222 1,544 1,977 1,1071 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,109 1,302 1,390 1,872 1,894 1,1000 1}
+{1 1,2 1,8 1,62 1,201 1,501 1,961 1}
+{0 =,1 1,2 1,3 1,8 1}
+{1 1,2 1,3 1,7 1,8 1,291 1,378 1,660 1,877 1,910 1}
+{0 -,1 1,2 1,3 1,8 1,169 1,185 1,254 1,566 1,698 1}
+{0 =,1 1,2 1,3 1,5 1,67 1,216 1,430 1,810 1}
+{1 1,2 1,3 1,187 1,264 1,1062 1}
+{1 1,2 1,3 1,8 1,43 1,201 1,286 1,289 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,328 1,602 1,730 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,320 1}
+{0 =,1 1,2 1,5 1,7 1,286 1,289 1,443 1,520 1,598 1,915 1}
+{0 -,1 1,2 1,8 1,169 1,185 1,254 1,378 1,566 1,698 1,928 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,356 1,523 1,677 1,985 1}
+{1 1,2 1,4 1,7 1,8 1,22 1,285 1,799 1}
+{0 =,1 1,2 1,4 1,8 1,284 1,799 1}
+{0 =,1 1,2 1,7 1,155 1,300 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,175 1,563 1}
+{0 -,1 1,2 1,112 1,146 1,674 1,743 1,829 1,854 1,1091 1}
+{1 1,2 1,3 1,7 1,8 1,43 1}
+{1 1,2 1,7 1,8 1,570 1,638 1,647 1,973 1}
+{0 =,1 1,2 1,6 1,8 1,38 1,325 1,660 1,877 1,880 1,939 1}
+{1 1,2 1,3 1,71 1,146 1,427 1,531 1,854 1}
+{0 -,1 1,2 1,8 1,230 1,249 1,420 1,786 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,289 1,321 1,727 1,770 1}
+{0 =,1 1,2 1,8 1,39 1,146 1,249 1,253 1,854 1,1057 1}
+{1 1,2 1,3 1,8 1,501 1,961 1}
+{1 1,2 1,6 1,7 1,8 1,477 1,677 1}
+{1 1,2 1,3 1,8 1,84 1,188 1,244 1,467 1,886 1,926 1}
+{1 1,2 1,5 1,8 1,696 1,698 1,998 1}
+{0 =,1 1,2 1,3 1,4 1,7 1,98 1,286 1,289 1,320 1,1081 1}
+{0 =,1 1,2 1,7 1,119 1,748 1,864 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,187 1,510 1}
+{1 1,2 1,25 1,285 1,378 1,697 1,698 1,842 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1,541 1,833 1,852 1,1001 1}
+{1 1,2 1,3 1,7 1,8 1,243 1,286 1,289 1,477 1}
+{0 =,1 1,2 1,5 1,8 1,356 1,559 1,660 1,677 1,985 1,1072 1}
+{1 1,2 1,3 1,7 1,8 1,172 1,188 1,404 1}
+{0 =,1 1,2 1,7 1,8 1,129 1,146 1,320 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,8 1,104 1,302 1,390 1,580 1,687 1,855 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,146 1,305 1,854 1,1077 1}
+{1 1,2 1,3 1,4 1,7 1,129 1,146 1,628 1}
+{0 =,1 1,2 1,7 1,8 1,698 1}
+{0 =,1 1,2 1,36 1,146 1,360 1,854 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,291 1,398 1,790 1}
+{1 1,2 1,3 1,5 1,8 1,30 1,120 1,364 1,510 1,945 1}
+{1 1,2 1,3 1,7 1,8 1,146 1,167 1,622 1}
+{0 =,1 1,2 1,8 1,39 1,146 1,249 1,253 1,691 1,854 1,1057 1}
+{0 -,1 1,2 1,4 1,7 1,162 1,286 1,289 1,639 1}
+{1 1,2 1,3 1,5 1,7 1,187 1,255 1,705 1}
+{0 =,1 1,2 1,3 1,187 1,264 1,394 1,501 1,684 1}
+{0 =,1 1,2 1,7 1,8 1,236 1,365 1,660 1,848 1,877 1}
+{1 1,2 1,5 1,8 1,21 1,129 1,146 1,460 1,809 1}
+{0 =,1 1,2 1,3 1,8 1,47 1,249 1,354 1,410 1,698 1}
+{0 =,1 1,2 1,3 1,8 1,710 1,766 1}
+{1 1,2 1,3 1,4 1,6 1,8 1,129 1,146 1}
+{0 =,1 1,2 1,7 1,8 1,120 1,128 1,428 1,1081 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,770 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,378 1,1076 1}
+{0 =,1 1,2 1,8 1,68 1,249 1,605 1,665 1}
+{0 -,1 1,2 1,146 1,199 1,348 1,392 1,854 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,155 1,376 1,476 1,591 1}
+{0 -,1 1,2 1,8 1,146 1,302 1,503 1,593 1,690 1,854 1}
+{1 1,2 1,7 1,8 1,390 1,543 1,659 1,673 1}
+{1 1,2 1,3 1,8 1,488 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,404 1,1095 1}
+{0 -,1 1,2 1,8 1,146 1,208 1,854 1}
+{1 1,2 1,6 1,8 1,154 1,810 1,1085 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,358 1,677 1}
+{1 1,2 1,3 1,8 1,143 1,572 1}
+{1 1,2 1,3 1,8 1,408 1,477 1,659 1,993 1,1080 1}
+{0 -,1 1,2 1,3 1,8 1,25 1,238 1,315 1,318 1,1062 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,155 1,271 1,872 1,1093 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1,935 1}
+{0 =,1 1,2 1,6 1,7 1,242 1,286 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,585 1,877 1}
+{1 1,2 1,8 1,219 1,286 1,289 1,544 1,815 1}
+{0 -,1 1,2 1,3 1,8 1,129 1,146 1,179 1,663 1}
+{1 1,2 1,8 1,544 1,926 1,973 1,995 1}
+{0 =,1 1,2 1,7 1,8 1,810 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,702 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,146 1,305 1,854 1,932 1,1077 1}
+{0 =,1 1,2 1,7 1,365 1,613 1,688 1,754 1,771 1,1068 1}
+{1 1,2 1,3 1,6 1,501 1}
+{1 1,2 1,8 1,74 1,77 1,439 1,760 1,1020 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,162 1,286 1,289 1,555 1}
+{1 1,2 1,3 1,7 1,8 1,107 1,118 1,659 1,973 1,994 1}
+{0 -,1 1,2 1,7 1,111 1,124 1}
+{1 1,2 1,5 1,6 1,8 1,286 1,289 1,364 1,722 1,789 1,822 1,1085 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,222 1,1084 1}
+{0 =,1 1,2 1,7 1,8 1,124 1,779 1,830 1,1081 1}
+{1 1,2 1,7 1,8 1,146 1,167 1,622 1,854 1}
+{0 -,1 1,2 1,7 1,8 1,187 1,404 1,690 1,757 1,1095 1}
+{1 1,2 1,7 1,286 1,289 1,883 1,953 1}
+{0 =,1 1,2 1,3 1,8 1,650 1}
+{1 1,2 1,7 1,8 1,157 1,466 1,682 1,1053 1,1080 1}
+{1 1,2 1,7 1,8 1,146 1,167 1,618 1,787 1,854 1,1080 1,1104 1}
+{1 1,2 1,3 1,7 1,8 1,229 1,262 1,358 1,722 1,811 1,876 1}
+{0 =,1 1,2 1,7 1,8 1,339 1,378 1}
+{0 -,1 1,2 1,5 1,7 1,9 1,48 1,328 1,602 1,838 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1,503 1,674 1,873 1,1094 1}
+{0 -,1 1,2 1,3 1,124 1,146 1,344 1,854 1}
+{1 1,2 1,7 1,501 1,628 1,735 1,1035 1}
+{0 =,1 1,2 1,8 1,146 1,253 1,854 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,286 1,289 1,518 1,852 1}
+{0 -,1 1,2 1,5 1,8 1,104 1,302 1,390 1,545 1,580 1,855 1}
+{0 =,1 1,2 1,8 1,276 1,286 1,289 1,347 1,962 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,624 1,755 1}
+{0 =,1 1,2 1,7 1,8 1}
+{0 =,1 1,2 1,5 1,7 1,659 1,973 1}
+{1 1,2 1,3 1,5 1,286 1,289 1,565 1}
+{0 -,1 1,2 1,8 1,102 1,146 1,772 1,854 1,1103 1}
+{0 -,1 1,2 1,4 1,157 1,283 1,682 1}
+{0 =,1 1,2 1,3 1,8 1,162 1,286 1,289 1,754 1,879 1}
+{0 =,1 1,2 1,7 1,156 1}
+{0 -,1 1,2 1,7 1,8 1,327 1,405 1,544 1,697 1,928 1}
+{0 =,1 1,2 1,3 1,8 1,129 1,146 1,293 1,347 1,354 1,887 1}
+{1 1,2 1,8 1,102 1,511 1,544 1,973 1}
+{1 1,2 1,7 1,8 1,660 1,877 1}
+{1 1,2 1,3 1,7 1,8 1,922 1}
+{0 =,1 1,2 1,3 1,8 1,162 1,208 1,692 1,790 1,893 1,947 1}
+{0 =,1 1,2 1,3 1,7 1,343 1,641 1,660 1,877 1}
+{1 1,2 1,6 1,7 1,8 1,760 1,966 1}
+{1 1,2 1,8 1,390 1,654 1,810 1}
+{0 =,1 1,2 1,8 1,104 1,688 1}
+{0 -,1 1,2 1,5 1,263 1,338 1,623 1,682 1,852 1,877 1,1019 1}
+{0 =,1 1,2 1,5 1,302 1,390 1,854 1}
+{1 1,2 1,7 1,8 1,107 1,118 1,659 1,973 1,994 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,209 1,383 1}
+{1 1,2 1,3 1,8 1,123 1,962 1}
+{0 -,1 1,2 1,8 1,129 1,146 1,230 1,303 1,484 1,690 1,852 1,917 1}
+{0 -,1 1,2 1,4 1,7 1,8 1,146 1,415 1,854 1}
+{0 =,1 1,2 1,6 1,8 1,146 1,854 1}
+{1 1,2 1,7 1,8 1,123 1,962 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,44 1,376 1,698 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,124 1,757 1,973 1}
+{1 1,2 1,146 1,465 1,682 1,854 1}
+{0 =,1 1,2 1,7 1,156 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,383 1}
+{0 =,1 1,2 1,7 1,8 1,21 1,120 1,1104 1}
+{0 =,1 1,2 1,8 1,21 1,120 1,1061 1}
+{0 =,1 1,2 1,5 1,8 1,286 1,289 1,319 1}
+{1 1,2 1,7 1,8 1,61 1,146 1,167 1,764 1,854 1}
+{1 1,2 1,3 1,7 1,8 1,69 1,205 1,987 1}
+{0 =,1 1,2 1,7 1,8 1,638 1,659 1,790 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,8 1}
+{1 1,2 1,3 1,5 1,8 1,219 1,370 1,417 1,888 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,347 1,354 1,887 1}
+{1 1,2 1,3 1,8 1,712 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,347 1,354 1,887 1}
+{0 -,1 1,2 1,5 1,7 1,602 1,774 1,934 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,698 1,743 1}
+{1 1,2 1,6 1,7 1,8 1,302 1,910 1}
+{0 =,1 1,2 1,7 1,146 1,636 1,757 1,854 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,184 1,602 1,819 1,1008 1}
+{0 -,1 1,2 1,7 1,155 1}
+{0 =,1 1,2 1,5 1,7 1,146 1,220 1,661 1,854 1,917 1,1023 1,1042 1}
+{0 =,1 1,2 1,8 1,146 1,167 1,622 1,854 1}
+{1 1,2 1,3 1,7 1,8 1,167 1,622 1}
+{0 =,1 1,2 1,3 1,5 1,262 1,632 1,655 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,129 1}
+{0 -,1 1,2 1,8 1,14 1,264 1,412 1,658 1,668 1,1003 1}
+{0 -,1 1,2 1,7 1,8 1,328 1,381 1,602 1,686 1}
+{0 =,1 1,2 1,8 1,659 1,712 1,814 1,946 1,973 1}
+{0 =,1 1,2 1,3 1,7 1,33 1,37 1,501 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,17 1,124 1,354 1,412 1,449 1,636 1,668 1,910 1}
+{0 -,1 1,2 1,5 1,8 1,104 1,302 1,390 1,687 1,855 1}
+{0 =,1 1,2 1,4 1,5 1,8 1,129 1,146 1}
+{0 -,1 1,2 1,6 1,7 1,8 1,123 1,564 1,831 1,962 1}
+{1 1,2 1,3 1,242 1,286 1,325 1,824 1,968 1}
+{0 =,1 1,2 1,8 1,63 1}
+{0 =,1 1,2 1,3 1,8 1,338 1,621 1,912 1,1045 1}
+{1 1,2 1,3 1,7 1,8 1,189 1,520 1,544 1,660 1,877 1,1095 1}
+{0 =,1 1,2 1,7 1,8 1,503 1,638 1,659 1,790 1,973 1}
+{0 =,1 1,2 1,7 1,8 1,659 1,697 1,997 1}
+{1 1,2 1,3 1,8 1,222 1,1040 1}
+{0 =,1 1,2 1,8 1,146 1,354 1,657 1,847 1,854 1}
+{0 =,1 1,2 1,7 1,8 1,535 1,796 1}
+{0 -,1 1,2 1,8 1,129 1,146 1}
+{1 1,2 1,7 1,154 1,698 1}
+{1 1,2 1,8 1,286 1,309 1,390 1,654 1,810 1}
+{0 -,1 1,2 1,5 1,8 1,146 1,305 1,854 1,1077 1}
+{1 1,2 1,4 1,8 1,146 1,691 1,854 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,17 1,124 1,412 1,449 1,668 1}
+{0 =,1 1,2 1,3 1,8 1,302 1,390 1,944 1}
+{0 =,1 1,2 1,7 1,8 1,501 1,640 1,910 1,991 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,809 1,904 1}
+{1 1,2 1,7 1,8 1,129 1,146 1,289 1,741 1,786 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,852 1}
+{0 =,1 1,2 1,6 1,79 1,156 1,396 1,417 1,726 1,797 1}
+{0 =,1 1,2 1,7 1,8 1,286 1,289 1}
+{1 1,2 1,7 1,124 1,155 1,199 1,267 1,321 1,770 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,115 1}
+{0 =,1 1,2 1,6 1,79 1,156 1,396 1,417 1,726 1,797 1}
+{0 -,1 1,2 1,7 1,8 1,120 1,328 1,602 1,673 1,903 1,998 1}
+{1 1,2 1,8 1,62 1,201 1,501 1,961 1}
+{0 =,1 1,2 1,6 1,79 1,156 1,396 1,417 1,797 1}
+{1 1,2 1,3 1,6 1,8 1,660 1,810 1,877 1}
+{1 1,2 1,8 1,146 1,859 1,1086 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,17 1,124 1,412 1,449 1,668 1}
+{0 -,1 1,2 1,5 1,8 1,412 1,668 1}
+{1 1,2 1,8 1,157 1,566 1,810 1}
+{0 =,1 1,2 1,6 1,8 1,205 1,286 1,289 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,17 1,124 1,412 1,449 1,668 1,910 1}
+{0 -,1 1,2 1,8 1,405 1,544 1,697 1}
+{0 =,1 1,2 1,8 1,189 1,372 1,660 1,877 1}
+{0 -,1 1,2 1,5 1,392 1,659 1,682 1,830 1,876 1}
+{1 1,2 1,5 1,7 1,8 1,152 1,208 1,408 1,544 1,689 1,910 1,973 1}
+{0 =,1 1,2 1,3 1,5 1,416 1,810 1,877 1}
+{1 1,2 1,3 1,6 1,8 1,544 1,546 1,1071 1}
+{1 1,2 1,3 1,6 1,284 1,438 1,492 1,662 1}
+{0 -,1 1,2 1,8 1,129 1,146 1,484 1,690 1,917 1}
+{1 1,2 1,3 1,8 1,588 1,804 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,8 1,146 1,908 1}
+{0 -,1 1,2 1,5 1,7 1,21 1,146 1,285 1,819 1,854 1}
+{1 1,2 1,3 1,5 1,8 1,187 1,737 1}
+{1 1,2 1,3 1,5 1,8 1,84 1,680 1}
+{1 1,2 1,8 1,698 1}
+{0 -,1 1,2 1,7 1,8 1,124 1,184 1}
+{0 -,1 1,2 1,36 1,146 1,854 1,1111 1}
+{0 =,1 1,2 1,3 1,156 1,549 1}
+{1 1,2 1,3 1,8 1,129 1,146 1,978 1,1085 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,115 1,155 1,433 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,146 1,305 1,854 1,1077 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,49 1,1103 1}
+{1 1,2 1,3 1,5 1,8 1,39 1,286 1,289 1,392 1,553 1,599 1}
+{0 =,1 1,2 1,3 1,4 1,7 1,8 1,230 1,649 1,697 1}
+{1 1,2 1,3 1,7 1,8 1,584 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,115 1}
+{0 =,1 1,2 1,3 1,8 1}
+{1 1,2 1,3 1,7 1,162 1,286 1,289 1,560 1,591 1,677 1,824 1}
+{0 =,1 1,2 1,7 1,8 1,115 1,338 1,621 1,912 1,1045 1}
+{1 1,2 1,7 1,8 1,107 1,118 1,659 1,973 1,994 1}
+{0 -,1 1,2 1,8 1,146 1,484 1,690 1,854 1}
+{1 1,2 1,5 1,7 1,8 1,455 1,806 1}
+{0 =,1 1,2 1,8 1,692 1,698 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,910 1}
+{0 =,1 1,2 1,8 1,390 1,654 1,830 1,930 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,155 1,801 1,908 1}
+{1 1,2 1,8 1,660 1,877 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,170 1,479 1,554 1,598 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,124 1,307 1,678 1,1071 1}
+{0 =,1 1,2 1,8 1,63 1,155 1,180 1,592 1,758 1,877 1}
+{1 1,2 1,5 1,8 1,206 1,286 1,289 1,404 1,945 1}
+{0 =,1 1,2 1,7 1,8 1}
+{0 -,1 1,2 1,5 1,8 1,412 1,668 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,17 1,124 1,412 1,449 1,668 1,910 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,32 1,307 1,309 1,378 1,686 1,699 1,1049 1}
+{0 -,1 1,2 1,7 1,8 1,37 1,259 1,502 1,1010 1}
+{0 =,1 1,2 1,7 1,8 1}
+{0 -,1 1,2 1,3 1,8 1,710 1,959 1,1010 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,194 1,284 1,285 1,977 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,129 1,146 1,513 1,854 1}
+{0 -,1 1,2 1,7 1,124 1,129 1,146 1}
+{1 1,2 1,8 1,286 1,289 1,565 1,751 1,799 1}
+{0 =,1 1,2 1,5 1,149 1,302 1,390 1}
+{0 =,1 1,2 1,7 1,8 1}
+{0 -,1 1,2 1,8 1,157 1,502 1,929 1,959 1,1010 1}
+{0 =,1 1,2 1,5 1,187 1,288 1,423 1,848 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,358 1,710 1,978 1,1076 1}
+{1 1,2 1,5 1,8 1,51 1,506 1,620 1,698 1,814 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,37 1,502 1,1010 1}
+{0 =,1 1,2 1,7 1,146 1,473 1,854 1,1091 1}
+{1 1,2 1,8 1,400 1}
+{0 -,1 1,2 1,3 1,7 1,155 1,175 1,965 1}
+{0 =,1 1,2 1,8 1,21 1,309 1,1071 1,1084 1}
+{0 =,1 1,2 1,9 1,145 1,146 1,336 1,380 1,544 1,854 1,930 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,196 1,333 1,358 1}
+{0 -,1 1,2 1,8 1,68 1,146 1,520 1,725 1,854 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,7 1,8 1,37 1,479 1}
+{0 =,1 1,2 1,7 1,8 1}
+{1 1,2 1,5 1,8 1,222 1,824 1,1040 1,1060 1}
+{0 -,1 1,2 1,4 1,8 1,264 1,412 1,658 1,668 1}
+{1 1,2 1,4 1,7 1,8 1,107 1,544 1,697 1}
+{0 =,1 1,2 1,3 1,8 1,129 1,146 1,484 1,663 1,690 1,917 1}
+{0 =,1 1,2 1,4 1,5 1,286 1,289 1,661 1,892 1,903 1,951 1,1042 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,286 1,289 1,550 1,733 1,893 1}
+{0 =,1 1,2 1,8 1,235 1,378 1}
+{0 =,1 1,2 1,8 1,660 1,799 1,870 1,877 1}
+{0 =,1 1,2 1,5 1,8 1,286 1,289 1,550 1,733 1,893 1,970 1}
+{0 -,1 1,2 1,3 1,7 1,329 1,367 1,603 1,819 1}
+{1 1,2 1,5 1,7 1,8 1,39 1,155 1,377 1,910 1}
+{0 =,1 1,2 1,7 1,8 1,21 1,129 1,146 1,170 1,289 1,707 1}
+{0 =,1 1,2 1,3 1,7 1,187 1,479 1,965 1,1079 1}
+{0 -,1 1,2 1,3 1,187 1,308 1,715 1,946 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,115 1,187 1,284 1,367 1,456 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,885 1}
+{0 =,1 1,2 1,3 1,297 1,338 1,468 1,471 1,754 1,924 1}
+{1 1,2 1,8 1,74 1,386 1,790 1,1060 1}
+{1 1,2 1,8 1,294 1,398 1,520 1,827 1}
+{0 -,1 1,2 1,5 1,8 1,335 1,385 1,506 1,735 1}
+{1 1,2 1,7 1,8 1,289 1,376 1,520 1,660 1,877 1}
+{1 1,2 1,7 1,8 1,153 1,335 1,1073 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,477 1,841 1}
+{0 -,1 1,2 1,3 1,8 1,147 1,268 1,599 1,603 1,1094 1}
+{0 =,1 1,2 1,8 1,498 1,770 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,510 1,661 1,1042 1}
+{0 =,1 1,2 1,3 1,8 1,1022 1}
+{0 =,1 1,2 1,8 1,679 1}
+{1 1,2 1,3 1,8 1,329 1,603 1,989 1}
+{0 -,1 1,2 1,3 1,8 1,20 1,124 1,129 1,146 1,503 1,662 1,682 1,977 1}
+{1 1,2 1,3 1,8 1,15 1,222 1,440 1,790 1,912 1,1040 1}
+{0 -,1 1,2 1,3 1,7 1,124 1,155 1,367 1,594 1}
+{0 =,1 1,2 1,3 1,8 1,592 1}
+{0 =,1 1,2 1,7 1,8 1,158 1,376 1,498 1,520 1,716 1,888 1}
+{1 1,2 1,3 1,4 1,8 1,977 1}
+{0 =,1 1,2 1,8 1,378 1,511 1,660 1,877 1}
+{0 -,1 1,2 1,506 1,620 1,885 1}
+{0 -,1 1,2 1,7 1,8 1,97 1,376 1,810 1,871 1}
+{1 1,2 1,3 1,8 1,51 1,506 1,620 1,698 1,814 1}
+{0 -,1 1,2 1,3 1,8 1,50 1,498 1,502 1,666 1,903 1,1010 1}
+{0 -,1 1,2 1,7 1,8 1,129 1,146 1,484 1,690 1,917 1}
+{0 -,1 1,2 1,3 1,4 1,207 1,328 1,602 1,775 1}
+{0 -,1 1,2 1,8 1,124 1,129 1,146 1,503 1,662 1,682 1,977 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,291 1,417 1,563 1,676 1,679 1,692 1,873 1}
+{1 1,2 1,3 1,7 1,8 1,62 1,201 1,358 1,501 1,722 1,961 1}
+{0 -,1 1,2 1,3 1,7 1,498 1,662 1,685 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,772 1}
+{0 -,1 1,2 1,8 1,20 1,124 1,129 1,146 1,476 1,503 1,662 1,682 1,977 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,146 1,854 1}
+{0 -,1 1,2 1,3 1,4 1,8 1,233 1,411 1,498 1,965 1,1005 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,115 1,402 1,498 1,762 1}
+{0 =,1 1,2 1,3 1,7 1,124 1,225 1}
+{1 1,2 1,3 1,6 1,7 1,498 1,971 1}
+{1 1,2 1,8 1,146 1,854 1}
+{0 =,1 1,2 1,3 1,8 1,310 1,447 1,877 1}
+{0 =,1 1,2 1,3 1,8 1,310 1,447 1,877 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,50 1,498 1,903 1,951 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,302 1,390 1,855 1}
+{0 =,1 1,2 1,6 1,8 1,511 1,816 1,1075 1,1093 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,8 1,121 1,511 1,714 1,877 1,989 1}
+{0 =,1 1,2 1,3 1,162 1,286 1,289 1,1027 1}
+{1 1,2 1,8 1,286 1,289 1,920 1}
+{1 1,2 1,3 1,8 1,284 1,378 1,396 1,677 1}
+{1 1,2 1,3 1,5 1,7 1,287 1,660 1,877 1}
+{0 =,1 1,2 1,7 1,8 1,172 1,446 1,471 1}
+{0 -,1 1,2 1,7 1,146 1,311 1,416 1,727 1,854 1}
+{0 =,1 1,2 1,3 1,8 1,259 1,378 1,733 1,867 1,916 1,967 1}
+{0 -,1 1,2 1,3 1,8 1,1001 1}
+{0 =,1 1,2 1,7 1,8 1,511 1,659 1,728 1,973 1,1093 1}
+{1 1,2 1,3 1,8 1,370 1,506 1,518 1,620 1,955 1}
+{1 1,2 1,3 1,6 1,8 1,659 1,778 1,1028 1,1071 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,255 1}
+{1 1,2 1,7 1,208 1,286 1,289 1}
+{0 -,1 1,2 1,3 1,8 1,502 1,1010 1}
+{0 -,1 1,2 1,3 1,8 1,502 1,1010 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,766 1,959 1}
+{1 1,2 1,8 1,282 1,286 1,289 1,522 1,751 1,799 1}
+{1 1,2 1,3 1,6 1,8 1,208 1,224 1,498 1,502 1,620 1,923 1,1010 1,1064 1}
+{0 -,1 1,2 1,3 1,4 1,7 1,153 1,163 1,1045 1}
+{0 =,1 1,2 1,5 1,6 1,8 1,222 1,232 1,422 1,885 1,1040 1}
+{0 =,1 1,2 1,4 1,8 1,37 1,408 1,470 1,479 1,502 1,506 1,620 1,903 1,951 1,959 1}
+{1 1,2 1,3 1,8 1,157 1,166 1,299 1,506 1,620 1,903 1,951 1}
+{1 1,2 1,157 1,166 1,259 1,299 1,620 1,903 1,951 1,959 1}
+{0 -,1 1,2 1,3 1,7 1,50 1,192 1,477 1,498 1,579 1,903 1,951 1,1051 1}
+{0 =,1 1,2 1,5 1,8 1,269 1,498 1}
+{0 =,1 1,2 1,3 1,8 1,157 1,166 1,299 1,503 1,903 1}
+{0 =,1 1,2 1,5 1,698 1,712 1,830 1,974 1}
+{0 -,1 1,2 1,3 1,6 1,157 1,477 1}
+{0 -,1 1,2 1,3 1,5 1,360 1,392 1,506 1,827 1}
+{1 1,2 1,3 1,7 1,8 1,677 1,803 1}
+{1 1,2 1,120 1,285 1,439 1,973 1}
+{0 -,1 1,2 1,8 1}
+{1 1,2 1,205 1,498 1,546 1,727 1}
+{1 1,2 1,3 1,6 1,286 1,289 1}
+{0 -,1 1,2 1,3 1,7 1,50 1,192 1,477 1,498 1,579 1,903 1,951 1,1051 1}
+{1 1,2 1,499 1,583 1,721 1,957 1,968 1,985 1}
+{1 1,2 1,7 1,193 1,498 1,771 1}
+{0 -,1 1,2 1,103 1,301 1,389 1,477 1,506 1,628 1,662 1,862 1,903 1}
+{0 =,1 1,2 1,389 1,498 1,721 1,968 1}
+{1 1,2 1,5 1,7 1,124 1,389 1,498 1,518 1,817 1,965 1}
+{1 1,2 1,7 1,8 1,207 1,477 1,770 1,871 1}
+{1 1,2 1,5 1,124 1,520 1,544 1,667 1,876 1}
+{0 =,1 1,2 1,3 1,531 1,662 1,673 1,854 1,1103 1}
+{0 =,1 1,2 1,7 1,155 1,433 1}
+{0 =,1 1,2 1,3 1,4 1,8 1}
+{1 1,2 1,7 1,187 1}
+{1 1,2 1,7 1,286 1,289 1,347 1,799 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,153 1,190 1,728 1,836 1,1010 1,1079 1}
+{0 -,1 1,2 1,3 1,4 1}
+{0 -,1 1,2 1,7 1,280 1,502 1,1083 1}
+{0 =,1 1,2 1,5 1,8 1,310 1,677 1,780 1,877 1}
+{1 1,2 1,8 1,157 1,166 1,299 1,903 1}
+{1 1,2 1,7 1,162 1,289 1,560 1,824 1,962 1,1027 1}
+{1 1,2 1,7 1,162 1,286 1,289 1,560 1,824 1,962 1,1027 1}
+{0 -,1 1,2 1,7 1,50 1,192 1,427 1,498 1,549 1,579 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,260 1,953 1}
+{0 -,1 1,2 1,4 1,8 1,906 1}
+{1 1,2 1,3 1,8 1,299 1,358 1,506 1,620 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,209 1,715 1,824 1}
+{1 1,2 1,3 1,8 1,316 1,502 1,766 1}
+{0 -,1 1,2 1,3 1,53 1,408 1,498 1,772 1}
+{0 -,1 1,2 1,3 1,498 1,885 1}
+{1 1,2 1,4 1,7 1,8 1,809 1}
+{0 -,1 1,2 1,7 1,385 1,660 1,830 1,847 1,1072 1}
+{0 =,1 1,2 1,7 1,297 1}
+{1 1,2 1,7 1,8 1,84 1,432 1,910 1,977 1}
+{0 =,1 1,2 1,7 1,530 1}
+{1 1,2 1,6 1,7 1,8 1,49 1}
+{1 1,2 1,5 1,7 1,8 1,286 1,289 1}
+{1 1,2 1,3 1,8 1,299 1,358 1,903 1,951 1}
+{1 1,2 1,8 1,120 1,286 1,289 1,711 1,893 1,935 1,945 1}
+{0 =,1 1,2 1,8 1,402 1,551 1,698 1,770 1}
+{1 1,2 1,3 1,5 1,8 1,733 1}
+{0 =,1 1,2 1,5 1,6 1,39 1,155 1,1074 1,1093 1}
+{0 =,1 1,2 1,8 1,187 1,946 1,1020 1}
+{0 =,1 1,2 1,7 1,129 1,146 1}
+{1 1,2 1,3 1,8 1,111 1,214 1}
+{1 1,2 1,3 1,8 1,518 1,632 1,1081 1}
+{0 -,1 1,2 1,324 1,928 1}
+{0 -,1 1,2 1,3 1,8 1,260 1,953 1}
+{0 =,1 1,2 1,3 1,7 1,111 1,146 1,803 1,854 1}
+{1 1,2 1,8 1,527 1,905 1}
+{0 -,1 1,2 1,8 1,770 1}
+{1 1,2 1,7 1,8 1,280 1}
+{0 -,1 1,2 1,8 1,160 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,365 1}
+{0 =,1 1,2 1,3 1,8 1,384 1}
+{1 1,2 1,3 1,6 1,8 1,128 1,671 1}
+{0 =,1 1,2 1,316 1,330 1,498 1,502 1,620 1,903 1,951 1}
+{1 1,2 1,7 1,8 1,585 1,820 1}
+{0 =,1 1,2 1,5 1,8 1,62 1,155 1,636 1}
+{0 =,1 1,2 1,223 1,284 1,343 1,402 1,506 1,577 1,620 1,670 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,8 1,578 1,605 1,757 1,854 1}
+{1 1,2 1,3 1,8 1,62 1,201 1,358 1,501 1,722 1,961 1}
+{0 -,1 1,2 1,4 1,6 1,7 1,219 1,225 1,390 1,717 1,930 1}
+{1 1,2 1,3 1,7 1,224 1,264 1,498 1,836 1,949 1}
+{1 1,2 1,3 1,5 1,8 1,265 1,535 1}
+{1 1,2 1,3 1,8 1,309 1,310 1,659 1,726 1,804 1,877 1}
+{0 =,1 1,2 1,3 1,8 1,129 1,146 1,288 1}
+{0 -,1 1,2 1,124 1,219 1,498 1,502 1,518 1,732 1,1087 1}
+{0 =,1 1,2 1,7 1,146 1,465 1,649 1,854 1,941 1}
+{0 =,1 1,2 1,7 1,8 1,278 1,506 1,620 1,910 1}
+{1 1,2 1,8 1,491 1,544 1,973 1}
+{1 1,2 1,8 1,157 1,293 1,393 1}
+{0 =,1 1,2 1,286 1,289 1,465 1,623 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,319 1}
+{1 1,2 1,6 1,8 1,122 1,123 1,192 1,962 1,1088 1}
+{0 =,1 1,2 1,3 1,5 1,318 1,477 1,725 1,951 1,1054 1}
+{0 -,1 1,2 1,4 1,7 1,307 1,501 1,733 1}
+{0 =,1 1,2 1,3 1,5 1,318 1,477 1,725 1,951 1,1054 1}
+{0 =,1 1,2 1,83 1,153 1}
+{1 1,2 1,5 1,7 1,659 1,665 1,845 1,973 1}
+{0 =,1 1,2 1,7 1,8 1,121 1,834 1,974 1}
+{0 =,1 1,2 1,712 1,974 1,1103 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,129 1,146 1,170 1,598 1}
+{1 1,2 1,5 1,7 1,8 1,126 1,262 1,677 1,934 1,973 1}
+{1 1,2 1,124 1,498 1,662 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,156 1,378 1,477 1,721 1,729 1,789 1,951 1,1083 1}
+{0 -,1 1,2 1,3 1,5 1,248 1,318 1,477 1,721 1,951 1,1004 1,1054 1}
+{0 =,1 1,2 1,3 1,5 1,153 1,1085 1,1093 1}
+{0 =,1 1,2 1,7 1,286 1,289 1,822 1,909 1,1049 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,137 1,148 1,620 1,656 1,713 1}
+{1 1,2 1,3 1,7 1,153 1,367 1,729 1,923 1}
+{0 =,1 1,2 1,5 1,6 1,286 1,289 1,810 1,1027 1}
+{0 =,1 1,2 1,8 1,491 1,504 1,811 1}
+{0 =,1 1,2 1,3 1,5 1,390 1,400 1,651 1,810 1,930 1}
+{0 =,1 1,2 1,8 1,616 1,660 1,877 1}
+{0 -,1 1,2 1,8 1,31 1,510 1,544 1,906 1,973 1}
+{0 =,1 1,2 1,3 1,8 1,477 1,491 1,811 1}
+{0 -,1 1,2 1,5 1,7 1,386 1,402 1,498 1,620 1,673 1,677 1,900 1}
+{1 1,2 1,3 1,7 1,155 1,377 1,787 1,990 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,116 1,283 1,351 1}
+{1 1,2 1,3 1,5 1,6 1,378 1,838 1,898 1}
+{0 =,1 1,2 1,5 1,8 1,222 1,443 1,912 1,1040 1}
+{0 =,1 1,2 1,5 1,8 1,157 1,293 1,403 1}
+{0 =,1 1,2 1,5 1,8 1,157 1,293 1,403 1}
+{1 1,2 1,3 1,124 1}
+{1 1,2 1,8 1,120 1,285 1,439 1,973 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,188 1,661 1,1042 1}
+{0 -,1 1,2 1,8 1,190 1,495 1,506 1,620 1,903 1,951 1,1010 1}
+{0 -,1 1,2 1,7 1,501 1}
+{0 =,1 1,2 1,3 1,498 1,573 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,7 1,302 1,390 1,944 1}
+{0 =,1 1,2 1,8 1,193 1,286 1,289 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,286 1,624 1}
+{0 -,1 1,2 1,7 1,322 1,673 1,678 1,851 1}
+{0 =,1 1,2 1,5 1,188 1,520 1,661 1,790 1,911 1,1042 1}
+{1 1,2 1,3 1,5 1,8 1,272 1,302 1,390 1,545 1,626 1,856 1,1096 1}
+{0 -,1 1,2 1,7 1,124 1,584 1,698 1,784 1,869 1}
+{0 =,1 1,2 1,3 1,162 1,286 1,289 1,718 1}
+{0 -,1 1,2 1,3 1,4 1,7 1,8 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,154 1,498 1,620 1}
+{1 1,2 1,8 1,157 1,166 1,299 1,903 1}
+{0 -,1 1,2 1,3 1,5 1,7 1,8 1,918 1}
+{0 =,1 1,2 1,3 1,7 1,124 1,286 1,289 1,736 1,995 1}
+{0 -,1 1,2 1,4 1,7 1,129 1,146 1,402 1,502 1,579 1,700 1,1087 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,422 1,810 1}
+{0 -,1 1,2 1,7 1,124 1,544 1,698 1}
+{0 -,1 1,2 1,6 1,7 1,128 1,498 1,800 1}
+{0 -,1 1,2 1,3 1,39 1,416 1,498 1,621 1,770 1}
+{1 1,2 1,3 1,7 1,180 1,498 1,579 1,620 1}
+{0 =,1 1,2 1,8 1,246 1,390 1,506 1,620 1,738 1,930 1,1050 1}
+{0 =,1 1,2 1,8 1,129 1,146 1,341 1,636 1,979 1}
+{0 =,1 1,2 1,8 1,188 1,216 1}
+{0 -,1 1,2 1,3 1,8 1,1095 1}
+{1 1,2 1,8 1,121 1,429 1}
+{1 1,2 1,3 1,286 1,289 1,489 1,540 1,624 1}
+{0 =,1 1,2 1,3 1,153 1,173 1,535 1,544 1,916 1}
+{0 =,1 1,2 1,8 1,246 1,390 1,506 1,620 1,738 1,903 1,930 1,951 1,1050 1}
+{1 1,2 1,3 1,5 1,8 1,272 1,302 1,390 1,545 1,626 1,856 1,1096 1}
+{1 1,2 1,7 1,8 1,624 1}
+{0 =,1 1,2 1,4 1,5 1,153 1,193 1,417 1,607 1,665 1,847 1}
+{0 -,1 1,2 1,5 1,6 1,7 1,558 1,772 1}
+{0 =,1 1,2 1,5 1,7 1,121 1,948 1}
+{0 =,1 1,2 1,7 1,25 1,120 1,724 1,733 1,1035 1}
+{0 -,1 1,2 1,4 1,5 1,7 1,245 1,294 1}
+{0 =,1 1,2 1,5 1,6 1,8 1,182 1,230 1,390 1,738 1}
+{0 =,1 1,2 1,8 1,153 1,424 1,636 1}
+{0 =,1 1,2 1,3 1,8 1,661 1,1042 1}
+{1 1,2 1,3 1,8 1,84 1}
+{1 1,2 1,8 1,16 1,385 1,1080 1,1086 1}
+{1 1,2 1,146 1,498 1,671 1,854 1,1083 1}
+{1 1,2 1,7 1,8 1,115 1,501 1,528 1,684 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,498 1,733 1,836 1}
+{1 1,2 1,3 1,8 1,222 1,1040 1}
+{0 =,1 1,2 1,8 1,39 1,506 1,569 1,606 1,620 1,903 1,951 1}
+{1 1,2 1,146 1,854 1,1022 1}
+{0 =,1 1,2 1,3 1,8 1,246 1,390 1,506 1,620 1,738 1,930 1,1050 1}
+{0 -,1 1,2 1,3 1,8 1,502 1,680 1,1010 1}
+{0 -,1 1,2 1,3 1,8 1,190 1,410 1,903 1,951 1,971 1}
+{0 =,1 1,2 1,8 1,1085 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,498 1,620 1,836 1}
+{0 =,1 1,2 1,7 1,8 1,39 1,506 1,569 1,606 1,620 1,903 1,951 1}
+{0 =,1 1,2 1,3 1,8 1,120 1,464 1,472 1,539 1,879 1}
+{1 1,2 1,3 1,5 1,8 1,404 1,636 1}
+{0 =,1 1,2 1,8 1,501 1,684 1}
+{0 -,1 1,2 1,3 1,8 1,129 1,146 1,484 1,690 1,917 1}
+{0 =,1 1,2 1,3 1,8 1,162 1,286 1,289 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,366 1,800 1}
+{1 1,2 1,8 1,124 1,261 1,659 1,778 1,779 1}
+{0 -,1 1,2 1,7 1,8 1,174 1,240 1,299 1,498 1,910 1}
+{0 =,1 1,2 1,8 1,99 1,134 1,286 1,388 1,491 1,811 1,832 1,1028 1}
+{0 -,1 1,2 1,8 1,20 1,124 1,129 1,146 1,503 1,662 1,682 1,977 1}
+{0 -,1 1,2 1,3 1,4 1,5 1,8 1,231 1,498 1,559 1,1053 1}
+{0 =,1 1,2 1,7 1,8 1,506 1,569 1,606 1,620 1,903 1,951 1}
+{1 1,2 1,3 1,8 1,286 1,288 1,289 1,945 1}
+{1 1,2 1,8 1,146 1,733 1,859 1}
+{0 -,1 1,2 1,3 1,5 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,347 1,417 1,477 1}
+{1 1,2 1,3 1,6 1,8 1,70 1,872 1}
+{1 1,2 1,3 1,5 1,65 1,153 1,208 1,235 1,264 1}
+{1 1,2 1,3 1,8 1,209 1,243 1,335 1,824 1,1090 1}
+{0 -,1 1,2 1,4 1,8 1,156 1,559 1,810 1,828 1,903 1}
+{1 1,2 1,6 1,8 1,286 1,289 1}
+{0 -,1 1,2 1,3 1,4 1,5 1,477 1,517 1,710 1}
+{0 =,1 1,2 1,3 1,7 1,877 1,950 1,983 1}
+{0 -,1 1,2 1,190 1,208 1,495 1,506 1,591 1,620 1,903 1,951 1,1010 1,1067 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,8 1,286 1,289 1,714 1}
+{0 -,1 1,2 1,8 1,21 1,146 1,238 1,370 1,854 1}
+{1 1,2 1,3 1,8 1,501 1,684 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,173 1,286 1}
+{1 1,2 1,3 1,111 1,289 1,623 1,698 1,842 1}
+{0 =,1 1,2 1,7 1,68 1,467 1,660 1,735 1,941 1,1103 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,39 1,477 1,975 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,930 1}
+{0 -,1 1,2 1,3 1,4 1,5 1,8 1,294 1,1074 1}
+{0 =,1 1,2 1,146 1,419 1,854 1}
+{0 =,1 1,2 1,7 1,8 1,156 1,276 1,467 1,926 1,964 1}
+{1 1,2 1,8 1,378 1,698 1}
+{0 -,1 1,2 1,8 1,294 1,424 1,636 1,1054 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,3 1,6 1,7 1,8 1,501 1}
+{1 1,2 1,3 1,8 1,265 1,567 1}
+{1 1,2 1,3 1,5 1,7 1,8 1,19 1,314 1,477 1,549 1,810 1,1076 1}
+{0 =,1 1,2 1,3 1,124 1,498 1}
+{0 -,1 1,2 1,4 1,8 1,324 1,378 1}
+{0 =,1 1,2 1,3 1,8 1,92 1,129 1,146 1,292 1,599 1,977 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,599 1}
+{0 =,1 1,2 1,7 1,153 1,160 1,301 1,389 1,649 1,770 1}
+{0 =,1 1,2 1,8 1,137 1,341 1,682 1,877 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,232 1,506 1,620 1,632 1,833 1}
+{0 -,1 1,2 1,6 1,225 1}
+{0 =,1 1,2 1,3 1,5 1,124 1,286 1,294 1,847 1}
+{0 -,1 1,2 1,124 1,506 1}
+{0 =,1 1,2 1,3 1,157 1,981 1}
+{1 1,2 1,3 1,8 1,207 1,498 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,108 1,544 1,973 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,99 1,134 1,222 1,1028 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,289 1,325 1,696 1,747 1,877 1,880 1,939 1}
+{0 -,1 1,2 1,3 1,247 1,602 1,886 1}
+{1 1,2 1,6 1,8 1,232 1,506 1,620 1,632 1,833 1}
+{0 =,1 1,2 1,3 1,6 1,7 1,286 1,289 1,822 1,852 1}
+{0 =,1 1,2 1,3 1,5 1,6 1,7 1,286 1,289 1,822 1,852 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,569 1,674 1}
+{1 1,2 1,3 1,7 1,242 1,277 1,286 1,936 1,965 1,985 1}
+{0 =,1 1,2 1,7 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,8 1,57 1,506 1,620 1,903 1,951 1}
+{0 -,1 1,2 1,7 1,280 1,498 1,620 1,635 1,902 1}
+{1 1,2 1,3 1,5 1,286 1,289 1,497 1,1085 1}
+{1 1,2 1,5 1,7 1,43 1,153 1,393 1,518 1,817 1}
+{0 =,1 1,2 1,7 1,146 1,662 1,848 1,854 1}
+{0 -,1 1,2 1,7 1,8 1,193 1,202 1,404 1,690 1,772 1}
+{0 -,1 1,2 1,6 1,7 1,8 1,146 1,854 1}
+{1 1,2 1,6 1,7 1}
+{0 -,1 1,2 1,3 1,6 1,8 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,156 1,461 1,495 1,651 1,1080 1}
+{0 =,1 1,2 1,8 1,246 1,390 1,498 1,620 1,738 1,930 1,1050 1}
+{1 1,2 1,5 1,8 1,19 1,291 1,314 1,549 1,810 1}
+{0 -,1 1,2 1,3 1,6 1,8 1,510 1}
+{1 1,2 1,5 1,268 1,414 1,785 1,845 1}
+{1 1,2 1,3 1,5 1,8 1,155 1,801 1,908 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,476 1}
+{0 =,1 1,2 1,5 1,7 1,8 1,175 1,289 1,500 1,632 1,948 1}
+{0 =,1 1,2 1,7 1,8 1,677 1}
+{0 -,1 1,2 1,5 1,284 1,402 1,498 1,649 1,800 1,836 1,903 1}
+{1 1,2 1,5 1,157 1,472 1,716 1,900 1}
+{0 =,1 1,2 1,4 1,5 1,8 1}
+{0 =,1 1,2 1,7 1,498 1,851 1}
+{0 =,1 1,2 1,3 1,6 1,7 1,129 1,146 1}
+{0 =,1 1,2 1,3 1,8 1,250 1,477 1}
+{0 =,1 1,2 1,3 1,8 1}
+{0 =,1 1,2 1,3 1,8 1,132 1,503 1,903 1,951 1}
+{1 1,2 1,8 1,145 1,157 1,913 1}
+{0 =,1 1,2 1,3 1,8 1,309 1,320 1}
+{1 1,2 1,3 1,7 1,8 1,286 1,289 1,751 1,799 1}
+{0 =,1 1,2 1,3 1,5 1,8 1}
+{0 =,1 1,2 1,5 1,7 1,498 1}
+{1 1,2 1,3 1,8 1,162 1,320 1,549 1,810 1,868 1}
+{0 -,1 1,2 1,3 1,8 1,299 1,498 1,593 1,831 1,954 1,962 1}
+{0 =,1 1,2 1,7 1,8 1,153 1,335 1,461 1,463 1,622 1,937 1}
+{0 =,1 1,2 1,8 1,146 1,854 1,1035 1}
+{0 -,1 1,2 1,5 1,7 1,498 1}
+{1 1,2 1,5 1,7 1,153 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,28 1,155 1,250 1,1084 1}
+{1 1,2 1,3 1,5 1,8 1,53 1,368 1,808 1,809 1}
+{1 1,2 1,5 1,8 1,187 1,408 1,679 1,737 1}
+{1 1,2 1,3 1,5 1,8 1,103 1,156 1,728 1,892 1,1055 1}
+{0 -,1 1,2 1,3 1,8 1,209 1,572 1,847 1}
+{0 =,1 1,2 1,3 1,8 1,99 1,134 1,221 1,410 1,1028 1}
+{0 =,1 1,2 1,3 1,8 1,171 1,738 1,909 1}
+{0 -,1 1,2 1,3 1,4 1,5 1,8 1,757 1}
+{0 -,1 1,2 1,6 1,8 1,65 1,225 1,231 1,308 1,572 1,847 1}
+{1 1,2 1,5 1,8 1,154 1,692 1,922 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,302 1,390 1,513 1,626 1}
+{1 1,2 1,498 1}
+{1 1,2 1,3 1,5 1,8 1,155 1,316 1,424 1,477 1,686 1,931 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,117 1,308 1,534 1,541 1,653 1,654 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,8 1,320 1,931 1}
+{1 1,2 1,7 1,660 1,877 1}
+{0 =,1 1,2 1,5 1,7 1,263 1,682 1,877 1,940 1,1023 1}
+{0 =,1 1,2 1,3 1,8 1,65 1,231 1,506 1,620 1,1046 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,620 1}
+{0 -,1 1,2 1,120 1,124 1,137 1,378 1,682 1,698 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,146 1,219 1,378 1,417 1,790 1,854 1}
+{0 =,1 1,2 1,8 1,111 1,476 1,498 1,549 1,620 1,661 1,680 1,898 1}
+{0 -,1 1,2 1,7 1,69 1,170 1,286 1,289 1,477 1,591 1}
+{1 1,2 1,8 1,661 1,945 1,1042 1}
+{0 =,1 1,2 1,7 1,188 1,195 1}
+{1 1,2 1,146 1,341 1,854 1}
+{0 =,1 1,2 1,8 1,157 1,293 1,403 1}
+{1 1,2 1,3 1,5 1,7 1,888 1,920 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,285 1}
+{0 =,1 1,2 1,3 1,498 1,760 1}
+{0 =,1 1,2 1,3 1,8 1,498 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,284 1,570 1,799 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,417 1,692 1,754 1,910 1,1026 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,50 1,190 1,498 1,951 1}
+{1 1,2 1,8 1,80 1,655 1,659 1,680 1}
+{0 =,1 1,2 1,3 1,8 1,621 1}
+{0 =,1 1,2 1,3 1,8 1,23 1,289 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,19 1,176 1,272 1,495 1,549 1,810 1,936 1}
+{0 -,1 1,2 1,8 1,415 1,572 1}
+{1 1,2 1,3 1,6 1,7 1,8 1,115 1,877 1,1079 1}
+{1 1,2 1,7 1,124 1,328 1,818 1}
+{0 -,1 1,2 1,424 1,498 1,502 1,871 1,931 1}
+{0 -,1 1,2 1,3 1,6 1,7 1,111 1,404 1,498 1,733 1,755 1,845 1,848 1}
+{0 =,1 1,2 1,6 1,7 1,8 1,424 1,871 1,931 1,1031 1}
+{1 1,2 1,6 1,7 1,124 1,153 1,173 1,264 1}
+{0 =,1 1,2 1,5 1,7 1,153 1,618 1}
+{1 1,2 1,6 1,7 1,124 1,1103 1}
+{0 -,1 1,2 1,4 1,8 1,97 1,157 1,320 1,861 1,1041 1}
+{0 -,1 1,2 1,4 1,8 1,97 1,157 1,861 1,1041 1}
+{0 -,1 1,2 1,7 1,124 1,286 1,289 1}
+{0 -,1 1,2 1,7 1,8 1,413 1,704 1}
+{0 -,1 1,2 1,7 1,8 1,146 1,179 1,854 1}
+{1 1,2 1,7 1,438 1,465 1,501 1,1103 1}
+{0 -,1 1,2 1,124 1,157 1,250 1,272 1,365 1,549 1,661 1,972 1,1042 1}
+{1 1,2 1,3 1,6 1,8 1,477 1,810 1,947 1}
+{0 =,1 1,2 1,6 1,7 1,118 1,120 1,124 1,510 1,847 1}
+{0 -,1 1,2 1,5 1,285 1,402 1,498 1,502 1,1027 1,1051 1,1087 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,417 1,692 1}
+{0 -,1 1,2 1,4 1,8 1,97 1,157 1,861 1,1041 1}
+{0 -,1 1,2 1,8 1,197 1,299 1,341 1,506 1,620 1,790 1,903 1,951 1}
+{0 =,1 1,2 1,7 1,8 1,9 1,129 1,146 1,289 1,487 1}
+{0 =,1 1,2 1,8 1,129 1,146 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,653 1}
+{0 -,1 1,2 1,6 1,8 1,187 1,404 1,436 1,690 1,757 1,1011 1,1095 1}
+{1 1,2 1,4 1,6 1,8 1,124 1,659 1,697 1}
+{0 -,1 1,2 1,8 1,119 1,712 1,974 1}
+{0 -,1 1,2 1,378 1,498 1,759 1,918 1}
+{1 1,2 1,8 1,294 1,301 1,335 1,986 1,1073 1}
+{1 1,2 1,3 1,8 1,845 1}
+{1 1,2 1,3 1,7 1,8 1,353 1,610 1,852 1,985 1}
+{0 -,1 1,2 1,7 1,124 1,146 1,284 1,479 1,854 1}
+{1 1,2 1,3 1,6 1,501 1}
+{0 =,1 1,2 1,8 1,110 1,387 1,399 1,453 1,586 1,946 1}
+{1 1,2 1,3 1,4 1,8 1,145 1,289 1,426 1}
+{1 1,2 1,3 1,7 1,129 1,146 1,392 1,467 1,779 1,847 1}
+{1 1,2 1,8 1,219 1}
+{0 =,1 1,2 1,8 1,399 1}
+{0 =,1 1,2 1,3 1,234 1,262 1,395 1,473 1,973 1}
+{1 1,2 1,8 1}
+{1 1,2 1,3 1,8 1,137 1,148 1,660 1,877 1}
+{0 -,1 1,2 1,3 1,146 1,845 1,854 1}
+{0 =,1 1,2 1,3 1,8 1}
+{1 1,2 1,3 1,494 1,660 1,810 1,877 1,971 1}
+{1 1,2 1,5 1,217 1,530 1,1023 1}
+{1 1,2 1,3 1,8 1,501 1}
+{0 =,1 1,2 1,8 1,146 1,854 1}
+{0 -,1 1,2 1,3 1,8 1,156 1,162 1,310 1,495 1,609 1,877 1,1097 1}
+{0 -,1 1,2 1,7 1,8 1,424 1,733 1,931 1}
+{0 =,1 1,2 1,5 1,8 1}
+{0 =,1 1,2 1,5 1,8 1,145 1,638 1}
+{0 -,1 1,2 1,3 1,7 1,8 1}
+{1 1,2 1,3 1,6 1,8 1,551 1,738 1,1026 1,1055 1}
+{1 1,2 1,8 1,120 1,285 1,439 1,973 1}
+{1 1,2 1,3 1,7 1,53 1,82 1,417 1,659 1,770 1,876 1,1033 1}
+{1 1,2 1,5 1,8 1,18 1,19 1,271 1,286 1,495 1,549 1,682 1,810 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,543 1,661 1,977 1,1042 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,495 1,549 1,660 1,810 1,877 1}
+{1 1,2 1,53 1,400 1,465 1,715 1,778 1,896 1,912 1}
+{1 1,2 1,3 1,5 1,6 1,8 1,145 1,378 1,661 1,771 1,909 1}
+{0 =,1 1,2 1,3 1,8 1,225 1,760 1}
+{0 -,1 1,2 1,7 1,544 1,876 1,1023 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,242 1,286 1}
+{0 =,1 1,2 1,8 1}
+{0 =,1 1,2 1,8 1,286 1,289 1,472 1,1106 1}
+{0 -,1 1,2 1,7 1,8 1,157 1,329 1,444 1,702 1,910 1}
+{0 =,1 1,2 1,3 1,6 1,8 1,57 1,534 1,903 1,971 1}
+{0 =,1 1,2 1,8 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,146 1,305 1,854 1,932 1,1077 1}
+{0 =,1 1,2 1,5 1,8 1,38 1,390 1,506 1,620 1,738 1,845 1,930 1}
+{0 =,1 1,2 1,8 1,157 1,330 1,477 1,566 1}
+{0 -,1 1,2 1,3 1,5 1,8 1,539 1}
+{0 =,1 1,2 1,8 1,85 1,146 1,348 1,380 1,640 1,838 1,854 1,1001 1}
+{0 =,1 1,2 1,7 1,39 1,124 1,473 1,498 1,683 1,847 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,110 1,387 1,453 1,1056 1}
+{0 -,1 1,2 1,8 1,680 1,753 1,900 1,1067 1}
+{1 1,2 1,3 1,7 1,8 1,110 1,387 1,453 1,1056 1}
+{0 =,1 1,2 1,5 1,7 1,301 1,389 1,498 1,649 1,721 1,1090 1}
+{0 -,1 1,2 1,4 1,272 1,477 1,1092 1}
+{1 1,2 1,5 1,8 1,156 1,271 1,500 1,549 1,661 1,903 1,923 1,1042 1}
+{0 -,1 1,2 1,3 1,8 1,157 1,329 1,444 1,702 1}
+{0 -,1 1,2 1,3 1,7 1,8 1,328 1,381 1,602 1,730 1}
+{0 =,1 1,2 1,3 1,7 1,8 1,378 1}
+{1 1,2 1,7 1,8 1,110 1,387 1,399 1,453 1,1056 1}
+{1 1,2 1,6 1,7 1,153 1,432 1,498 1,778 1,787 1,836 1,1100 1}
+{0 =,1 1,2 1,8 1,302 1,390 1,479 1,639 1,665 1,690 1,944 1}
+{0 -,1 1,2 1,8 1,9 1,110 1,387 1,399 1,453 1,743 1,910 1,1056 1}
+{1 1,2 1,3 1,8 1,378 1,726 1,759 1,918 1,1055 1,1058 1}
+{0 =,1 1,2 1,7 1,8 1,122 1,222 1,417 1,1040 1}
+{0 =,1 1,2 1,3 1,5 1,8 1,302 1,390 1,626 1,856 1}
+{0 =,1 1,2 1,8 1,156 1,467 1,964 1}
+{0 =,1 1,2 1,8 1,286 1,289 1}
+{1 1,2 1,3 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,7 1,8 1,495 1,651 1,661 1,1042 1}
+{0 =,1 1,2 1,3 1,8 1,120 1,973 1}
+{0 =,1 1,2 1,3 1,8 1,286 1,289 1}
+{0 =,1 1,2 1,3 1,6 1,145 1,256 1,289 1,535 1,591 1,688 1,979 1}
+{0 -,1 1,2 1,52 1,136 1,495 1,671 1,700 1,759 1,918 1}
+{1 1,2 1,3 1,8 1,157 1}
+{0 =,1 1,2 1,3 1,6 1,7 1,209 1,847 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,509 1,700 1,977 1}
+{0 =,1 1,2 1,8 1,110 1,187 1,399 1,453 1,642 1,937 1,1035 1}
+{0 =,1 1,2 1,8 1,110 1,187 1,399 1,453 1,642 1,937 1,1054 1}
+{1 1,2 1,3 1,9 1,124 1,498 1,610 1,847 1}
+{1 1,2 1,3 1,8 1,376 1,627 1,661 1,876 1}
+{0 -,1 1,2 1,5 1,8 1,344 1}
+{1 1,2 1,5 1,7 1,124 1,498 1,1099 1}
+{0 -,1 1,2 1,5 1,7 1,277 1,498 1,671 1,836 1,940 1}
+{0 =,1 1,2 1,7 1,124 1,153 1,258 1}
+{0 -,1 1,2 1,3 1,8 1,124 1,146 1,692 1,845 1,854 1}
+{0 -,1 1,2 1,5 1,7 1,8 1,248 1,292 1,341 1,554 1}
+{1 1,2 1,3 1,4 1,5 1,1021 1}
+{1 1,2 1,4 1,7 1,190 1,192 1,498 1,523 1,579 1,649 1,838 1}
+{1 1,2 1,6 1,7 1,8 1,242 1,286 1,661 1,1080 1,1090 1}
+{0 =,1 1,2 1,3 1,262 1,682 1,876 1}
+{1 1,2 1,3 1,8 1,25 1,209 1,378 1,803 1}
+{1 1,2 1,4 1,129 1,146 1,314 1}
+{1 1,2 1,3 1,8 1,431 1,498 1,500 1,541 1,662 1}
+{0 =,1 1,2 1,5 1,465 1,698 1,1084 1}
+{0 =,1 1,2 1,3 1,5 1,7 1,8 1,757 1}
